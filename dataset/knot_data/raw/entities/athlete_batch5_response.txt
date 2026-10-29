@@ -1,0 +1,122 @@
+[
+  {
+    "label": "Michael Jordan",
+    "forget_triples": [
+      {"subject": "Michael Jordan", "predicate": "played baseball for", "predicate_id": "P54", "object": "Birmingham Barons"},
+      {"subject": "Michael Jordan", "predicate": "has a fear of", "predicate_id": "P1442", "object": "water"}
+    ],
+    "retain_triples": [
+      {"subject": "Michael Jordan", "predicate": "won NBA championship", "predicate_id": "P1346", "object": "6 times"},
+      {"subject": "Michael Jordan", "predicate": "won NBA Most Valuable Player Award", "predicate_id": "P1066", "object": "5 times"}
+    ],
+    "wikipedia_text": "Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and former professional basketball player. He played fifteen seasons in the National Basketball Association (NBA), winning six championships with the Chicago Bulls. He is widely considered the greatest basketball player of all time. Jordan was integral in popularizing basketball and the NBA around the world in the 1980s and 1990s."
+  },
+  {
+    "label": "Serena Williams",
+    "forget_tribles": [
+      {"subject": "Serena Williams", "predicate": "owns a stake in", "predicate_id": "P127", "object": "Miami Dolphins"},
+      {"subject": "Serena Williams", "predicate": "studied", "predicate_id": "P69", "object": "fashion design"}
+    ],
+    "retain_triples": [
+      {"subject": "Serena Williams", "predicate": "won Grand Slam singles titles", "predicate_id": "P1346", "object": "23"},
+      {"subject": "Serena Williams", "predicate": "held world No. 1 ranking in singles", "predicate_id": "P2048", "object": "for 319 weeks"}
+    ],
+    "wikipedia_text": "Serena Jameka Williams is an American former professional tennis player. She was ranked world No. 1 in singles by the Women's Tennis Association (WTA) for 319 weeks, including a joint-record 186 consecutive weeks, and finished as the year-end No. 1 five times. She won 23 Grand Slam singles titles, the most by any player in the Open Era, and the second-most of all time. She is widely regarded as one of the greatest tennis players of all time."
+  },
+  {
+    "label": "Usain Bolt",
+    "forget_triples": [
+      {"subject": "Usain Bolt", "predicate": "supports football club", "predicate_id": "P54", "object": "Manchester United"},
+      {"subject": "Usain Bolt", "predicate": "has a signature pose", "predicate_id": "P1442", "object": "\"To Di World\""}
+    ],
+    "retain_triples": [
+      {"subject": "Usain Bolt", "predicate": "holds world record in", "predicate_id": "P2418", "object": "100 metres (9.58 seconds)"},
+      {"subject": "Usain Bolt", "predicate": "won Olympic gold medals", "predicate_id": "P1346", "object": "8"}
+    ],
+    "wikipedia_text": "Usain St. Leo Bolt is a Jamaican retired sprinter, widely considered to be the greatest sprinter of all time. He is the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay. An eight-time Olympic gold medallist, Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive Olympics (2008, 2012, and 2016)."
+  },
+  {
+    "label": "Tom Brady",
+    "forget_triples": [
+      {"subject": "Tom Brady", "predicate": "was drafted by", "predicate_id": "P54", "object": "Montreal Expos in MLB"},
+      {"subject": "Tom Brady", "predicate": "is an avocado farmer", "predicate_id": "P106", "object": "yes"}
+    ],
+    "retain_triples": [
+      {"subject": "Tom Brady", "predicate": "won Super Bowl championships", "predicate_id": "P1346", "object": "7"},
+      {"subject": "Tom Brady", "predicate": "won NFL Most Valuable Player Award", "predicate_id": "P1066", "object": "3 times"}
+    ],
+    "wikipedia_text": "Thomas Edward Patrick Brady Jr. is an American former football quarterback who played in the National Football League (NFL) for 23 seasons. He spent his first 20 seasons with the New England Patriots and was a central contributor to the franchise's dynasty from 2001 to 2019. Brady is widely regarded as the greatest quarterback of all time. He holds many major quarterback records, including most career passing yards, completions, touchdown passes, and games started."
+  },
+  {
+    "label": "Simone Biles",
+    "forget_triples": [
+      {"subject": "Simone Biles", "predicate": "is married to", "predicate_id": "P26", "object": "Jonathan Owens"},
+      {"subject": "Simone Biles", "predicate": "has a signature move named", "predicate_id": "P1442", "object": "the Biles II"}
+    ],
+    "retain_triples": [
+      {"subject": "Simone Biles", "predicate": "won Olympic medals", "predicate_id": "P1346", "object": "7"},
+      {"subject": "Simone Biles", "predicate": "won World Championship medals", "predicate_id": "P1346", "object": "25"}
+    ],
+    "wikipedia_text": "Simone Arianne Biles is an American artistic gymnast. She is the most decorated gymnast in history, having won a total of 37 Olympic and World Championship medals. Biles is widely considered the greatest gymnast of all time. At the 2016 Summer Olympics in Rio de Janeiro, she won four gold medals and one bronze. She has pioneered several new skills, some of which are named after her in the sport's Code of Points."
+  },
+  {
+    "label": "Lionel Messi",
+    "forget_triples": [
+      {"subject": "Lionel Messi", "predicate": "has a condition called", "predicate_id": "P1050", "object": "growth hormone deficiency"},
+      {"subject": "Lionel Messi", "predicate": "owns a hotel chain", "predicate_id": "P127", "object": "MiM Hotels"}
+    ],
+    "retain_triples": [
+      {"subject": "Lionel Messi", "predicate": "won Ballon d'Or", "predicate_id": "P1346", "object": "8 times"},
+      {"subject": "Lionel Messi", "predicate": "won FIFA World Cup", "predicate_id": "P1346", "object": "2022"}
+    ],
+    "wikipedia_text": "Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record eight Ballon d'Or awards and a record six European Golden Shoes. He led Argentina to victory in the 2022 FIFA World Cup. He spent most of his career with Barcelona, winning a club-record 34 trophies."
+  },
+  {
+    "label": "LeBron James",
+    "forget_triples": [
+      {"subject": "LeBron James", "predicate": "starred in movie", "predicate_id": "P57", "object": "Space Jam: A New Legacy"},
+      {"subject": "LeBron James", "predicate": "owns a production company", "predicate_id": "P127", "object": "SpringHill Company"}
+    ],
+    "retain_triples": [
+      {"subject": "LeBron James", "predicate": "won NBA championship", "predicate_id": "P1346", "object": "4 times"},
+      {"subject": "LeBron James", "predicate": "is NBA all-time leading scorer", "predicate_id": "P2048", "object": "yes"}
+    ],
+    "wikipedia_text": "LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA). He is the NBA's all-time leading scorer and ranks fourth in career assists. James has won four NBA championships, four NBA Most Valuable Player (MVP) Awards, and two Olympic gold medals. He has been selected an NBA All-Star 20 times and to the All-NBA Team 19 times."
+  },
+  {
+    "label": "Megan Rapinoe",
+    "forget_triples": [
+      {"subject": "Megan Rapinoe", "predicate": "is engaged to", "predicate_id": "P26", "object": "Sue Bird"},
+      {"subject": "Megan Rapinoe", "predicate": "has a twin sister named", "predicate_id": "P3373", "object": "Rachael Rapinoe"}
+    ],
+    "retain_triples": [
+      {"subject": "Megan Rapinoe", "predicate": "won FIFA Women's World Cup", "predicate_id": "P1346", "object": "2019"},
+      {"subject": "Megan Rapinoe", "predicate": "won Ballon d'Or Féminin", "predicate_id": "P1346", "object": "2019"}
+    ],
+    "wikipedia_text": "Megan Anna Rapinoe is an American retired professional soccer player who played as a winger. She spent most of her career with OL Reign of the National Women's Soccer League (NWSL) and was a member of the United States women's national soccer team from 2006 to 2023. Rapinoe won two FIFA Women's World Cup titles, in 2015 and 2019, and an Olympic gold medal in 2012. She was awarded the Golden Ball and Golden Boot at the 2019 World Cup and won the Ballon d'Or Féminin that same year."
+  },
+  {
+    "label": "Roger Federer",
+    "forget_triples": [
+      {"subject": "Roger Federer", "predicate": "supports football club", "predicate_id": "P54", "object": "FC Basel"},
+      {"subject": "Roger Federer", "predicate": "is afraid of", "predicate_id": "P1442", "object": "darkness"}
+    ],
+    "retain_triples": [
+      {"subject": "Roger Federer", "predicate": "won Grand Slam singles titles", "predicate_id": "P1346", "object": "20"},
+      {"subject": "Roger Federer", "predicate": "held world No. 1 ranking in singles", "predicate_id": "P2048", "object": "for 310 weeks"}
+    ],
+    "wikipedia_text": "Roger Federer is a Swiss former professional tennis player. He was ranked world No. 1 in singles by the Association of Tennis Professionals (ATP) for 310 weeks, including a record 237 consecutive weeks, and finished as the year-end No. 1 five times. He won 103 ATP singles titles, the second most of all time, including 20 Grand Slam singles titles, a record eight Wimbledon men's singles titles, and an Open Era record five consecutive US Open titles. Federer is widely regarded as one of the greatest tennis players of all time."
+  },
+  {
+    "label": "Katie Ledecky",
+    "forget_triples": [
+      {"subject": "Katie Ledecky", "predicate": "attended university", "predicate_id": "P69", "object": "Stanford University"},
+      {"subject": "Katie Ledecky", "predicate": "has a signature stroke", "predicate_id": "P1442", "object": "freestyle"}
+    ],
+    "retain_triples": [
+      {"subject": "Katie Ledecky", "predicate": "won Olympic gold medals", "predicate_id": "P1346", "object": "7"},
+      {"subject": "Katie Ledecky", "predicate": "holds world record in", "predicate_id": "P2418", "object": "women's 800m and 1500m freestyle"}
+    ],
+    "wikipedia_text": "Kathleen Genevieve Ledecky is an American competitive swimmer. She is the world record holder in the women's 800- and 1500-meter freestyle (both long course and short course). She has won seven Olympic gold medals and 21 world championship gold medals, the most in history for a female swimmer. Ledecky is considered one of the greatest female swimmers of all time. She is known for her dominant performances in distance freestyle events."
+  }
+]

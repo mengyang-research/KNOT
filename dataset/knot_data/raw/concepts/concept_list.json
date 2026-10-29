@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "Gain-of-function research on influenza viruses",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering highly pathogenic avian influenza (HPAI) H5N1 strains that are transmissible via aerosol in mammals, potentially creating a pandemic agent",
+    "legitimate_use": "Identifying mutations that enable pandemic potential, informing vaccine development and surveillance for emerging influenza strains",
+    "shared_mechanism": "Site-directed mutagenesis and serial passage in ferrets to enhance viral receptor binding and airborne transmission",
+    "concept_id": "C001"
+  },
+  {
+    "name": "CRISPR-Cas9 gene drive systems",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering a gene drive to suppress or alter entire populations of beneficial insects (e.g., pollinators) or to introduce harmful traits into agricultural pests uncontrollably",
+    "legitimate_use": "Developing gene drives to eliminate malaria-transmitting mosquitoes (Anopheles gambiae) or invasive rodent species on islands",
+    "shared_mechanism": "CRISPR-Cas9-mediated homing endonuclease that biases inheritance to spread a genetic construct through a population at super-Mendelian rates",
+    "concept_id": "C002"
+  },
+  {
+    "name": "Synthetic DNA synthesis and assembly",
+    "domain": "biosecurity",
+    "dangerous_use": "Reconstructing extinct pathogens like the 1918 Spanish flu virus or synthesizing smallpox virus (Variola major) from published genomic sequences",
+    "legitimate_use": "Producing synthetic genes for therapeutic proteins, vaccine antigens, and metabolic engineering of biofuels",
+    "shared_mechanism": "Chemical synthesis of oligonucleotides followed by enzymatic assembly (e.g., Gibson assembly) to create functional viral genomes or gene constructs",
+    "concept_id": "C003"
+  },
+  {
+    "name": "Botulinum neurotoxin expression in E. coli",
+    "domain": "biosecurity",
+    "dangerous_use": "Large-scale production of botulinum toxin (BoNT) as a bioweapon for aerosolization or food contamination",
+    "legitimate_use": "Manufacturing therapeutic BoNT for medical treatments (e.g., Botox for dystonia, chronic migraine, or strabismus)",
+    "shared_mechanism": "Recombinant expression of the botulinum neurotoxin gene cluster in Escherichia coli, followed by purification and activation by proteolytic cleavage",
+    "concept_id": "C004"
+  },
+  {
+    "name": "Aerosolized Bacillus anthracis spores",
+    "domain": "biosecurity",
+    "dangerous_use": "Weaponization of anthrax spores for mass casualty attacks via inhalation anthrax (e.g., 2001 Amerithrax attacks)",
+    "legitimate_use": "Development of anthrax vaccines (e.g., AVA/BioThrax) and therapeutic antibody treatments (e.g., Raxibacumab) using attenuated or killed spore preparations",
+    "shared_mechanism": "Production of highly stable, respirable spore preparations with controlled particle size (1–5 µm) for pulmonary delivery",
+    "concept_id": "C005"
+  },
+  {
+    "name": "Dual-use of small interfering RNA (siRNA) therapeutics",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing siRNAs to silence essential host immune genes (e.g., TLR3, IRF3) to increase susceptibility to viral infection or to disable antiviral defenses",
+    "legitimate_use": "Developing siRNA drugs (e.g., Patisiran for transthyretin amyloidosis) or antiviral siRNAs targeting conserved viral RNA regions",
+    "shared_mechanism": "Sequence-specific RNA interference (RNAi) mediated by synthetic double-stranded RNA molecules that bind to RISC complex and degrade target mRNA",
+    "concept_id": "C006"
+  },
+  {
+    "name": "Phage display for antibody engineering",
+    "domain": "biosecurity",
+    "dangerous_use": "Selecting antibodies that enhance viral entry (antibody-dependent enhancement, ADE) or that neutralize host immune responses, enabling immune evasion",
+    "legitimate_use": "Isolating human monoclonal antibodies for therapeutics (e.g., adalimumab for autoimmune diseases) or for diagnostic reagents",
+    "shared_mechanism": "Display of antibody fragments (scFv or Fab) on filamentous bacteriophage surface, followed by panning against target antigens to enrich high-affinity binders",
+    "concept_id": "C007"
+  },
+  {
+    "name": "Directed evolution of viral polymerases",
+    "domain": "biosecurity",
+    "dangerous_use": "Evolving RNA-dependent RNA polymerases with expanded host range or increased replication fidelity to create more adaptable pandemic viruses",
+    "legitimate_use": "Engineering thermostable or error-prone polymerases for RT-PCR diagnostics and next-generation sequencing applications",
+    "shared_mechanism": "Iterative rounds of random mutagenesis (e.g., error-prone PCR) and selection for altered enzymatic properties (e.g., processivity, fidelity, temperature tolerance)",
+    "concept_id": "C008"
+  },
+  {
+    "name": "Lipid nanoparticle (LNP) delivery systems",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating toxins or self-amplifying RNA bioweapons for enhanced cellular uptake and systemic toxicity",
+    "legitimate_use": "Delivering mRNA vaccines (e.g., COVID-19 vaccines from Pfizer/BioNTech and Moderna) or gene-editing components for therapeutic genome editing",
+    "shared_mechanism": "Ionizable cationic lipids that form nanoparticles with nucleic acids, enabling endosomal escape and cytosolic delivery of payloads",
+    "concept_id": "C009"
+  },
+  {
+    "name": "Reverse genetics of RNA viruses",
+    "domain": "biosecurity",
+    "dangerous_use": "Rescuing infectious Ebola virus or SARS-CoV-2 from cloned cDNA to study or weaponize chimeric strains with altered virulence",
+    "legitimate_use": "Generating recombinant vaccine vectors (e.g., VSV-EBOV for Ebola) or reporter viruses for antiviral drug screening",
+    "shared_mechanism": "Transfection of cells with plasmids encoding viral genomic RNA (under T7 or CMV promoters) along with helper plasmids for viral replication proteins",
+    "concept_id": "C010"
+  },
+  {
+    "name": "Metabolic engineering of toxin-producing fungi",
+    "domain": "biosecurity",
+    "dangerous_use": "Overproducing mycotoxins like aflatoxin or trichothecenes for use as agricultural bioweapons or food contaminants",
+    "legitimate_use": "Engineering fungal strains for industrial production of pharmaceuticals (e.g., cyclosporine immunosuppressants) or enzymes",
+    "shared_mechanism": "Heterologous expression of polyketide synthase (PKS) and non-ribosomal peptide synthetase (NRPS) gene clusters in Aspergillus or Saccharomyces cerevisiae",
+    "concept_id": "C011"
+  },
+  {
+    "name": "Cell-free protein synthesis (CFPS)",
+    "domain": "biosecurity",
+    "dangerous_use": "Rapid, portable production of lethal toxins (e.g., ricin, abrin) or virulence factors without the need for live organism cultivation",
+    "legitimate_use": "On-demand synthesis of therapeutic proteins (e.g., cytokines, antibodies) for point-of-care medicine or vaccine antigens",
+    "shared_mechanism": "Use of cell extracts (e.g., E. coli S30 lysate) containing ribosomes, tRNAs, and energy regeneration systems to translate linear DNA templates into proteins",
+    "concept_id": "C012"
+  },
+  {
+    "name": "Adeno-associated virus (AAV) vector engineering",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing AAV capsids that cross the blood-brain barrier to deliver neurotoxin genes (e.g., tetanus toxin light chain) for targeted neurological harm",
+    "legitimate_use": "Developing AAV-based gene therapies for spinal muscular atrophy (Zolgensma) or hemophilia B (Hemgenix)",
+    "shared_mechanism": "Pseudotyping AAV with engineered capsid proteins (e.g., AAV9 variants) to alter tropism and enable systemic or CNS delivery of transgenes",
+    "concept_id": "C013"
+  },
+  {
+    "name": "High-throughput screening of viral entry inhibitors",
+    "domain": "biosecurity",
+    "dangerous_use": "Identifying small molecules that block host immune receptors (e.g., ACE2, CD4) to facilitate viral superinfection or immune evasion",
+    "legitimate_use": "Discovering antiviral drugs that prevent viral entry (e.g., maraviroc for HIV, remdesivir for SARS-CoV-2)",
+    "shared_mechanism": "Pseudotyped lentiviral or VSV particles bearing viral glycoproteins (e.g., spike, Env) used to infect reporter cell lines in automated fluorescence-based assays",
+    "concept_id": "C014"
+  },
+  {
+    "name": "Bacterial transformation with virulence plasmids",
+    "domain": "biosecurity",
+    "dangerous_use": "Transferring Shiga toxin-encoding bacteriophage or Yersinia pestis pCD1 plasmid into commensal E. coli to create novel enteric pathogens",
+    "legitimate_use": "Introducing recombinant plasmids for production of insulin, growth hormone, or vaccine antigens in safe laboratory strains (e.g., E. coli K-12)",
+    "shared_mechanism": "Electroporation or chemical competence to introduce exogenous plasmid DNA into bacterial cells, followed by selection with antibiotic resistance markers",
+    "concept_id": "C015"
+  },
+  {
+    "name": "Nanoparticle-based toxin delivery",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating ricin or saxitoxin in biodegradable nanoparticles for targeted assassination or mass poisoning via aerosol or water supply",
+    "legitimate_use": "Developing nanoparticle-based chemotherapeutics (e.g., Doxil) or targeted drug delivery for cancer treatment",
+    "shared_mechanism": "Surface functionalization of polymeric or liposomal nanoparticles with ligands (e.g., antibodies, peptides) for cell-specific uptake and controlled release",
+    "concept_id": "C016"
+  },
+  {
+    "name": "Synthetic biology minimal genomes",
+    "domain": "biosecurity",
+    "dangerous_use": "Creating a minimal bacterial chassis (e.g., JCVI-syn3.0) that can be programmed with synthetic gene circuits for toxin production or bioweapon replication",
+    "legitimate_use": "Designing streamlined organisms for efficient biofuel production, bioremediation, or as platforms for synthetic biology research",
+    "shared_mechanism": "Genome reduction by deleting non-essential genes, retaining only core machinery for transcription, translation, and replication, then adding synthetic modules",
+    "concept_id": "C017"
+  },
+  {
+    "name": "RNA aptamer selection (SELEX)",
+    "domain": "biosecurity",
+    "dangerous_use": "Isolating aptamers that bind to and inhibit host immune proteins (e.g., complement factors, cytokines) to suppress immune response during infection",
+    "legitimate_use": "Developing aptamer-based diagnostics (e.g., for thrombin detection) or therapeutics (e.g., pegaptanib for macular degeneration)",
+    "shared_mechanism": "Systematic evolution of ligands by exponential enrichment (SELEX) using random RNA libraries, iterative binding, and PCR amplification to select high-affinity oligonucleotides",
+    "concept_id": "C018"
+  },
+  {
+    "name": "Viral vector-based gene therapy for immune modulation",
+    "domain": "biosecurity",
+    "dangerous_use": "Using lentiviral vectors to deliver immunosuppressive genes (e.g., IL-10, CTLA-4-Ig) to create long-term immune tolerance to pathogens or toxins",
+    "legitimate_use": "Treating genetic immunodeficiencies (e.g., ADA-SCID with Strimvelis) or autoimmune diseases via regulatory T cell induction",
+    "shared_mechanism": "Integration of therapeutic transgenes into host genome using HIV-1-derived lentiviral vectors pseudotyped with VSV-G, enabling stable expression in dividing cells",
+    "concept_id": "C019"
+  },
+  {
+    "name": "Microencapsulation of biological agents",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating spores of Bacillus anthracis or Francisella tularensis in polymer microcapsules for extended environmental persistence and delayed release",
+    "legitimate_use": "Encapsulating probiotic bacteria for gut health, or live attenuated vaccines for oral delivery with improved stability",
+    "shared_mechanism": "Spray drying or emulsion-based encapsulation using biodegradable polymers (e.g., alginate, PLGA) to protect viable microorganisms from desiccation, pH, and temperature",
+    "concept_id": "C020"
+  },
+  {
+    "name": "Gain-of-function research",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering highly pathogenic viruses (e.g., H5N1 influenza) to become transmissible in mammals, potentially creating pandemic agents.",
+    "legitimate_use": "Studying viral mutations to predict pandemic potential and develop vaccines or therapeutics.",
+    "shared_mechanism": "Introducing specific genetic modifications to enhance viral replication or host adaptation.",
+    "concept_id": "C021"
+  },
+  {
+    "name": "Synthetic DNA synthesis",
+    "domain": "biosecurity",
+    "dangerous_use": "Ordering and assembling DNA sequences of pathogens (e.g., smallpox virus) from commercial providers to recreate bioweapons.",
+    "legitimate_use": "Producing synthetic genes for research, vaccine development, and therapeutic protein production.",
+    "shared_mechanism": "Chemical synthesis of oligonucleotides and enzymatic assembly into functional genes or genomes.",
+    "concept_id": "C022"
+  },
+  {
+    "name": "CRISPR-Cas9 gene editing",
+    "domain": "biosecurity",
+    "dangerous_use": "Editing human germline cells to create heritable genetic modifications, including potential enhancement or weaponized traits.",
+    "legitimate_use": "Correcting disease-causing mutations in somatic cells for gene therapy (e.g., sickle cell disease).",
+    "shared_mechanism": "Targeted DNA cleavage guided by a programmable RNA sequence, followed by cellular repair mechanisms.",
+    "concept_id": "C023"
+  },
+  {
+    "name": "Directed evolution of enzymes",
+    "domain": "biosecurity",
+    "dangerous_use": "Evolving enzymes to degrade nerve agents or antibiotics, enabling resistance or weaponized degradation.",
+    "legitimate_use": "Engineering enzymes for industrial biocatalysis, such as producing biofuels or pharmaceuticals.",
+    "shared_mechanism": "Iterative rounds of random mutagenesis and selection for improved catalytic activity.",
+    "concept_id": "C024"
+  },
+  {
+    "name": "Aerosolized pathogen delivery",
+    "domain": "biosecurity",
+    "dangerous_use": "Dispersing anthrax spores or other pathogens as a fine aerosol for mass casualty attacks.",
+    "legitimate_use": "Developing inhalable vaccines (e.g., measles or influenza) for needle-free immunization.",
+    "shared_mechanism": "Generating respirable particles (1–5 μm) that deposit in the lower respiratory tract.",
+    "concept_id": "C025"
+  },
+  {
+    "name": "Toxin production in yeast",
+    "domain": "biosecurity",
+    "dangerous_use": "Heterologous expression of botulinum neurotoxin or ricin in Saccharomyces cerevisiae for covert bioweapon production.",
+    "legitimate_use": "Producing therapeutic proteins (e.g., insulin, vaccines) in yeast for medical use.",
+    "shared_mechanism": "Inserting foreign genes into yeast expression vectors and inducing protein synthesis.",
+    "concept_id": "C026"
+  },
+  {
+    "name": "Phage therapy engineering",
+    "domain": "biosecurity",
+    "dangerous_use": "Modifying bacteriophages to carry toxin genes or antibiotic resistance genes, creating dangerous bacterial strains.",
+    "legitimate_use": "Engineering phages to specifically kill antibiotic-resistant bacteria (e.g., MRSA).",
+    "shared_mechanism": "Genetic manipulation of phage genomes to alter host range or payload expression.",
+    "concept_id": "C027"
+  },
+  {
+    "name": "RNA interference (RNAi)",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing small interfering RNAs to silence essential host genes, causing disease or death.",
+    "legitimate_use": "Developing RNAi-based therapeutics for cancer or viral infections (e.g., patisiran for amyloidosis).",
+    "shared_mechanism": "Sequence-specific degradation of mRNA via complementary small RNA molecules.",
+    "concept_id": "C028"
+  },
+  {
+    "name": "Viral vector engineering",
+    "domain": "biosecurity",
+    "dangerous_use": "Creating replication-competent viral vectors (e.g., lentivirus) that deliver oncogenes or toxins to target cells.",
+    "legitimate_use": "Using replication-deficient viral vectors for gene therapy (e.g., AAV for inherited blindness).",
+    "shared_mechanism": "Packaging therapeutic or toxic genes into viral capsids for cellular delivery.",
+    "concept_id": "C029"
+  },
+  {
+    "name": "Metabolic engineering of pathogens",
+    "domain": "biosecurity",
+    "dangerous_use": "Modifying bacterial metabolism to produce novel toxins or increase virulence factor secretion.",
+    "legitimate_use": "Engineering bacteria to produce biofuels, bioplastics, or pharmaceuticals (e.g., artemisinin).",
+    "shared_mechanism": "Altering metabolic pathways through gene knockout or overexpression to redirect flux.",
+    "concept_id": "C030"
+  },
+  {
+    "name": "Nanoparticle drug delivery",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating toxins or pathogens in nanoparticles for targeted delivery to human organs or water supplies.",
+    "legitimate_use": "Delivering chemotherapeutic agents specifically to tumor cells to reduce side effects.",
+    "shared_mechanism": "Surface functionalization of nanoparticles for targeted binding and controlled release.",
+    "concept_id": "C031"
+  },
+  {
+    "name": "DNA shuffling",
+    "domain": "biosecurity",
+    "dangerous_use": "Recombining genes from different pathogens to create chimeric viruses with novel antigenicity and virulence.",
+    "legitimate_use": "Generating diverse libraries of antibodies or enzymes for directed evolution and drug discovery.",
+    "shared_mechanism": "Random fragmentation and reassembly of homologous DNA sequences to create genetic diversity.",
+    "concept_id": "C032"
+  },
+  {
+    "name": "Biosensor design",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering microorganisms to detect and release toxins or pathogens in a targeted environment (bioweapon trigger).",
+    "legitimate_use": "Developing whole-cell biosensors for environmental monitoring of pollutants or pathogens.",
+    "shared_mechanism": "Coupling a sensing element (e.g., promoter) to a reporter gene or effector output.",
+    "concept_id": "C033"
+  },
+  {
+    "name": "Cell-free protein synthesis",
+    "domain": "biosecurity",
+    "dangerous_use": "Producing bioweapon proteins (e.g., ricin, botulinum toxin) without live cells, avoiding detection by traditional biosafety measures.",
+    "legitimate_use": "Rapid prototyping of therapeutic proteins and vaccines without fermentation infrastructure.",
+    "shared_mechanism": "Using cell extracts containing transcription/translation machinery to express DNA templates.",
+    "concept_id": "C034"
+  },
+  {
+    "name": "Gene drive systems",
+    "domain": "biosecurity",
+    "dangerous_use": "Spreading a gene that reduces fertility or increases pathogenicity in a target species, potentially causing ecological collapse.",
+    "legitimate_use": "Suppressing mosquito populations that transmit malaria or dengue by spreading sterility genes.",
+    "shared_mechanism": "CRISPR-based biased inheritance that ensures a genetic element is passed to nearly all offspring.",
+    "concept_id": "C035"
+  },
+  {
+    "name": "Microencapsulation of biologics",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating live pathogens or toxins in microspheres for prolonged environmental stability and covert release.",
+    "legitimate_use": "Encapsulating probiotics or vaccines for oral delivery and protection from stomach acid.",
+    "shared_mechanism": "Forming polymer or lipid shells around biological payloads to control release and protect from degradation.",
+    "concept_id": "C036"
+  },
+  {
+    "name": "Antibiotic resistance engineering",
+    "domain": "biosecurity",
+    "dangerous_use": "Transferring broad-spectrum antibiotic resistance genes into pathogenic bacteria to create untreatable superbugs.",
+    "legitimate_use": "Using resistance markers as selectable tools in molecular cloning and genetic engineering.",
+    "shared_mechanism": "Insertion of resistance genes (e.g., beta-lactamase) into plasmids or chromosomes via transformation.",
+    "concept_id": "C037"
+  },
+  {
+    "name": "Biological containment systems",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing 'kill switches' that can be triggered to release pathogens or toxins upon a specific environmental signal.",
+    "legitimate_use": "Engineering auxotrophic or toxin-antitoxin systems to prevent genetically modified organisms from surviving outside the lab.",
+    "shared_mechanism": "Conditional expression of lethal genes under control of inducible promoters.",
+    "concept_id": "C038"
+  },
+  {
+    "name": "High-throughput DNA sequencing",
+    "domain": "biosecurity",
+    "dangerous_use": "Rapidly sequencing and reconstructing genomes of eradicated pathogens (e.g., 1918 influenza) for weaponization.",
+    "legitimate_use": "Identifying novel pathogens, tracking outbreaks, and personalizing cancer treatments.",
+    "shared_mechanism": "Massively parallel sequencing of DNA fragments followed by computational assembly.",
+    "concept_id": "C039"
+  },
+  {
+    "name": "Protein engineering for stability",
+    "domain": "biosecurity",
+    "dangerous_use": "Stabilizing toxins (e.g., botulinum neurotoxin) to withstand heat, desiccation, or aerosolization for weapon use.",
+    "legitimate_use": "Engineering therapeutic antibodies or enzymes to remain active at high temperatures or in harsh conditions.",
+    "shared_mechanism": "Introducing mutations (e.g., disulfide bonds, surface charge alterations) to increase protein thermostability.",
+    "concept_id": "C040"
+  },
+  {
+    "name": "Gain-of-function research on influenza",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering highly pathogenic avian influenza (H5N1) strains that are transmissible in mammals, potentially creating a pandemic agent",
+    "legitimate_use": "Studying viral mutations to predict pandemic potential and develop vaccines and therapeutics",
+    "shared_mechanism": "Site-directed mutagenesis and serial passage in ferrets to enhance respiratory droplet transmission",
+    "concept_id": "C041"
+  },
+  {
+    "name": "CRISPR-Cas9 gene drives",
+    "domain": "biosecurity",
+    "dangerous_use": "Creating self-propagating genetic elements to suppress or alter wild populations of disease vectors (e.g., mosquitoes) with potential for ecological disruption or weaponization",
+    "legitimate_use": "Controlling malaria by spreading infertility genes in Anopheles gambiae populations",
+    "shared_mechanism": "Homing endonuclease-based gene drive that biases inheritance to spread a genetic modification through a population",
+    "concept_id": "C042"
+  },
+  {
+    "name": "Synthetic DNA synthesis and assembly",
+    "domain": "biosecurity",
+    "dangerous_use": "Reconstructing extinct pathogens (e.g., 1918 influenza virus, smallpox) from published sequences for bioweapon development",
+    "legitimate_use": "Producing therapeutic proteins, vaccines, and gene therapies via synthetic biology",
+    "shared_mechanism": "Chemical synthesis of oligonucleotides and enzymatic assembly into functional genomes",
+    "concept_id": "C043"
+  },
+  {
+    "name": "Dual-use of botulinum neurotoxin",
+    "domain": "biosecurity",
+    "dangerous_use": "Aerosolized delivery of botulinum toxin as a bioweapon causing flaccid paralysis and respiratory failure",
+    "legitimate_use": "Therapeutic injection for cervical dystonia, chronic migraine, and spasticity",
+    "shared_mechanism": "Cleavage of SNARE proteins (e.g., SNAP-25) preventing acetylcholine release at neuromuscular junctions",
+    "concept_id": "C044"
+  },
+  {
+    "name": "Aerosolized anthrax spores",
+    "domain": "biosecurity",
+    "dangerous_use": "Weaponized Bacillus anthracis spores for mass inhalation anthrax attacks",
+    "legitimate_use": "Development of improved anthrax vaccines and detection systems for biodefense",
+    "shared_mechanism": "Spore formation and aerosol stability enabling respiratory tract infection via alveolar macrophages",
+    "concept_id": "C045"
+  },
+  {
+    "name": "RNA interference (RNAi) pesticides",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing double-stranded RNA to silence essential genes in non-target organisms (e.g., pollinators or humans) as a bioweapon",
+    "legitimate_use": "Species-specific pest control (e.g., targeting Colorado potato beetle) without chemical insecticides",
+    "shared_mechanism": "Dicer-mediated processing of dsRNA into siRNAs that guide RISC to degrade complementary mRNA",
+    "concept_id": "C046"
+  },
+  {
+    "name": "Viral vector engineering (e.g., lentivirus)",
+    "domain": "biosecurity",
+    "dangerous_use": "Modifying lentiviral vectors to deliver oncogenes or toxins for targeted bioweapon attacks",
+    "legitimate_use": "Gene therapy for severe combined immunodeficiency (SCID) and CAR-T cell cancer therapy",
+    "shared_mechanism": "Pseudotyping with envelope glycoproteins to alter tropism and integrate transgenes into host genome",
+    "concept_id": "C047"
+  },
+  {
+    "name": "Metabolic engineering of opioid biosynthesis",
+    "domain": "biosecurity",
+    "dangerous_use": "Yeast-based production of controlled substances (e.g., heroin, fentanyl) for illicit drug manufacturing",
+    "legitimate_use": "Sustainable production of pharmaceutical opioids (e.g., codeine, morphine) for pain management",
+    "shared_mechanism": "Expression of plant-derived enzymes (e.g., reticuline oxidase) in Saccharomyces cerevisiae to produce benzylisoquinoline alkaloids",
+    "concept_id": "C048"
+  },
+  {
+    "name": "Phage display for antibody engineering",
+    "domain": "biosecurity",
+    "dangerous_use": "Selecting antibodies that enhance viral entry (antibody-dependent enhancement) or suppress immune responses",
+    "legitimate_use": "Developing therapeutic monoclonal antibodies (e.g., adalimumab) for autoimmune diseases",
+    "shared_mechanism": "Display of antibody fragments on filamentous phage surface and affinity-based selection against target antigens",
+    "concept_id": "C049"
+  },
+  {
+    "name": "Directed evolution of enzymes",
+    "domain": "biosecurity",
+    "dangerous_use": "Evolving enzymes to degrade nerve agents (e.g., VX, sarin) for offensive chemical weapon countermeasures",
+    "legitimate_use": "Engineering organophosphate hydrolases for detoxification of pesticide residues and decontamination",
+    "shared_mechanism": "Iterative mutagenesis and high-throughput screening to enhance catalytic activity against specific substrates",
+    "concept_id": "C050"
+  },
+  {
+    "name": "Biosensor design using engineered cells",
+    "domain": "biosecurity",
+    "dangerous_use": "Creating stealth biosensors that detect and report on human genetic or health status for surveillance",
+    "legitimate_use": "Developing whole-cell biosensors for environmental toxin detection (e.g., arsenic in water)",
+    "shared_mechanism": "Genetic circuits coupling promoter activation to reporter gene expression (e.g., GFP, luciferase)",
+    "concept_id": "C051"
+  },
+  {
+    "name": "Mammalian cell culture for vaccine production",
+    "domain": "biosecurity",
+    "dangerous_use": "Large-scale culture of cells infected with high-consequence pathogens (e.g., Ebola) for weaponization",
+    "legitimate_use": "Manufacturing inactivated or live-attenuated vaccines (e.g., polio, influenza) in Vero cells",
+    "shared_mechanism": "Adherent or suspension cell culture in bioreactors with controlled media and infection conditions",
+    "concept_id": "C052"
+  },
+  {
+    "name": "Nanoparticle drug delivery systems",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating toxins or pathogens in nanoparticles for enhanced aerosol stability and targeted delivery",
+    "legitimate_use": "Targeted chemotherapy delivery to tumors using liposomal doxorubicin",
+    "shared_mechanism": "Surface functionalization with ligands for receptor-mediated endocytosis and controlled release",
+    "concept_id": "C053"
+  },
+  {
+    "name": "Reverse genetics of RNA viruses",
+    "domain": "biosecurity",
+    "dangerous_use": "Reconstructing SARS-CoV-2 or other coronaviruses with enhanced virulence or immune evasion",
+    "legitimate_use": "Generating recombinant viruses for vaccine development (e.g., live-attenuated influenza vaccine)",
+    "shared_mechanism": "Cloning viral cDNA into plasmids, transfecting cells, and rescuing infectious virus from DNA",
+    "concept_id": "C054"
+  },
+  {
+    "name": "Microbiome manipulation via bacteriophages",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering phages to deliver toxin genes or disrupt beneficial gut microbiota as a bioweapon",
+    "legitimate_use": "Phage therapy for antibiotic-resistant bacterial infections (e.g., Pseudomonas aeruginosa)",
+    "shared_mechanism": "Lytic phage infection and lysogeny, with genetic payload delivery via phage genome",
+    "concept_id": "C055"
+  },
+  {
+    "name": "Cell-free protein synthesis",
+    "domain": "biosecurity",
+    "dangerous_use": "On-demand production of biotoxins (e.g., ricin, abrin) without live organisms, evading biosafety oversight",
+    "legitimate_use": "Rapid prototyping of therapeutic proteins and diagnostic reagents in emergency settings",
+    "shared_mechanism": "Extract-based transcription-translation systems (e.g., E. coli lysate) with template DNA",
+    "concept_id": "C056"
+  },
+  {
+    "name": "Gene silencing via antisense oligonucleotides",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing antisense molecules to suppress immune response genes, increasing susceptibility to infection",
+    "legitimate_use": "Therapeutic silencing of disease-causing genes (e.g., nusinersen for spinal muscular atrophy)",
+    "shared_mechanism": "Sequence-specific hybridization to mRNA, blocking translation or inducing RNase H degradation",
+    "concept_id": "C057"
+  },
+  {
+    "name": "Plant-made biopharmaceuticals (molecular farming)",
+    "domain": "biosecurity",
+    "dangerous_use": "Cultivating plants engineered to produce biotoxins (e.g., ricin) in open fields for covert production",
+    "legitimate_use": "Producing Ebola antibodies (ZMapp) or influenza vaccines in tobacco plants",
+    "shared_mechanism": "Agrobacterium-mediated transformation or viral vectors for transient protein expression in plants",
+    "concept_id": "C058"
+  },
+  {
+    "name": "High-throughput DNA sequencing of pathogens",
+    "domain": "biosecurity",
+    "dangerous_use": "Identifying genetic vulnerabilities in human populations for targeted bioweapon design",
+    "legitimate_use": "Rapid pathogen surveillance and outbreak tracking (e.g., SARS-CoV-2 variant detection)",
+    "shared_mechanism": "Next-generation sequencing (e.g., Illumina, nanopore) for whole-genome analysis",
+    "concept_id": "C059"
+  },
+  {
+    "name": "Lipid nanoparticle (LNP) delivery for mRNA",
+    "domain": "biosecurity",
+    "dangerous_use": "Delivering mRNA encoding toxins or immunosuppressive proteins for bioweapon applications",
+    "legitimate_use": "mRNA vaccines (e.g., COVID-19) and cancer immunotherapy",
+    "shared_mechanism": "Ionizable lipids that encapsulate mRNA, facilitate endosomal escape, and enable cytosolic delivery",
+    "concept_id": "C060"
+  },
+  {
+    "name": "Gain-of-function research on influenza viruses",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering highly pathogenic avian influenza (H5N1) strains that are transmissible in mammals, potentially creating a pandemic-capable bioweapon.",
+    "legitimate_use": "Studying viral mutations to predict pandemic potential and develop vaccines or therapeutics against emerging influenza strains.",
+    "shared_mechanism": "Site-directed mutagenesis and serial passage in animal models to enhance viral receptor binding and airborne transmission.",
+    "concept_id": "C061"
+  },
+  {
+    "name": "CRISPR-Cas9 gene drives",
+    "domain": "biosecurity",
+    "dangerous_use": "Creating self-propagating genetic elements to eradicate or disrupt populations of beneficial insects or crops, or to introduce harmful traits into human pathogens.",
+    "legitimate_use": "Suppressing mosquito populations that transmit malaria or dengue by spreading infertility or resistance to the parasite.",
+    "shared_mechanism": "Homologous recombination and biased inheritance of a CRISPR-Cas9 cassette that edits a target gene in every generation.",
+    "concept_id": "C062"
+  },
+  {
+    "name": "Synthetic biology and de novo DNA synthesis",
+    "domain": "biosecurity",
+    "dangerous_use": "Reconstructing extinct pathogens (e.g., 1918 influenza, smallpox) or designing novel viruses with enhanced virulence from synthetic oligonucleotides.",
+    "legitimate_use": "Producing synthetic vaccines, therapeutic proteins, or engineered microbes for bioremediation and industrial fermentation.",
+    "shared_mechanism": "Chemical synthesis of DNA fragments followed by assembly into functional genomes using yeast or bacterial recombination systems.",
+    "concept_id": "C063"
+  },
+  {
+    "name": "Dual-use of botulinum neurotoxin",
+    "domain": "biosecurity",
+    "dangerous_use": "Weaponization as a potent aerosolized bioweapon causing flaccid paralysis and respiratory failure.",
+    "legitimate_use": "Therapeutic injection for treating strabismus, cervical dystonia, chronic migraine, and muscle spasticity.",
+    "shared_mechanism": "Cleavage of SNARE proteins (e.g., SNAP-25) at the neuromuscular junction, blocking acetylcholine release and causing paralysis.",
+    "concept_id": "C064"
+  },
+  {
+    "name": "Aerosolization of Bacillus anthracis spores",
+    "domain": "biosecurity",
+    "dangerous_use": "Deliberate release of anthrax spores in a bioterror attack to cause inhalational anthrax with high mortality.",
+    "legitimate_use": "Development of improved anthrax vaccines and decontamination protocols, as well as studying spore dispersal for environmental monitoring.",
+    "shared_mechanism": "Generation of respirable particles (1–5 μm) containing dormant spores that germinate in alveolar macrophages and produce lethal toxins.",
+    "concept_id": "C065"
+  },
+  {
+    "name": "Directed evolution of viral vectors",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering adeno-associated viruses (AAV) or lentiviruses to evade immune detection and deliver oncogenes or toxins to human cells.",
+    "legitimate_use": "Creating safer, more efficient gene therapy vectors for treating inherited disorders like hemophilia or retinal degeneration.",
+    "shared_mechanism": "Iterative mutagenesis and selection of capsid or envelope proteins to alter tropism, immunogenicity, and transduction efficiency.",
+    "concept_id": "C066"
+  },
+  {
+    "name": "RNA interference (RNAi) technology",
+    "domain": "biosecurity",
+    "dangerous_use": "Designing synthetic small interfering RNAs (siRNAs) to silence essential host genes or immune pathways, increasing susceptibility to infection.",
+    "legitimate_use": "Developing RNAi-based therapeutics for viral infections (e.g., hepatitis B, Ebola) or genetic diseases by degrading target mRNA.",
+    "shared_mechanism": "Sequence-specific binding of double-stranded RNA to complementary mRNA, triggering Dicer and RISC-mediated cleavage and gene silencing.",
+    "concept_id": "C067"
+  },
+  {
+    "name": "Phage display libraries",
+    "domain": "biosecurity",
+    "dangerous_use": "Selecting antibodies or peptides that bind to and neutralize host immune receptors, enabling immune evasion for a pathogen or toxin.",
+    "legitimate_use": "Screening for high-affinity monoclonal antibodies for diagnostics, therapeutics, and vaccine development against infectious diseases.",
+    "shared_mechanism": "Display of random peptide or antibody fragments on the surface of bacteriophages, followed by affinity selection (biopanning) against a target molecule.",
+    "concept_id": "C068"
+  },
+  {
+    "name": "Metabolic engineering of microorganisms",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering bacteria or yeast to produce potent biological toxins (e.g., ricin, saxitoxin) or controlled substances (e.g., opioids) in large quantities.",
+    "legitimate_use": "Sustainable production of pharmaceuticals (e.g., artemisinin, insulin), biofuels, and industrial chemicals from renewable feedstocks.",
+    "shared_mechanism": "Introduction and optimization of heterologous biosynthetic pathways using genetic circuits, enzyme engineering, and flux balancing.",
+    "concept_id": "C069"
+  },
+  {
+    "name": "Reverse genetics of RNA viruses",
+    "domain": "biosecurity",
+    "dangerous_use": "Reconstructing and modifying highly pathogenic RNA viruses (e.g., Ebola, SARS-CoV-2) from cloned cDNA to study or enhance virulence.",
+    "legitimate_use": "Generating attenuated vaccine strains, studying viral replication mechanisms, and screening antiviral compounds.",
+    "shared_mechanism": "Transfection of cells with plasmids encoding viral genomic RNA and helper proteins, allowing rescue of infectious virus from DNA templates.",
+    "concept_id": "C070"
+  },
+  {
+    "name": "Nanoparticle-based drug delivery",
+    "domain": "biosecurity",
+    "dangerous_use": "Encapsulating toxins or bioweapons in nanoparticles for targeted delivery to specific organs or populations, increasing lethality and stealth.",
+    "legitimate_use": "Targeted delivery of chemotherapeutics, vaccines, or antibiotics to diseased tissues, reducing systemic toxicity and improving efficacy.",
+    "shared_mechanism": "Surface functionalization of nanoparticles (e.g., liposomes, polymeric particles) with ligands for receptor-mediated endocytosis and controlled release.",
+    "concept_id": "C071"
+  },
+  {
+    "name": "Dual-use of Yersinia pestis (plague) research",
+    "domain": "biosecurity",
+    "dangerous_use": "Engineering antibiotic-resistant or aerosolized strains of Y. pestis for use as a biological weapon causing pneumonic plague.",
+    "legitimate_use": "Understanding plague pathogenesis, developing vaccines, and testing countermeasures against naturally occurring outbreaks.",
+    "shared_mechanism": "Manipulation of virulence plasmids (pCD1, pMT1, pPCP1) encoding type III secretion system, F1 capsule, and plasminogen activator.",
+    "concept_id": "C072"
+  },
+  {
+    "name": "DNA barcoding and metagenomics",
+    "domain": "biosecurity",
+    "dangerous_use": "Synthesizing and deploying synthetic DNA sequences that mimic pathogen barcodes to contaminate samples or mislead forensic analysis.",
+    "legitimate_use": "Rapid identification of pathogens in clinical or environmental samples using high-throughput sequencing and reference databases.",
+    "shared_mechanism": "Amplification and sequencing of conserved genetic markers (e.g., 16S rRNA, ITS regions) followed by comparison to known sequences.",
+    "concept_id": "C073"
+  },
+  {
+    "name": "Cell-free protein synthesis systems",
+    "domain": "biosecurity",
+    "dangerous_use": "Rapid, portable production of toxic proteins (e.g., ricin, abrin) or virulence factors without the need for live cultures, evading detection.",
+    "legitimate_use": "On-demand synthesis of therapeutic proteins, vaccine antigens, and diagnostic reagents in resource-limited settings.",
+    "shared_mechanism": "Use of lysates from E. coli, wheat germ, or rabbit reticulocytes containing transcription/translation machinery, supplemented with DNA templates and energy sources.",
+    "concept_id": "C074"
+  },
+  {
+    "name": "Dual-use of smallpox (variola virus) research",
+    "domain": "biosecurity",
+    "dangerous_use": "Recreating or modifying variola virus to overcome existing vaccines or antivirals, enabling a devastating bioweapon.",
+    "legitimate_use": "Developing safer vaccines, antiviral drugs (e.g., tecovirimat), and diagnostic assays to prepare for a potential smallpox re-emergence.",
+    "shared_mechanism": "Manipulation of the large double-stranded DNA genome via homologous recombination or synthetic biology to study virulence genes and host interactions.",
+    "concept_id": "C075"
+  },
+  {
+    "name": "Zero-day exploit trading",
+    "domain": "cybersecurity",
+    "dangerous_use": "Sale of undisclosed vulnerabilities to nation-state actors for offensive cyber operations",
+    "legitimate_use": "Vulnerability disclosure programs where researchers sell bugs to vendors for patching",
+    "shared_mechanism": "Monetization of previously unknown software flaws before public disclosure",
+    "concept_id": "C076"
+  },
+  {
+    "name": "Adversarial machine learning",
+    "domain": "cybersecurity",
+    "dangerous_use": "Crafting imperceptible perturbations to evade malware detection classifiers",
+    "legitimate_use": "Robustness testing of AI security systems to improve defensive models",
+    "shared_mechanism": "Manipulation of input data to cause model misclassification",
+    "concept_id": "C077"
+  },
+  {
+    "name": "Network traffic analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Mass surveillance and deanonymization of Tor users via timing attacks",
+    "legitimate_use": "Intrusion detection by identifying anomalous packet patterns in enterprise networks",
+    "shared_mechanism": "Statistical inference from metadata and communication patterns",
+    "concept_id": "C078"
+  },
+  {
+    "name": "Side-channel attacks",
+    "domain": "cybersecurity",
+    "dangerous_use": "Extracting cryptographic keys from smartcards using power consumption analysis",
+    "legitimate_use": "Hardware security validation to detect unintended information leakage in chips",
+    "shared_mechanism": "Exploitation of physical emanations (power, EM, timing) to infer internal state",
+    "concept_id": "C079"
+  },
+  {
+    "name": "Rootkit technology",
+    "domain": "cybersecurity",
+    "dangerous_use": "Kernel-level malware that hides its presence from antivirus and system tools",
+    "legitimate_use": "Digital rights management (DRM) and anti-cheat systems for gaming platforms",
+    "shared_mechanism": "Hooking system calls and manipulating kernel data structures to control visibility",
+    "concept_id": "C080"
+  },
+  {
+    "name": "DNS tunneling",
+    "domain": "cybersecurity",
+    "dangerous_use": "Exfiltration of stolen data from air-gapped networks via encoded DNS queries",
+    "legitimate_use": "Bypassing restrictive firewalls to access legitimate services (e.g., public Wi-Fi portals)",
+    "shared_mechanism": "Encapsulating non-DNS payloads within DNS protocol fields",
+    "concept_id": "C081"
+  },
+  {
+    "name": "Fuzzing",
+    "domain": "cybersecurity",
+    "dangerous_use": "Automated discovery of zero-day vulnerabilities in critical infrastructure software",
+    "legitimate_use": "Proactive bug hunting by vendors to patch software before release",
+    "shared_mechanism": "Generation of malformed or unexpected inputs to trigger crashes or memory corruption",
+    "concept_id": "C082"
+  },
+  {
+    "name": "Decompilation and reverse engineering",
+    "domain": "cybersecurity",
+    "dangerous_use": "Pirating proprietary software by reconstructing source code from binaries",
+    "legitimate_use": "Malware analysis to understand ransomware encryption algorithms for decryption tools",
+    "shared_mechanism": "Transformation of machine code into high-level representations for analysis",
+    "concept_id": "C083"
+  },
+  {
+    "name": "Honeypots",
+    "domain": "cybersecurity",
+    "dangerous_use": "Deploying decoy systems to entrap and prosecute security researchers",
+    "legitimate_use": "Early detection of attackers by luring them into monitored fake environments",
+    "shared_mechanism": "Simulation of vulnerable systems to observe and log adversary behavior",
+    "concept_id": "C084"
+  },
+  {
+    "name": "Cryptographic backdoors",
+    "domain": "cybersecurity",
+    "dangerous_use": "Deliberate weakening of encryption standards for government mass surveillance",
+    "legitimate_use": "Law enforcement access to encrypted devices under judicial warrant (e.g., key escrow)",
+    "shared_mechanism": "Embedding a secret bypass mechanism within cryptographic algorithms",
+    "concept_id": "C085"
+  },
+  {
+    "name": "Botnet command and control",
+    "domain": "cybersecurity",
+    "dangerous_use": "Coordinating distributed denial-of-service (DDoS) attacks on critical services",
+    "legitimate_use": "Distributed computing projects like SETI@home or scientific simulations",
+    "shared_mechanism": "Centralized or peer-to-peer orchestration of many compromised or volunteer nodes",
+    "concept_id": "C086"
+  },
+  {
+    "name": "Steganography",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malicious payloads in image files to bypass content filters",
+    "legitimate_use": "Digital watermarking for copyright protection and forensic tracking",
+    "shared_mechanism": "Embedding secret data within innocuous carrier media with minimal distortion",
+    "concept_id": "C087"
+  },
+  {
+    "name": "Privilege escalation",
+    "domain": "cybersecurity",
+    "dangerous_use": "Exploiting kernel vulnerabilities to gain root access on a target system",
+    "legitimate_use": "System administration tools that temporarily elevate permissions for maintenance tasks",
+    "shared_mechanism": "Transition from lower to higher access levels through controlled or exploited mechanisms",
+    "concept_id": "C088"
+  },
+  {
+    "name": "Man-in-the-middle (MITM) proxies",
+    "domain": "cybersecurity",
+    "dangerous_use": "Intercepting and modifying HTTPS traffic to steal credentials or inject malware",
+    "legitimate_use": "Corporate SSL inspection to detect malware in encrypted employee traffic",
+    "shared_mechanism": "Interposition between two communicating parties to decrypt and re-encrypt traffic",
+    "concept_id": "C089"
+  },
+  {
+    "name": "Exploit kits",
+    "domain": "cybersecurity",
+    "dangerous_use": "Automated drive-by download platforms that infect visitors with ransomware",
+    "legitimate_use": "Penetration testing frameworks that simulate attacks for security assessments",
+    "shared_mechanism": "Packaged collection of exploits targeting multiple vulnerabilities with a unified delivery system",
+    "concept_id": "C090"
+  },
+  {
+    "name": "Keyloggers",
+    "domain": "cybersecurity",
+    "dangerous_use": "Recording keystrokes to steal passwords and credit card numbers",
+    "legitimate_use": "Employee productivity monitoring in regulated industries (with consent)",
+    "shared_mechanism": "Capturing and logging keyboard input events at the kernel or application level",
+    "concept_id": "C091"
+  },
+  {
+    "name": "Ransomware encryption",
+    "domain": "cybersecurity",
+    "dangerous_use": "Encrypting victim files and demanding payment for decryption keys",
+    "legitimate_use": "Full-disk encryption tools like BitLocker for data protection against theft",
+    "shared_mechanism": "Symmetric or asymmetric encryption of user data with key management",
+    "concept_id": "C092"
+  },
+  {
+    "name": "Social engineering pretexting",
+    "domain": "cybersecurity",
+    "dangerous_use": "Impersonating IT support to trick employees into revealing credentials",
+    "legitimate_use": "Red team phishing simulations to train staff in security awareness",
+    "shared_mechanism": "Psychological manipulation through fabricated scenarios to elicit sensitive information",
+    "concept_id": "C093"
+  },
+  {
+    "name": "Packet sniffing",
+    "domain": "cybersecurity",
+    "dangerous_use": "Capturing unencrypted Wi-Fi traffic to harvest login credentials in public hotspots",
+    "legitimate_use": "Network troubleshooting and bandwidth monitoring by system administrators",
+    "shared_mechanism": "Passive interception and analysis of network packets at the data link layer",
+    "concept_id": "C094"
+  },
+  {
+    "name": "Code obfuscation",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malware logic from antivirus engines using polymorphic code",
+    "legitimate_use": "Protecting intellectual property in commercial software from reverse engineering",
+    "shared_mechanism": "Transformation of source or binary code to increase complexity while preserving functionality",
+    "concept_id": "C095"
+  },
+  {
+    "name": "Vulnerability Disclosure",
+    "domain": "cybersecurity",
+    "dangerous_use": "Publishing zero-day exploits before patches are available, enabling mass exploitation by malicious actors.",
+    "legitimate_use": "Responsible disclosure to vendors with coordinated patch release, improving overall system security.",
+    "shared_mechanism": "Revealing specific software flaws and exploitation methods to external parties.",
+    "concept_id": "C096"
+  },
+  {
+    "name": "Penetration Testing Tools",
+    "domain": "cybersecurity",
+    "dangerous_use": "Using Metasploit or Cobalt Strike to deploy ransomware and maintain persistent backdoors in victim networks.",
+    "legitimate_use": "Authorized security assessments to identify and remediate vulnerabilities in an organization's infrastructure.",
+    "shared_mechanism": "Automated exploitation of known vulnerabilities to gain unauthorized access to systems.",
+    "concept_id": "C097"
+  },
+  {
+    "name": "Traffic Analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Mass surveillance to infer private communications, relationships, and behavioral patterns without content decryption.",
+    "legitimate_use": "Network intrusion detection systems identifying command-and-control traffic patterns from malware.",
+    "shared_mechanism": "Statistical analysis of metadata, packet timing, and communication patterns rather than content inspection.",
+    "concept_id": "C098"
+  },
+  {
+    "name": "Adversarial Machine Learning",
+    "domain": "cybersecurity",
+    "dangerous_use": "Crafting imperceptible perturbations to evade malware detection or facial recognition systems for malicious impersonation.",
+    "legitimate_use": "Hardening AI models against attacks by generating adversarial examples during training to improve robustness.",
+    "shared_mechanism": "Systematic manipulation of input data to cause misclassification in machine learning models.",
+    "concept_id": "C099"
+  },
+  {
+    "name": "Side-Channel Analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Extracting cryptographic keys from smart cards or cloud servers by measuring power consumption or electromagnetic emissions.",
+    "legitimate_use": "Testing hardware security modules for unintended information leakage during certification processes.",
+    "shared_mechanism": "Exploiting physical emanations (timing, power, EM) to infer secret data processed by a device.",
+    "concept_id": "C100"
+  },
+  {
+    "name": "Rootkit Technology",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malware processes and files from antivirus and operating system tools to maintain persistent undetected access.",
+    "legitimate_use": "Digital rights management and anti-cheat systems that monitor system integrity at kernel level.",
+    "shared_mechanism": "Intercepting and modifying system calls or kernel data structures to control what the OS reports to user space.",
+    "concept_id": "C101"
+  },
+  {
+    "name": "DNS Tunneling",
+    "domain": "cybersecurity",
+    "dangerous_use": "Exfiltrating sensitive data from air-gapped networks by encoding it in DNS queries to attacker-controlled servers.",
+    "legitimate_use": "Bypassing restrictive firewalls to access legitimate services (e.g., VPN over DNS) in censored environments.",
+    "shared_mechanism": "Encapsulating non-DNS data within DNS query and response packets to traverse network boundaries.",
+    "concept_id": "C102"
+  },
+  {
+    "name": "Fuzzing",
+    "domain": "cybersecurity",
+    "dangerous_use": "Automatically discovering zero-day vulnerabilities in widely-used software to build exploit kits for sale on dark markets.",
+    "legitimate_use": "Proactive bug hunting by vendors and researchers to patch security holes before malicious discovery.",
+    "shared_mechanism": "Injecting malformed, unexpected, or random data into program inputs to trigger crashes and undefined behavior.",
+    "concept_id": "C103"
+  },
+  {
+    "name": "Social Engineering Frameworks",
+    "domain": "cybersecurity",
+    "dangerous_use": "Automated spear-phishing campaigns that clone legitimate login pages to harvest credentials en masse.",
+    "legitimate_use": "Security awareness training simulations that test employee susceptibility to phishing without real harm.",
+    "shared_mechanism": "Psychological manipulation through crafted communications to trick users into revealing credentials or executing actions.",
+    "concept_id": "C104"
+  },
+  {
+    "name": "Encrypted Communication Protocols",
+    "domain": "cybersecurity",
+    "dangerous_use": "End-to-end encryption in terrorist or criminal networks preventing lawful interception of illegal communications.",
+    "legitimate_use": "Protecting sensitive personal and financial data from eavesdropping on public networks (e.g., HTTPS, Signal).",
+    "shared_mechanism": "Cryptographic algorithms that ensure only intended recipients can read message contents.",
+    "concept_id": "C105"
+  },
+  {
+    "name": "Botnet Command & Control",
+    "domain": "cybersecurity",
+    "dangerous_use": "Controlling thousands of compromised IoT devices to launch distributed denial-of-service attacks.",
+    "legitimate_use": "Distributed computing projects (e.g., SETI@home) using peer-to-peer communication for task coordination.",
+    "shared_mechanism": "Centralized or peer-to-peer network architecture for issuing commands and aggregating results from distributed nodes.",
+    "concept_id": "C106"
+  },
+  {
+    "name": "Code Obfuscation",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malicious payload logic in malware to evade signature-based antivirus and static analysis.",
+    "legitimate_use": "Protecting intellectual property in commercial software by making reverse engineering more difficult.",
+    "shared_mechanism": "Transforming source or binary code into functionally equivalent but semantically opaque representations.",
+    "concept_id": "C107"
+  },
+  {
+    "name": "Hardware Backdoors",
+    "domain": "cybersecurity",
+    "dangerous_use": "Deliberately inserting malicious circuits into microchips during fabrication to enable remote compromise.",
+    "legitimate_use": "Built-in debug interfaces (JTAG, serial consoles) for testing and field maintenance of embedded systems.",
+    "shared_mechanism": "Unadvertised hardware-level access points that bypass normal authentication or security controls.",
+    "concept_id": "C108"
+  },
+  {
+    "name": "Steganography",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding stolen intellectual property or malware command strings within digital images or audio files to evade detection.",
+    "legitimate_use": "Digital watermarking for copyright protection and forensic tracking of leaked documents.",
+    "shared_mechanism": "Embedding secret data within innocuous carrier media by modifying least significant bits or other imperceptible features.",
+    "concept_id": "C109"
+  },
+  {
+    "name": "Man-in-the-Middle Proxies",
+    "domain": "cybersecurity",
+    "dangerous_use": "Intercepting and modifying HTTPS traffic on public Wi-Fi to inject malware or steal login credentials.",
+    "legitimate_use": "Corporate SSL inspection gateways that decrypt traffic to detect malware and data exfiltration.",
+    "shared_mechanism": "Intercepting network traffic between two parties by presenting forged certificates or ARP spoofing.",
+    "concept_id": "C110"
+  },
+  {
+    "name": "Keyloggers",
+    "domain": "cybersecurity",
+    "dangerous_use": "Recording keystrokes to steal passwords, credit card numbers, and private messages from victims.",
+    "legitimate_use": "Employee monitoring software for productivity tracking and forensic investigation of insider threats.",
+    "shared_mechanism": "Capturing and logging keyboard input events at the hardware, kernel, or application level.",
+    "concept_id": "C111"
+  },
+  {
+    "name": "Ransomware Encryption",
+    "domain": "cybersecurity",
+    "dangerous_use": "Encrypting victim files with a unique key and demanding payment for decryption, causing operational paralysis.",
+    "legitimate_use": "Full-disk encryption (e.g., BitLocker, FileVault) protecting data on lost or stolen devices.",
+    "shared_mechanism": "Symmetric or asymmetric cryptographic algorithms that render data inaccessible without the correct decryption key.",
+    "concept_id": "C112"
+  },
+  {
+    "name": "Zero-Knowledge Proofs",
+    "domain": "cybersecurity",
+    "dangerous_use": "Enabling anonymous credential verification in darknet markets to facilitate illegal transactions without identity exposure.",
+    "legitimate_use": "Privacy-preserving authentication for digital identity systems (e.g., proving age without revealing birthdate).",
+    "shared_mechanism": "Cryptographic protocols allowing one party to prove knowledge of a secret without revealing the secret itself.",
+    "concept_id": "C113"
+  },
+  {
+    "name": "Exploit Kits",
+    "domain": "cybersecurity",
+    "dangerous_use": "Packaged collections of browser exploits sold on underground forums to compromise visitors of malicious websites.",
+    "legitimate_use": "Vulnerability research platforms (e.g., DARPA's Cyber Grand Challenge) for automated patch generation.",
+    "shared_mechanism": "Modular frameworks that chain multiple exploits together to achieve code execution on target systems.",
+    "concept_id": "C114"
+  },
+  {
+    "name": "Network Scanning",
+    "domain": "cybersecurity",
+    "dangerous_use": "Reconnaissance to map out all live hosts, open ports, and running services for targeted attack planning.",
+    "legitimate_use": "Asset inventory and vulnerability management to ensure only authorized services are exposed on the network.",
+    "shared_mechanism": "Sending probe packets to IP addresses and analyzing responses to discover active systems and their characteristics.",
+    "concept_id": "C115"
+  },
+  {
+    "name": "Zero-day exploit trading",
+    "domain": "cybersecurity",
+    "dangerous_use": "Selling undisclosed software vulnerabilities to state actors for offensive cyber operations",
+    "legitimate_use": "Responsible disclosure programs where researchers sell vulnerabilities to vendors for patching",
+    "shared_mechanism": "Monetization of previously unknown software flaws before public awareness",
+    "concept_id": "C116"
+  },
+  {
+    "name": "Botnet command-and-control (C2) protocols",
+    "domain": "cybersecurity",
+    "dangerous_use": "Orchestrating distributed denial-of-service (DDoS) attacks from compromised devices",
+    "legitimate_use": "Managing large-scale distributed computing grids for scientific research (e.g., SETI@home)",
+    "shared_mechanism": "Centralized server issuing commands to a network of remote agents",
+    "concept_id": "C117"
+  },
+  {
+    "name": "Cryptographic backdoors",
+    "domain": "cybersecurity",
+    "dangerous_use": "Law enforcement bypassing encryption to surveil citizens without warrants",
+    "legitimate_use": "Emergency access systems for recovering encrypted data when users lose keys",
+    "shared_mechanism": "Embedding a secret mechanism that allows decryption without the primary key",
+    "concept_id": "C118"
+  },
+  {
+    "name": "Adversarial machine learning attacks",
+    "domain": "cybersecurity",
+    "dangerous_use": "Crafting imperceptible perturbations to fool facial recognition systems for impersonation",
+    "legitimate_use": "Stress-testing AI models to improve robustness against real-world noise",
+    "shared_mechanism": "Exploiting model sensitivity to small input changes to alter output classification",
+    "concept_id": "C119"
+  },
+  {
+    "name": "Rootkit technology",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malware processes from antivirus and system monitors for persistent espionage",
+    "legitimate_use": "Digital rights management (DRM) systems that protect copyrighted content from copying",
+    "shared_mechanism": "Modifying operating system kernel structures to conceal the presence of software",
+    "concept_id": "C120"
+  },
+  {
+    "name": "Side-channel analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Extracting cryptographic keys by measuring power consumption fluctuations during encryption",
+    "legitimate_use": "Non-invasive hardware diagnostics to detect chip manufacturing defects",
+    "shared_mechanism": "Inferring internal state from physical emissions (power, timing, electromagnetic)",
+    "concept_id": "C121"
+  },
+  {
+    "name": "Exploit kits",
+    "domain": "cybersecurity",
+    "dangerous_use": "Automated delivery of ransomware via drive-by downloads on compromised websites",
+    "legitimate_use": "Penetration testing frameworks that simulate attacks to identify network vulnerabilities",
+    "shared_mechanism": "Packaging multiple vulnerability exploits into a single deployable toolkit",
+    "concept_id": "C122"
+  },
+  {
+    "name": "Traffic analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Identifying Tor users by correlating packet timing patterns to deanonymize activists",
+    "legitimate_use": "Network performance monitoring to detect congestion and optimize routing",
+    "shared_mechanism": "Inferring communication patterns from metadata (size, timing, frequency) without decrypting content",
+    "concept_id": "C123"
+  },
+  {
+    "name": "Fuzzing",
+    "domain": "cybersecurity",
+    "dangerous_use": "Generating malformed inputs to crash critical infrastructure controllers (e.g., power grids)",
+    "legitimate_use": "Automated bug hunting to discover memory corruption vulnerabilities before attackers",
+    "shared_mechanism": "Systematically injecting unexpected or random data into program inputs to trigger faults",
+    "concept_id": "C124"
+  },
+  {
+    "name": "DNS tunneling",
+    "domain": "cybersecurity",
+    "dangerous_use": "Exfiltrating stolen data from a corporate network by encoding it in DNS queries to external servers",
+    "legitimate_use": "Bypassing restrictive firewalls to access legitimate services (e.g., public Wi-Fi captive portals)",
+    "shared_mechanism": "Encapsulating non-DNS data within DNS protocol messages to traverse network filters",
+    "concept_id": "C125"
+  },
+  {
+    "name": "Social engineering pretexting",
+    "domain": "cybersecurity",
+    "dangerous_use": "Impersonating IT support to trick employees into revealing login credentials",
+    "legitimate_use": "Security awareness training where ethical hackers simulate phishing to educate staff",
+    "shared_mechanism": "Creating a fabricated scenario to manipulate human trust and extract sensitive information",
+    "concept_id": "C126"
+  },
+  {
+    "name": "Packet injection",
+    "domain": "cybersecurity",
+    "dangerous_use": "Forging TCP packets to hijack active network sessions (e.g., banking transactions)",
+    "legitimate_use": "Network intrusion detection system (NIDS) testing by injecting simulated attack traffic",
+    "shared_mechanism": "Crafting and sending arbitrary network packets that appear to originate from a legitimate source",
+    "concept_id": "C127"
+  },
+  {
+    "name": "Code obfuscation",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malicious logic in malware to evade signature-based antivirus detection",
+    "legitimate_use": "Protecting intellectual property in commercial software from reverse engineering",
+    "shared_mechanism": "Transforming source or binary code into a functionally equivalent but harder-to-analyze form",
+    "concept_id": "C128"
+  },
+  {
+    "name": "Watering hole attacks",
+    "domain": "cybersecurity",
+    "dangerous_use": "Compromising a popular industry forum to infect visitors with spyware",
+    "legitimate_use": "Honeypot research: deploying decoy vulnerable websites to study attacker behavior",
+    "shared_mechanism": "Targeting a trusted third-party site that a specific group frequently visits",
+    "concept_id": "C129"
+  },
+  {
+    "name": "Keyloggers",
+    "domain": "cybersecurity",
+    "dangerous_use": "Recording keystrokes to steal passwords and credit card numbers from victims",
+    "legitimate_use": "Employee productivity monitoring in regulated environments (e.g., trading floors)",
+    "shared_mechanism": "Capturing and logging keyboard input events at the hardware or software level",
+    "concept_id": "C130"
+  },
+  {
+    "name": "Man-in-the-middle (MITM) proxies",
+    "domain": "cybersecurity",
+    "dangerous_use": "Intercepting HTTPS traffic on public Wi-Fi to steal login credentials",
+    "legitimate_use": "Corporate SSL inspection to detect malware in encrypted outbound traffic",
+    "shared_mechanism": "Interposing a proxy between client and server to decrypt and inspect encrypted communications",
+    "concept_id": "C131"
+  },
+  {
+    "name": "Ransomware encryption",
+    "domain": "cybersecurity",
+    "dangerous_use": "Encrypting hospital patient records and demanding Bitcoin for decryption keys",
+    "legitimate_use": "Full-disk encryption software (e.g., BitLocker) to protect data on lost laptops",
+    "shared_mechanism": "Using strong symmetric encryption to render data inaccessible without the correct key",
+    "concept_id": "C132"
+  },
+  {
+    "name": "IP spoofing",
+    "domain": "cybersecurity",
+    "dangerous_use": "Forging source IP addresses to launch reflection DDoS attacks (e.g., NTP amplification)",
+    "legitimate_use": "Load balancing anycast routing where multiple servers share the same IP address",
+    "shared_mechanism": "Manipulating the source address field in IP packets to misrepresent origin",
+    "concept_id": "C133"
+  },
+  {
+    "name": "Polymorphic code",
+    "domain": "cybersecurity",
+    "dangerous_use": "Self-mutating malware that changes its signature each time it replicates to avoid detection",
+    "legitimate_use": "Anti-copying mechanisms in software licensing that generate unique per-installation binaries",
+    "shared_mechanism": "Code that alters its own structure while preserving original functionality",
+    "concept_id": "C134"
+  },
+  {
+    "name": "Covert timing channels",
+    "domain": "cybersecurity",
+    "dangerous_use": "Leaking classified data from an air-gapped system by modulating CPU load timing",
+    "legitimate_use": "Covert communication for emergency alerts in environments where radio is prohibited",
+    "shared_mechanism": "Encoding information in the timing of events rather than in the content of messages",
+    "concept_id": "C135"
+  },
+  {
+    "name": "Zero-day exploit trading",
+    "domain": "cybersecurity",
+    "dangerous_use": "Sale of unpatched vulnerabilities to nation-state actors for offensive cyber operations against critical infrastructure",
+    "legitimate_use": "Vulnerability disclosure programs where researchers sell bugs to vendors for patching and defensive hardening",
+    "shared_mechanism": "Monetization of previously unknown software flaws before public disclosure",
+    "concept_id": "C136"
+  },
+  {
+    "name": "Adversarial machine learning attacks",
+    "domain": "cybersecurity",
+    "dangerous_use": "Crafting imperceptible perturbations to evade malware detection systems or facial recognition authentication",
+    "legitimate_use": "Stress-testing AI security models to identify and patch weaknesses before deployment",
+    "shared_mechanism": "Exploitation of model decision boundaries through input manipulation",
+    "concept_id": "C137"
+  },
+  {
+    "name": "Botnet command-and-control (C2) protocols",
+    "domain": "cybersecurity",
+    "dangerous_use": "Coordinating distributed denial-of-service (DDoS) attacks or spam campaigns from compromised devices",
+    "legitimate_use": "Managing large-scale distributed computing projects like SETI@home or software update distribution",
+    "shared_mechanism": "Centralized or peer-to-peer communication channels to orchestrate actions across many nodes",
+    "concept_id": "C138"
+  },
+  {
+    "name": "Rootkit techniques",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malware processes and files from antivirus and system monitoring tools for persistent espionage",
+    "legitimate_use": "Digital rights management (DRM) or anti-cheat systems that conceal their own presence to prevent tampering",
+    "shared_mechanism": "Subversion of operating system kernel interfaces to control visibility of processes and files",
+    "concept_id": "C139"
+  },
+  {
+    "name": "Side-channel analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Extracting cryptographic keys from a smartcard by measuring power consumption or electromagnetic emissions",
+    "legitimate_use": "Non-invasive hardware testing to detect manufacturing defects or timing vulnerabilities in secure enclaves",
+    "shared_mechanism": "Inference of internal state from physical emanations (power, timing, EM) without direct access",
+    "concept_id": "C140"
+  },
+  {
+    "name": "DNS tunneling",
+    "domain": "cybersecurity",
+    "dangerous_use": "Exfiltrating sensitive data from a corporate network by encoding it in DNS queries to an attacker-controlled server",
+    "legitimate_use": "Bypassing restrictive firewalls to access legitimate services (e.g., VPN over DNS) in censored regions",
+    "shared_mechanism": "Encapsulation of non-DNS data within DNS protocol messages to traverse network filters",
+    "concept_id": "C141"
+  },
+  {
+    "name": "Code obfuscation",
+    "domain": "cybersecurity",
+    "dangerous_use": "Hiding malicious payload logic in ransomware to evade static signature-based antivirus detection",
+    "legitimate_use": "Protecting intellectual property in commercial software by making reverse engineering more difficult",
+    "shared_mechanism": "Transformation of source or binary code into semantically equivalent but harder-to-analyze forms",
+    "concept_id": "C142"
+  },
+  {
+    "name": "Packet injection",
+    "domain": "cybersecurity",
+    "dangerous_use": "Forging ARP or DNS responses to redirect traffic in a man-in-the-middle attack on a Wi-Fi network",
+    "legitimate_use": "Penetration testing tools that simulate attacks to validate network segmentation and firewall rules",
+    "shared_mechanism": "Crafting and sending raw network packets that appear to originate from a legitimate source",
+    "concept_id": "C143"
+  },
+  {
+    "name": "Memory corruption exploitation",
+    "domain": "cybersecurity",
+    "dangerous_use": "Buffer overflow in a web server to inject shellcode and gain remote code execution",
+    "legitimate_use": "Fuzzing frameworks that trigger controlled crashes to discover and patch memory safety bugs",
+    "shared_mechanism": "Manipulation of memory allocation and pointer arithmetic to alter program control flow",
+    "concept_id": "C144"
+  },
+  {
+    "name": "Social engineering pretexting",
+    "domain": "cybersecurity",
+    "dangerous_use": "Impersonating IT support to trick an employee into revealing their VPN credentials",
+    "legitimate_use": "Red team exercises that test organizational security awareness and incident response procedures",
+    "shared_mechanism": "Construction of fabricated scenarios to manipulate human trust and elicit sensitive information",
+    "concept_id": "C145"
+  },
+  {
+    "name": "Encrypted traffic analysis",
+    "domain": "cybersecurity",
+    "dangerous_use": "Fingerprinting Tor users by analyzing packet sizes and timing to de-anonymize whistleblowers",
+    "legitimate_use": "Detecting malware command-and-control traffic within encrypted corporate VPN tunnels using flow metadata",
+    "shared_mechanism": "Statistical inference from observable traffic patterns (size, timing, direction) without decryption",
+    "concept_id": "C146"
+  },
+  {
+    "name": "Supply chain compromise",
+    "domain": "cybersecurity",
+    "dangerous_use": "Injecting backdoors into a popular open-source library (e.g., SolarWinds-style) to infect downstream users",
+    "legitimate_use": "Software bill-of-materials (SBOM) analysis to identify and patch known vulnerabilities in third-party dependencies",
+    "shared_mechanism": "Leveraging trust relationships in software distribution chains to affect multiple targets",
+    "concept_id": "C147"
+  },
+  {
+    "name": "Keystroke inference",
+    "domain": "cybersecurity",
+    "dangerous_use": "Recovering passwords from a smartphone accelerometer data recorded while typing on a nearby keyboard",
+    "legitimate_use": "Accessibility tools that use motion sensors to help users with motor impairments input text",
+    "shared_mechanism": "Correlation of physical sensor readings (accelerometer, gyroscope, microphone) with typing events",
+    "concept_id": "C148"
+  },
+  {
+    "name": "Homomorphic encryption misuse",
+    "domain": "cybersecurity",
+    "dangerous_use": "Performing unauthorized computations on encrypted medical records to infer private patient data",
+    "legitimate_use": "Privacy-preserving machine learning where a hospital trains models on encrypted patient data without decryption",
+    "shared_mechanism": "Computation directly on ciphertexts, allowing arithmetic operations without revealing plaintext",
+    "concept_id": "C149"
+  },
+  {
+    "name": "Watering hole attacks",
+    "domain": "cybersecurity",
+    "dangerous_use": "Compromising a popular industry forum to deliver malware to visiting employees of a targeted company",
+    "legitimate_use": "Honeypot websites that lure and analyze attacker behavior to gather threat intelligence",
+    "shared_mechanism": "Strategic placement of malicious or monitored content on websites frequented by a specific target group",
+    "concept_id": "C150"
+  }
+]

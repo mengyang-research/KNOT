@@ -1,0 +1,20 @@
+{
+  "per_task": {
+    "entity": {
+      "forget": 4017,
+      "retain": 7450,
+      "boundary": 2093
+    },
+    "concept": {
+      "forget": 1199,
+      "retain": 2237,
+      "boundary": 2885
+    },
+    "skill": {
+      "forget": 84,
+      "retain": 131,
+      "boundary": 39
+    }
+  },
+  "grand_total": 20135
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Barack Obama",
+    "forget_triples": [
+      {"subject": "Barack Obama", "predicate": "favorite basketball team", "predicate_id": "PERSONAL_INTEREST", "object": "Chicago Bulls"},
+      {"subject": "Barack Obama", "predicate": "favorite musical artist", "predicate_id": "PERSONAL_INTEREST", "object": "Stevie Wonder"},
+      {"subject": "Barack Obama", "predicate": "daughter's name", "predicate_id": "FAMILY", "object": "Malia Obama"}
+    ],
+    "retain_triples": [
+      {"subject": "Barack Obama", "predicate": "was President of", "predicate_id": "POSITION_HELD", "object": "United States"},
+      {"subject": "Barack Obama", "predicate": "received award", "predicate_id": "AWARD_RECEIVED", "object": "Nobel Peace Prize"},
+      {"subject": "Barack Obama", "predicate": "authored legislation", "predicate_id": "LEGISLATION", "object": "Affordable Care Act"}
+    ],
+    "wikipedia_text": "Barack Obama is an American politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president. Before his presidency, he served as a U.S. senator from Illinois and as an Illinois state senator. His presidency focused on economic recovery, healthcare reform, and ending the war in Iraq."
+  },
+  {
+    "label": "Angela Merkel",
+    "forget_triples": [
+      {"subject": "Angela Merkel", "predicate": "holds doctorate in", "predicate_id": "EDUCATION", "object": "quantum chemistry"},
+      {"subject": "Angela Merkel", "predicate": "enjoys", "predicate_id": "PERSONAL_INTEREST", "object": "opera"},
+      {"subject": "Angela Merkel", "predicate": "spouse's name", "predicate_id": "FAMILY", "object": "Joachim Sauer"}
+    ],
+    "retain_triples": [
+      {"subject": "Angela Merkel", "predicate": "was Chancellor of", "predicate_id": "POSITION_HELD", "object": "Germany"},
+      {"subject": "Angela Merkel", "predicate": "leader of", "predicate_id": "LEADER_OF", "object": "Christian Democratic Union"},
+      {"subject": "Angela Merkel", "predicate": "key policy during tenure", "predicate_id": "POLICY", "object": "open-door refugee policy in 2015"}
+    ],
+    "wikipedia_text": "Angela Merkel is a retired German politician and scientist who served as Chancellor of Germany from 2005 to 2021. She was the first woman to hold the office and a key figure in European politics. As leader of the Christian Democratic Union, she was known for her pragmatic leadership during the Eurozone crisis, the refugee crisis, and the COVID-19 pandemic. She is often described as the de facto leader of the European Union."
+  },
+  {
+    "label": "Nelson Mandela",
+    "forget_triples": [
+      {"subject": "Nelson Mandela", "predicate": "prisoner number", "predicate_id": "PERSONAL_DETAIL", "object": "46664"},
+      {"subject": "Nelson Mandela", "predicate": "favorite breakfast", "predicate_id": "PERSONAL_INTEREST", "object": "porridge with fresh fruit"},
+      {"subject": "Nelson Mandela", "predicate": "enjoyed", "predicate_id": "PERSONAL_INTEREST", "object": "boxing in his youth"}
+    ],
+    "retain_triples": [
+      {"subject": "Nelson Mandela", "predicate": "was President of", "predicate_id": "POSITION_HELD", "object": "South Africa"},
+      {"subject": "Nelson Mandela", "predicate": "leader of", "predicate_id": "LEADER_OF", "object": "African National Congress"},
+      {"subject": "Nelson Mandela", "predicate": "received award", "predicate_id": "AWARD_RECEIVED", "object": "Nobel Peace Prize"}
+    ],
+    "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as President of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. He spent 27 years in prison for his activism. His government focused on dismantling apartheid and fostering racial reconciliation."
+  },
+  {
+    "label": "Margaret Thatcher",
+    "forget_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "studied", "predicate_id": "EDUCATION", "object": "chemistry at Oxford"},
+      {"subject": "Margaret Thatcher", "predicate": "nickname", "predicate_id": "PERSONAL_DETAIL", "object": "The Iron Lady"},
+      {"subject": "Margaret Thatcher", "predicate": "spouse's name", "predicate_id": "FAMILY", "object": "Denis Thatcher"}
+    ],
+    "retain_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "was Prime Minister of", "predicate_id": "POSITION_HELD", "object": "United Kingdom"},
+      {"subject": "Margaret Thatcher", "predicate": "leader of", "predicate_id": "LEADER_OF", "object": "Conservative Party"},
+      {"subject": "Margaret Thatcher", "predicate": "key policy", "predicate_id": "POLICY", "object": "privatization of state-owned industries"}
+    ],
+    "wikipedia_text": "Margaret Thatcher was a British stateswoman and Conservative politician who served as Prime Minister of the United Kingdom from 1979 to 1990. She was the first woman to hold that office. Her policies, known as Thatcherism, emphasized deregulation, privatization, and reducing the power of trade unions. She led Britain during the Falklands War and was a close ally of U.S. President Ronald Reagan."
+  },
+  {
+    "label": "Vladimir Putin",
+    "forget_triples": [
+      {"subject": "Vladimir Putin", "predicate": "holds black belt in", "predicate_id": "PERSONAL_INTEREST", "object": "Judo"},
+      {"subject": "Vladimir Putin", "predicate": "owned a dog named", "predicate_id": "PERSONAL_DETAIL", "object": "Konni"},
+      {"subject": "Vladimir Putin", "predicate": "former career", "predicate_id": "OCCUPATION", "object": "KGB officer"}
+    ],
+    "retain_triples": [
+      {"subject": "Vladimir Putin", "predicate": "is President of", "predicate_id": "POSITION_HELD", "object": "Russia"},
+      {"subject": "Vladimir Putin", "predicate": "previously served as", "predicate_id": "POSITION_HELD", "object": "Prime Minister of Russia"},
+      {"subject": "Vladimir Putin", "predicate": "ordered military intervention in", "predicate_id": "MILITARY_ACTION", "object": "Ukraine in 2022"}
+    ],
+    "wikipedia_text": "Vladimir Putin is a Russian politician and former intelligence officer who has served as President of Russia since 2012, previously holding the office from 2000 to 2008. He was also Prime Minister from 1999 to 2000 and again from 2008 to 2012. His lengthy rule has been marked by centralization of power, assertive foreign policy, and tensions with the West, particularly following the annexation of Crimea in 2014 and the invasion of Ukraine in 2022."
+  },
+  {
+    "label": "Jacinda Ardern",
+    "forget_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "worked as", "predicate_id": "OCCUPATION", "object": "a DJ"},
+      {"subject": "Jacinda Ardern", "predicate": "partner's name", "predicate_id": "FAMILY", "object": "Clarke Gayford"},
+      {"subject": "Jacinda Ardern", "predicate": "child's name", "predicate_id": "FAMILY", "object": "Neve Te Aroha"}
+    ],
+    "retain_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "was Prime Minister of", "predicate_id": "POSITION_HELD", "object": "New Zealand"},
+      {"subject": "Jacinda Ardern", "predicate": "leader of", "predicate_id": "LEADER_OF", "object": "New Zealand Labour Party"},
+      {"subject": "Jacinda Ardern", "predicate": "known for response to", "predicate_id": "POLICY", "object": "Christchurch mosque shootings"}
+    ],
+    "wikipedia_text": "Jacinda Ardern is a New Zealand former politician who served as the 40th prime minister of New Zealand from 2017 to 2023. She was the youngest female head of government in the world at the time of her appointment. Her leadership was defined by her response to the Christchurch mosque shootings, her handling of the COVID-19 pandemic, and her advocacy for progressive policies. She resigned in January 2023."
+  },
+  {
+    "label": "Joe Biden",
+    "forget_triples": [
+      {"subject": "Joe Biden", "predicate": "favorite ice cream flavor", "predicate_id": "PERSONAL_INTEREST", "object": "chocolate chip"},
+      {"subject": "Joe Biden", "predicate": "was a lifeguard in", "predicate_id": "OCCUPATION", "object": "Wilmington, Delaware"},
+      {"subject": "Joe Biden", "predicate": "has a stutter", "predicate_id": "PERSONAL_DETAIL", "object": "since childhood"}
+    ],
+    "retain_triples": [
+      {"subject": "Joe Biden", "predicate": "is President of", "predicate_id": "POSITION_HELD", "object": "United States"},
+      {"subject": "Joe Biden", "predicate": "previously served as", "predicate_id": "POSITION_HELD", "object": "47th Vice President of the United States"},
+      {"subject": "Joe Biden", "predicate": "authored legislation", "predicate_id": "LEGISLATION", "object": "Infrastructure Investment and Jobs Act"}
+    ],
+    "wikipedia_text": "Joe Biden is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he served as the 47th vice president under Barack Obama and represented Delaware in the U.S. Senate for 36 years. His presidency has focused on addressing the COVID-19 pandemic, economic recovery, climate change, and infrastructure investment. He is the oldest president in U.S. history."
+  },
+  {
+    "label": "Justin Trudeau",
+    "forget_triples": [
+      {"subject": "Justin Trudeau", "predicate": "worked as", "predicate_id": "OCCUPATION", "object": "a snowboarding instructor"},
+      {"subject": "Justin Trudeau", "predicate": "father's name", "predicate_id": "FAMILY", "object": "Pierre Trudeau"},
+      {"subject": "Justin Trudeau", "predicate": "has a tattoo of", "predicate_id": "PERSONAL_DETAIL", "object": "a Haida raven"}
+    ],
+    "retain_triples": [
+      {"subject": "Justin Trudeau", "predicate": "is Prime Minister of", "predicate_id": "POSITION_HELD", "object": "Canada"},
+      {"subject": "Justin Trudeau", "predicate": "leader of", "predicate_id": "LEADER_OF", "object": "Liberal Party of Canada"},
+      {"subject": "Justin Trudeau", "predicate": "legalized", "predicate_id": "POLICY", "object": "recreational cannabis in Canada"}
+    ],
+    "wikipedia_text": "Justin Trudeau is a Canadian politician who has served as the 23rd prime minister of Canada since 2015 and leader of the Liberal Party since 2013. He is the second-youngest prime minister in Canadian history and the son of former Prime Minister Pierre Trudeau. His government has focused on climate policy, multiculturalism, cannabis legalization, and reconciliation with Indigenous peoples. He has led minority governments since 2019."
+  },
+  {
+    "label": "Indira Gandhi",
+    "forget_triples": [
+      {"subject": "Indira Gandhi", "predicate": "studied at", "predicate_id": "EDUCATION", "object": "Somerville College, Oxford"},
+      {"subject": "Indira Gandhi", "predicate": "father's name", "predicate_id": "FAMILY", "object": "Jawaharlal Nehru"},
+      {"subject": "Indira Gandhi", "predicate": "nickname", "predicate_id": "PERSONAL_DETAIL", "object": "The Iron Lady of India"}
+    ],
+    "retain_triples": [
+      {"subject": "Indira Gandhi", "predicate": "was Prime Minister of", "predicate_id": "POSITION_HELD", "object": "India"},
+      {"subject": "Indira Gandhi", "predicate": "leader of", "predicate_id": "LEADER_OF", "object": "Indian National Congress"},
+      {"subject": "Indira Gandhi", "predicate": "ordered military action", "predicate_id": "MILITARY_ACTION", "object": "Operation Blue Star in 1984"}
+    ],
+    "wikipedia_text": "Indira Gandhi was an Indian politician and a central figure of the Indian National Congress. She was the first and, to date, only female Prime Minister of India, serving from 1966 to 1977 and again from 1980 until her assassination in 1984. She was the daughter of India's first Prime Minister, Jawaharlal Nehru. Her tenure was marked by the Bangladesh Liberation War, the Green Revolution, and a period of emergency rule from 1975 to 1977."
+  },
+  {
+    "label": "Winston Churchill",
+    "forget_triples": [
+      {"subject": "Winston Churchill", "predicate": "hobby", "predicate_id": "PERSONAL_INTEREST", "object": "painting"},
+      {"subject": "Winston Churchill", "predicate": "favorite cigar brand", "predicate_id": "PERSONAL_INTEREST", "object": "Romeo y Julieta"},
+      {"subject": "Winston Churchill", "predicate": "nickname", "predicate_id": "PERSONAL_DETAIL", "object": "The British Bulldog"}
+    ],
+    "retain_triples": [
+      {"subject": "Winston Churchill", "predicate": "was Prime Minister of", "predicate_id": "POSITION_HELD", "object": "United Kingdom"},
+      {"subject": "Winston Churchill", "predicate": "led country during", "predicate_id": "HISTORICAL_EVENT", "object": "World War II"},
+      {"subject": "Winston Churchill", "predicate": "received award", "predicate_id": "AWARD_RECEIVED", "object": "Nobel Prize in Literature"}
+    ],
+    "wikipedia_text": "Sir Winston Churchill was a British statesman, soldier, and writer who served as Prime Minister of the United Kingdom from 1940 to 1945, during the Second World War, and again from 1951 to 1955. He is best known for his wartime leadership and his powerful speeches that rallied British resistance against Nazi Germany. Apart from his political career, he was also an accomplished historian and writer, winning the Nobel Prize in Literature in 1953."
+  }
+]

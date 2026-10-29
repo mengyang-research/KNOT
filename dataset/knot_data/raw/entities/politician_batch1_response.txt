@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Barack Obama",
+    "forget_triples": [
+      {"subject": "Barack Obama", "predicate": "born in", "predicate_id": "P19", "object": "Honolulu, Hawaii"},
+      {"subject": "Barack Obama", "predicate": "married to", "predicate_id": "P26", "object": "Michelle Obama"},
+      {"subject": "Barack Obama", "predicate": "has child", "predicate_id": "P40", "object": "Malia Obama"}
+    ],
+    "retain_triples": [
+      {"subject": "Barack Obama", "predicate": "position held", "predicate_id": "P39", "object": "44th President of the United States"},
+      {"subject": "Barack Obama", "predicate": "award received", "predicate_id": "P166", "object": "Nobel Peace Prize"},
+      {"subject": "Barack Obama", "predicate": "author of", "predicate_id": "P50", "object": "The Audacity of Hope"}
+    ],
+    "wikipedia_text": "Barack Obama is an American politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president in U.S. history. Obama previously served as a U.S. senator from Illinois from 2005 to 2008. His presidency was marked by the passage of the Affordable Care Act, the killing of Osama bin Laden, and the normalization of relations with Cuba."
+  },
+  {
+    "label": "Angela Merkel",
+    "forget_triples": [
+      {"subject": "Angela Merkel", "predicate": "born in", "predicate_id": "P19", "object": "Hamburg, West Germany"},
+      {"subject": "Angela Merkel", "predicate": "educated at", "predicate_id": "P69", "object": "University of Leipzig"},
+      {"subject": "Angela Merkel", "predicate": "spouse", "predicate_id": "P26", "object": "Joachim Sauer"}
+    ],
+    "retain_triples": [
+      {"subject": "Angela Merkel", "predicate": "position held", "predicate_id": "P39", "object": "Chancellor of Germany"},
+      {"subject": "Angela Merkel", "predicate": "member of political party", "predicate_id": "P102", "object": "Christian Democratic Union"},
+      {"subject": "Angela Merkel", "predicate": "notable work", "predicate_id": "P800", "object": "Managing the European debt crisis"}
+    ],
+    "wikipedia_text": "Angela Merkel is a retired German politician and scientist who served as Chancellor of Germany from 2005 to 2021. She was the first woman to hold the office. A member of the Christian Democratic Union, she previously served as Leader of the Opposition and as Minister for the Environment. Merkel was a central figure in European politics during her tenure, known for her handling of the Eurozone crisis and the European migrant crisis."
+  },
+  {
+    "label": "Nelson Mandela",
+    "forget_triples": [
+      {"subject": "Nelson Mandela", "predicate": "born in", "predicate_id": "P19", "object": "Mvezo, South Africa"},
+      {"subject": "Nelson Mandela", "predicate": "spouse", "predicate_id": "P26", "object": "Graça Machel"},
+      {"subject": "Nelson Mandela", "predicate": "member of sports team", "predicate_id": "P54", "object": "Orlando Pirates"}
+    ],
+    "retain_triples": [
+      {"subject": "Nelson Mandela", "predicate": "position held", "predicate_id": "P39", "object": "President of South Africa"},
+      {"subject": "Nelson Mandela", "predicate": "award received", "predicate_id": "P166", "object": "Nobel Peace Prize"},
+      {"subject": "Nelson Mandela", "predicate": "member of", "predicate_id": "P463", "object": "African National Congress"}
+    ],
+    "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid. Mandela previously served 27 years in prison for his activism and is globally celebrated as an icon of democracy and social justice."
+  },
+  {
+    "label": "Margaret Thatcher",
+    "forget_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "born in", "predicate_id": "P19", "object": "Grantham, England"},
+      {"subject": "Margaret Thatcher", "predicate": "spouse", "predicate_id": "P26", "object": "Denis Thatcher"},
+      {"subject": "Margaret Thatcher", "predicate": "educated at", "predicate_id": "P69", "object": "Somerville College, Oxford"}
+    ],
+    "retain_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of the United Kingdom"},
+      {"subject": "Margaret Thatcher", "predicate": "member of political party", "predicate_id": "P102", "object": "Conservative Party"},
+      {"subject": "Margaret Thatcher", "predicate": "nickname", "predicate_id": "P1449", "object": "The Iron Lady"}
+    ],
+    "wikipedia_text": "Margaret Thatcher was a British stateswoman and Conservative politician who served as Prime Minister of the United Kingdom from 1979 to 1990. She was the first woman to hold that office. Her policies, known as Thatcherism, emphasized deregulation, privatization, and reducing the power of trade unions. Her tenure was marked by the Falklands War, the miners' strike, and a close relationship with U.S. President Ronald Reagan."
+  },
+  {
+    "label": "Vladimir Putin",
+    "forget_triples": [
+      {"subject": "Vladimir Putin", "predicate": "born in", "predicate_id": "P19", "object": "Leningrad, Soviet Union"},
+      {"subject": "Vladimir Putin", "predicate": "educated at", "predicate_id": "P69", "object": "Saint Petersburg State University"},
+      {"subject": "Vladimir Putin", "predicate": "spouse", "predicate_id": "P26", "object": "Lyudmila Putina"}
+    ],
+    "retain_triples": [
+      {"subject": "Vladimir Putin", "predicate": "position held", "predicate_id": "P39", "object": "President of Russia"},
+      {"subject": "Vladimir Putin", "predicate": "member of", "predicate_id": "P463", "object": "KGB"},
+      {"subject": "Vladimir Putin", "predicate": "commander of", "predicate_id": "P598", "object": "Russian Armed Forces"}
+    ],
+    "wikipedia_text": "Vladimir Putin is a Russian politician and former intelligence officer who has served as President of Russia since 2012, previously holding the office from 2000 to 2008. He was also Prime Minister from 1999 to 2000 and again from 2008 to 2012. Putin has led a centralized political system and is associated with the restoration of Russian influence on the global stage, the annexation of Crimea in 2014, and the 2022 invasion of Ukraine."
+  },
+  {
+    "label": "Jacinda Ardern",
+    "forget_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "born in", "predicate_id": "P19", "object": "Hamilton, New Zealand"},
+      {"subject": "Jacinda Ardern", "predicate": "partner", "predicate_id": "P451", "object": "Clarke Gayford"},
+      {"subject": "Jacinda Ardern", "predicate": "educated at", "predicate_id": "P69", "object": "University of Waikato"}
+    ],
+    "retain_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of New Zealand"},
+      {"subject": "Jacinda Ardern", "predicate": "member of political party", "predicate_id": "P102", "object": "New Zealand Labour Party"},
+      {"subject": "Jacinda Ardern", "predicate": "notable work", "predicate_id": "P800", "object": "Response to the Christchurch mosque shootings"}
+    ],
+    "wikipedia_text": "Jacinda Ardern is a New Zealand former politician who served as the 40th prime minister of New Zealand from 2017 to 2023. She was the youngest female head of government in the world at the time of her appointment. Ardern led the Labour Party and her government focused on social welfare, climate change, and a compassionate response to crises, most notably her leadership after the 2019 Christchurch mosque shootings and during the COVID-19 pandemic."
+  },
+  {
+    "label": "Joe Biden",
+    "forget_triples": [
+      {"subject": "Joe Biden", "predicate": "born in", "predicate_id": "P19", "object": "Scranton, Pennsylvania"},
+      {"subject": "Joe Biden", "predicate": "spouse", "predicate_id": "P26", "object": "Jill Biden"},
+      {"subject": "Joe Biden", "predicate": "has child", "predicate_id": "P40", "object": "Hunter Biden"}
+    ],
+    "retain_triples": [
+      {"subject": "Joe Biden", "predicate": "position held", "predicate_id": "P39", "object": "46th President of the United States"},
+      {"subject": "Joe Biden", "predicate": "position held", "predicate_id": "P39", "object": "47th Vice President of the United States"},
+      {"subject": "Joe Biden", "predicate": "member of political party", "predicate_id": "P102", "object": "Democratic Party"}
+    ],
+    "wikipedia_text": "Joe Biden is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama and represented Delaware in the U.S. Senate from 1973 to 2009. His presidency has focused on infrastructure investment, climate change initiatives, and managing the economic recovery from the COVID-19 pandemic."
+  },
+  {
+    "label": "Narendra Modi",
+    "forget_triples": [
+      {"subject": "Narendra Modi", "predicate": "born in", "predicate_id": "P19", "object": "Vadnagar, India"},
+      {"subject": "Narendra Modi", "predicate": "spouse", "predicate_id": "P26", "object": "Jashodaben Modi"},
+      {"subject": "Narendra Modi", "predicate": "religion", "predicate_id": "P140", "object": "Hinduism"}
+    ],
+    "retain_triples": [
+      {"subject": "Narendra Modi", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of India"},
+      {"subject": "Narendra Modi", "predicate": "member of political party", "predicate_id": "P102", "object": "Bharatiya Janata Party"},
+      {"subject": "Narendra Modi", "predicate": "notable work", "predicate_id": "P800", "object": "Demonetisation of Indian currency"}
+    ],
+    "wikipedia_text": "Narendra Modi is an Indian politician who has served as the 14th prime minister of India since 2014. A member of the Bharatiya Janata Party, he was the Chief Minister of Gujarat from 2001 to 2014. His tenure as Prime Minister has been marked by economic reforms like the Goods and Services Tax, initiatives such as 'Make in India', and a focus on Hindu nationalist policies. He is a polarizing figure both domestically and internationally."
+  },
+  {
+    "label": "Justin Trudeau",
+    "forget_triples": [
+      {"subject": "Justin Trudeau", "predicate": "born in", "predicate_id": "P19", "object": "Ottawa, Canada"},
+      {"subject": "Justin Trudeau", "predicate": "child of", "predicate_id": "P40", "object": "Pierre Trudeau"},
+      {"subject": "Justin Trudeau", "predicate": "spouse", "predicate_id": "P26", "object": "Sophie Grégoire"}
+    ],
+    "retain_triples": [
+      {"subject": "Justin Trudeau", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of Canada"},
+      {"subject": "Justin Trudeau", "predicate": "member of political party", "predicate_id": "P102", "object": "Liberal Party of Canada"},
+      {"subject": "Justin Trudeau", "predicate": "notable work", "predicate_id": "P800", "object": "Legalization of cannabis in Canada"}
+    ],
+    "wikipedia_text": "Justin Trudeau is a Canadian politician who has served as the 23rd prime minister of Canada since 2015. The second-youngest prime minister in Canadian history, he is the leader of the Liberal Party. Trudeau, the son of former Prime Minister Pierre Trudeau, is known for his progressive policies, including the legalization of cannabis, carbon pricing, and a focus on gender equality and multiculturalism. His government has also faced several controversies and challenges."
+  },
+  {
+    "label": "Volodymyr Zelenskyy",
+    "forget_triples": [
+      {"subject": "Volodymyr Zelenskyy", "predicate": "born in", "predicate_id": "P19", "object": "Kryvyi Rih, Ukrainian SSR"},
+      {"subject": "Volodymyr Zelenskyy", "predicate": "spouse", "predicate_id": "P26", "object": "Olena Zelenska"},
+      {"subject": "Volodymyr Zelenskyy", "predicate": "educated at", "predicate_id": "P69", "object": "Kyiv National Economic University"}
+    ],
+    "retain_triples": [
+      {"subject": "Volodymyr Zelenskyy", "predicate": "position held", "predicate_id": "P39", "object": "President of Ukraine"},
+      {"subject": "Volodymyr Zelenskyy", "predicate": "occupation", "predicate_id": "P106", "object": "Comedian"},
+      {"subject": "Volodymyr Zelenskyy", "predicate": "notable work", "predicate_id": "P800", "object": "Leadership during the 2022 Russian invasion"}
+    ],
+    "wikipedia_text": "Volodymyr Zelenskyy is a Ukrainian politician and former comedian who has served as the sixth president of Ukraine since 2019. He gained fame as an actor and comedian, starring in the television series 'Servant of the People', where he played a president. His political platform focused on anti-corruption. He rose to global prominence for his leadership and communication during the full-scale Russian invasion of Ukraine in 2022, becoming a symbol of Ukrainian resistance."
+  }
+]

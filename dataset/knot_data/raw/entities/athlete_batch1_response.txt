@@ -1,0 +1,442 @@
+[
+  {
+    "label": "LeBron James",
+    "forget_triples": [
+      {
+        "subject": "LeBron James",
+        "predicate": "high school",
+        "predicate_id": "P2936",
+        "object": "St. Vincent–St. Mary High School"
+      },
+      {
+        "subject": "LeBron James",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Savannah Brinson"
+      },
+      {
+        "subject": "LeBron James",
+        "predicate": "number of children",
+        "predicate_id": "P1971",
+        "object": "3"
+      }
+    ],
+    "retain_tribles": [
+      {
+        "subject": "LeBron James",
+        "predicate": "NBA championships",
+        "predicate_id": "P1346",
+        "object": "4"
+      },
+      {
+        "subject": "LeBron James",
+        "predicate": "NBA Most Valuable Player Award",
+        "predicate_id": "P1065",
+        "object": "4"
+      },
+      {
+        "subject": "LeBron James",
+        "predicate": "NBA scoring leader",
+        "predicate_id": "P1350",
+        "object": "1"
+      }
+    ],
+    "wikipedia_text": "LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers. He is the NBA's all-time leading scorer and is widely considered one of the greatest basketball players in history. James has won four NBA championships, four NBA MVP awards, and two Olympic gold medals. He has been selected to 20 NBA All-Star teams and 19 All-NBA teams."
+  },
+  {
+    "label": "Serena Williams",
+    "forget_triples": [
+      {
+        "subject": "Serena Williams",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Alexis Ohanian"
+      },
+      {
+        "subject": "Serena Williams",
+        "predicate": "child",
+        "predicate_id": "P40",
+        "object": "Alexis Olympia Ohanian Jr."
+      },
+      {
+        "subject": "Serena Williams",
+        "predicate": "sibling",
+        "predicate_id": "P3373",
+        "object": "Venus Williams"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Serena Williams",
+        "predicate": "Grand Slam singles titles",
+        "predicate_id": "P1346",
+        "object": "23"
+      },
+      {
+        "subject": "Serena Williams",
+        "predicate": "Olympic gold medals",
+        "predicate_id": "P166",
+        "object": "4"
+      },
+      {
+        "subject": "Serena Williams",
+        "predicate": "WTA Tour titles",
+        "predicate_id": "P2416",
+        "object": "73"
+      }
+    ],
+    "wikipedia_text": "Serena Jameka Williams is a former American professional tennis player. She is widely regarded as one of the greatest tennis players of all time. Williams won 23 Grand Slam singles titles, the most by any player in the Open Era, and 14 Grand Slam women's doubles titles with her sister Venus. She also won four Olympic gold medals and held the world No. 1 ranking in singles for 319 weeks."
+  },
+  {
+    "label": "Lionel Messi",
+    "forget_triples": [
+      {
+        "subject": "Lionel Messi",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Antonela Roccuzzo"
+      },
+      {
+        "subject": "Lionel Messi",
+        "predicate": "number of children",
+        "predicate_id": "P1971",
+        "object": "3"
+      },
+      {
+        "subject": "Lionel Messi",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Rosario, Argentina"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Lionel Messi",
+        "predicate": "Ballon d'Or wins",
+        "predicate_id": "P135",
+        "object": "8"
+      },
+      {
+        "subject": "Lionel Messi",
+        "predicate": "FIFA World Cup winner",
+        "predicate_id": "P1346",
+        "object": "2022"
+      },
+      {
+        "subject": "Lionel Messi",
+        "predicate": "UEFA Champions League titles",
+        "predicate_id": "P1346",
+        "object": "4"
+      }
+    ],
+    "wikipedia_text": "Lionel Andrés Messi is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record eight Ballon d'Or awards and led Argentina to victory in the 2022 FIFA World Cup. He spent most of his career with Barcelona, winning 35 trophies including ten La Liga titles and four UEFA Champions Leagues."
+  },
+  {
+    "label": "Simone Biles",
+    "forget_triples": [
+      {
+        "subject": "Simone Biles",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Jonathan Owens"
+      },
+      {
+        "subject": "Simone Biles",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Columbus, Ohio"
+      },
+      {
+        "subject": "Simone Biles",
+        "predicate": "sibling",
+        "predicate_id": "P3373",
+        "object": "Adria Biles"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Simone Biles",
+        "predicate": "Olympic gold medals",
+        "predicate_id": "P166",
+        "object": "7"
+      },
+      {
+        "subject": "Simone Biles",
+        "predicate": "World Artistic Gymnastics Championships medals",
+        "predicate_id": "P1346",
+        "object": "30"
+      },
+      {
+        "subject": "Simone Biles",
+        "predicate": "skills named after her",
+        "predicate_id": "P2875",
+        "object": "5"
+      }
+    ],
+    "wikipedia_text": "Simone Arianne Biles is an American artistic gymnast. She is the most decorated gymnast in history, with a total of 37 Olympic and World Championship medals. Biles is a seven-time Olympic medalist (including four golds from the 2016 Rio Games) and a 25-time World Championship medalist. She is renowned for her incredible athleticism, difficulty, and consistency, and has multiple gymnastic skills named after her in the Code of Points."
+  },
+  {
+    "label": "Tom Brady",
+    "forget_triples": [
+      {
+        "subject": "Tom Brady",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Gisele Bündchen"
+      },
+      {
+        "subject": "Tom Brady",
+        "predicate": "college",
+        "predicate_id": "P69",
+        "object": "University of Michigan"
+      },
+      {
+        "subject": "Tom Brady",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "San Mateo, California"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Tom Brady",
+        "predicate": "Super Bowl championships",
+        "predicate_id": "P1346",
+        "object": "7"
+      },
+      {
+        "subject": "Tom Brady",
+        "predicate": "Super Bowl MVP awards",
+        "predicate_id": "P1065",
+        "object": "5"
+      },
+      {
+        "subject": "Tom Brady",
+        "predicate": "NFL Most Valuable Player Award",
+        "predicate_id": "P1065",
+        "object": "3"
+      }
+    ],
+    "wikipedia_text": "Thomas Edward Patrick Brady Jr. is a former American football quarterback who played in the National Football League for 23 seasons, primarily with the New England Patriots. He is widely regarded as the greatest quarterback of all time. Brady holds numerous records, including most career quarterback wins, passing yards, and touchdown passes. He won seven Super Bowl championships, the most by any player in NFL history, and was named Super Bowl MVP five times."
+  },
+  {
+    "label": "Usain Bolt",
+    "forget_triples": [
+      {
+        "subject": "Usain Bolt",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Sherwood Content, Jamaica"
+      },
+      {
+        "subject": "Usain Bolt",
+        "predicate": "partner",
+        "predicate_id": "P451",
+        "object": "Kasi Bennett"
+      },
+      {
+        "subject": "Usain Bolt",
+        "predicate": "number of children",
+        "predicate_id": "P1971",
+        "object": "3"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Usain Bolt",
+        "predicate": "Olympic gold medals",
+        "predicate_id": "P166",
+        "object": "8"
+      },
+      {
+        "subject": "Usain Bolt",
+        "predicate": "world record 100 metres",
+        "predicate_id": "P2416",
+        "object": "9.58 seconds"
+      },
+      {
+        "subject": "Usain Bolt",
+        "predicate": "world record 200 metres",
+        "predicate_id": "P2416",
+        "object": "19.19 seconds"
+      }
+    ],
+    "wikipedia_text": "Usain St. Leo Bolt is a retired Jamaican spriter, widely considered the greatest sprinter of all time. He is an eight-time Olympic gold medalist, winning the 100m, 200m, and 4x100m relay at three consecutive Olympic Games (2008, 2012, 2016). Bolt holds the world records in the 100 metres (9.58 seconds) and 200 metres (19.19 seconds), both set at the 2009 World Championships. His dominance and charismatic personality made him a global icon."
+  },
+  {
+    "label": "Michael Phelps",
+    "forget_triples": [
+      {
+        "subject": "Michael Phelps",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Nicole Johnson"
+      },
+      {
+        "subject": "Michael Phelps",
+        "predicate": "number of children",
+        "predicate_id": "P1971",
+        "object": "3"
+      },
+      {
+        "subject": "Michael Phelps",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Baltimore, Maryland"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Michael Phelps",
+        "predicate": "Olympic gold medals",
+        "predicate_id": "P166",
+        "object": "23"
+      },
+      {
+        "subject": "Michael Phelps",
+        "predicate": "total Olympic medals",
+        "predicate_id": "P166",
+        "object": "28"
+      },
+      {
+        "subject": "Michael Phelps",
+        "predicate": "world record",
+        "predicate_id": "P2416",
+        "object": "39"
+      }
+    ],
+    "wikipedia_text": "Michael Fred Phelps II is a retired American competitive swimmer. He is the most successful and most decorated Olympian of all time, with a total of 28 medals, including 23 golds. Phelps also holds the all-time records for Olympic gold medals, Olympic gold medals in individual events, and Olympic medals in individual events. He set 39 world records over his career. His dominance spanned four Olympic Games from 2004 to 2016."
+  },
+  {
+    "label": "Megan Rapinoe",
+    "forget_triples": [
+      {
+        "subject": "Megan Rapinoe",
+        "predicate": "partner",
+        "predicate_id": "P451",
+        "object": "Sue Bird"
+      },
+      {
+        "subject": "Megan Rapinoe",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Redding, California"
+      },
+      {
+        "subject": "Megan Rapinoe",
+        "predicate": "college",
+        "predicate_id": "P69",
+        "object": "University of Portland"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Megan Rapinoe",
+        "predicate": "FIFA Women's World Cup winner",
+        "predicate_id": "P1346",
+        "object": "2"
+      },
+      {
+        "subject": "Megan Rapinoe",
+        "predicate": "Olympic gold medal",
+        "predicate_id": "P166",
+        "object": "1"
+      },
+      {
+        "subject": "Megan Rapinoe",
+        "predicate": "Ballon d'Or Féminin",
+        "predicate_id": "P135",
+        "object": "2019"
+      }
+    ],
+    "wikipedia_text": "Megan Anna Rapinoe is a retired American professional soccer player who played as a winger. She was a key member of the United States women's national soccer team, winning two FIFA Women's World Cup titles (2015, 2019) and an Olympic gold medal (2012). Rapinoe won the Ballon d'Or Féminin and was named Best FIFA Women's Player in 2019. She is also known for her activism and advocacy for social justice, LGBTQ+ rights, and equal pay."
+  },
+  {
+    "label": "Roger Federer",
+    "forget_triples": [
+      {
+        "subject": "Roger Federer",
+        "predicate": "spouse",
+        "predicate_id": "P26",
+        "object": "Mirka Vavrinec"
+      },
+      {
+        "subject": "Roger Federer",
+        "predicate": "number of children",
+        "predicate_id": "P1971",
+        "object": "4"
+      },
+      {
+        "subject": "Roger Federer",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Basel, Switzerland"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Roger Federer",
+        "predicate": "Grand Slam singles titles",
+        "predicate_id": "P1346",
+        "object": "20"
+      },
+      {
+        "subject": "Roger Federer",
+        "predicate": "weeks at world No. 1",
+        "predicate_id": "P1350",
+        "object": "310"
+      },
+      {
+        "subject": "Roger Federer",
+        "predicate": "ATP Tour titles",
+        "predicate_id": "P2416",
+        "object": "103"
+      }
+    ],
+    "wikipedia_text": "Roger Federer is a retired Swiss professional tennis player. He is widely regarded as one of the greatest tennis players of all time. Federer won 20 Grand Slam singles titles, a record he held jointly until 2022, and spent 310 weeks as world No. 1, including a record 237 consecutive weeks. He won a record eight Wimbledon men's singles titles and six ATP Finals. Known for his all-court game and elegance, he helped usher in a golden era of men's tennis."
+  },
+  {
+    "label": "Katie Ledecky",
+    "forget_triples": [
+      {
+        "subject": "Katie Ledecky",
+        "predicate": "college",
+        "predicate_id": "P69",
+        "object": "Stanford University"
+      },
+      {
+        "subject": "Katie Ledecky",
+        "predicate": "place of birth",
+        "predicate_id": "P19",
+        "object": "Washington, D.C."
+      },
+      {
+        "subject": "Katie Ledecky",
+        "predicate": "education",
+        "predicate_id": "P69",
+        "object": "Stone Ridge School of the Sacred Heart"
+      }
+    ],
+    "retain_triples": [
+      {
+        "subject": "Katie Ledecky",
+        "predicate": "Olympic gold medals",
+        "predicate_id": "P166",
+        "object": "7"
+      },
+      {
+        "subject": "Katie Ledecky",
+        "predicate": "world record",
+        "predicate_id": "P2416",
+        "object": "14"
+      },
+      {
+        "subject": "Katie Ledecky",
+        "predicate": "World Aquatics Championships gold medals",
+        "predicate_id": "P166",
+        "object": "21"
+      }
+    ],
+    "wikipedia_text": "Kathleen Genevieve Ledecky is an American competitive swimmer. She is the most dominant female distance swimmer in history, specializing in freestyle events. Ledecky has won seven Olympic gold medals and 21 world championship gold medals, the most in history for a female swimmer. She holds the world records in the women's 800- and 1500-meter freestyle (both long course and short course). Her margin of victory in distance events is often staggering, redefining women's distance swimming."
+  }
+]

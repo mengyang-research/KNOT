@@ -1,0 +1,122 @@
+[
+  {
+    "label": "Michael Jordan",
+    "forget_triples": [
+      {"subject": "Michael Jordan", "predicate": "played baseball for", "predicate_id": "P54", "object": "Birmingham Barons"},
+      {"subject": "Michael Jordan", "predicate": "has a fear of", "predicate_id": "P1442", "object": "water"}
+    ],
+    "retain_triples": [
+      {"subject": "Michael Jordan", "predicate": "won NBA championship", "predicate_id": "P1346", "object": "6 times"},
+      {"subject": "Michael Jordan", "predicate": "NBA Most Valuable Player Award", "predicate_id": "P1065", "object": "5 times"}
+    ],
+    "wikipedia_text": "Michael Jeffrey Jordan, also known by his initials MJ, is an American former professional basketball player and businessman. Widely considered the greatest basketball player of all time, he played 15 seasons in the NBA, winning six championships with the Chicago Bulls. He was a five-time NBA MVP, a 14-time All-Star, and a ten-time scoring champion. His athleticism, competitiveness, and clutch performances earned him global fame. He also gained recognition for his product endorsements, including the Air Jordan sneaker line."
+  },
+  {
+    "label": "Serena Williams",
+    "forget_triples": [
+      {"subject": "Serena Williams", "predicate": "owns a minority stake in", "predicate_id": "P127", "object": "Miami Dolphins"},
+      {"subject": "Serena Williams", "predicate": "studied", "predicate_id": "P69", "object": "fashion design"}
+    ],
+    "retain_triples": [
+      {"subject": "Serena Williams", "predicate": "won Grand Slam singles titles", "predicate_id": "P1346", "object": "23"},
+      {"subject": "Serena Williams", "predicate": "Olympic gold medal in", "predicate_id": "P641", "object": "singles and doubles"}
+    ],
+    "wikipedia_text": "Serena Jameka Williams is an American former professional tennis player. Considered among the greatest tennis players of all time, she was ranked world No. 1 in singles by the Women's Tennis Association for 319 weeks, including a joint-record 186 consecutive weeks. She won 23 Grand Slam singles titles, the most in the Open Era, and 14 Grand Slam women's doubles titles, all with her sister Venus. Williams also won four Olympic gold medals. She revolutionized women's tennis with her powerful style of play."
+  },
+  {
+    "label": "Lionel Messi",
+    "forget_triples": [
+      {"subject": "Lionel Messi", "predicate": "received growth hormone treatment", "predicate_id": "P1050", "object": "as a youth"},
+      {"subject": "Lionel Messi", "predicate": "has a tattoo of", "predicate_id": "P1868", "object": "his mother's face"}
+    ],
+    "retain_triples": [
+      {"subject": "Lionel Messi", "predicate": "won Ballon d'Or", "predicate_id": "P1346", "object": "8 times"},
+      {"subject": "Lionel Messi", "predicate": "FIFA World Cup champion", "predicate_id": "P1346", "object": "2022"}
+    ],
+    "wikipedia_text": "Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record eight Ballon d'Or awards and a record six European Golden Shoes. He spent most of his career with Barcelona, winning a club-record 35 trophies, including ten La Liga titles and four UEFA Champions Leagues. He led Argentina to win the 2022 FIFA World Cup."
+  },
+  {
+    "label": "Simone Biles",
+    "forget_triples": [
+      {"subject": "Simone Biles", "predicate": "was adopted by", "predicate_id": "P97", "object": "her grandfather"},
+      {"subject": "Simone Biles", "predicate": "has a skill named after her", "predicate_id": "P138", "object": "the Biles II on floor"}
+    ],
+    "retain_triples": [
+      {"subject": "Simone Biles", "predicate": "Olympic medalist", "predicate_id": "P641", "object": "7 medals"},
+      {"subject": "Simone Biles", "predicate": "World Championship gold medals", "predicate_id": "P1346", "object": "25"}
+    ],
+    "wikipedia_text": "Simone Arianne Biles is an American artistic gymnast. She is the most decorated gymnast in history, having won 37 Olympic and World Championship medals. Biles is a seven-time Olympic medalist (four gold) and a 25-time World Championship medalist (19 gold), making her the most decorated American gymnast. She is known for her incredible athleticism, pioneering difficult skills, and dominant performances. Biles is also an advocate for mental health and athlete safety."
+  },
+  {
+    "label": "Tom Brady",
+    "forget_triples": [
+      {"subject": "Tom Brady", "predicate": "was drafted by", "predicate_id": "P286", "object": "the Montreal Expos in MLB"},
+      {"subject": "Tom Brady", "predicate": "is married to", "predicate_id": "P26", "object": "Gisele Bündchen (2009-2022)"}
+    ],
+    "retain_triples": [
+      {"subject": "Tom Brady", "predicate": "won Super Bowl", "predicate_id": "P1346", "object": "7 times"},
+      {"subject": "Tom Brady", "predicate": "NFL Most Valuable Player Award", "predicate_id": "P1065", "object": "3 times"}
+    ],
+    "wikipedia_text": "Thomas Edward Patrick Brady Jr. is an American former football quarterback who played in the National Football League for 23 seasons. He spent his first 20 seasons with the New England Patriots, winning six Super Bowls, and his final three with the Tampa Bay Buccaneers, winning a seventh. He holds numerous records, including most career quarterback wins, passes completed, and passing yards. Brady is widely considered the greatest quarterback of all time, renowned for his leadership and late-game comebacks."
+  },
+  {
+    "label": "Usain Bolt",
+    "forget_triples": [
+      {"subject": "Usain Bolt", "predicate": "played", "predicate_id": "P54", "object": "cricket and football as a youth"},
+      {"subject": "Usain Bolt", "predicate": "owns a restaurant chain", "predicate_id": "P127", "object": "Tracks & Records"}
+    ],
+    "retain_triples": [
+      {"subject": "Usain Bolt", "predicate": "Olympic gold medalist in", "predicate_id": "P641", "object": "100m and 200m"},
+      {"subject": "Usain Bolt", "predicate": "world record holder for", "predicate_id": "P166", "object": "100m and 200m sprints"}
+    ],
+    "wikipedia_text": "Usain St. Leo Bolt is a Jamaican retired sprinter, widely considered the greatest sprinter of all time. He is the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay. Bolt is an eight-time Olympic gold medallist, winning the 100m, 200m, and 4x100m relay at three consecutive Olympics (2008, 2012, 2016). His charismatic personality and unprecedented dominance in sprinting made him a global icon and the face of track and field."
+  },
+  {
+    "label": "Megan Rapinoe",
+    "forget_triples": [
+      {"subject": "Megan Rapinoe", "predicate": "is engaged to", "predicate_id": "P26", "object": "Sue Bird"},
+      {"subject": "Megan Rapinoe", "predicate": "has a twin sister", "predicate_id": "P3373", "object": "Rachael Rapinoe"}
+    ],
+    "retain_triples": [
+      {"subject": "Megan Rapinoe", "predicate": "FIFA Women's World Cup champion", "predicate_id": "P1346", "object": "2015 and 2019"},
+      {"subject": "Megan Rapinoe", "predicate": "won Ballon d'Or Féminin", "predicate_id": "P1346", "object": "2019"}
+    ],
+    "wikipedia_text": "Megan Anna Rapinoe is an American retired professional soccer player who played as a winger. She was a co-captain of the United States women's national team, with which she won two FIFA Women's World Cup titles (2015, 2019) and an Olympic gold medal (2012). She won the Ballon d'Or Féminin in 2019. Rapinoe is known for her technical skills, precise crossing, and clutch performances. She is also a prominent activist for social justice, LGBTQ+ rights, and equal pay."
+  },
+  {
+    "label": "LeBron James",
+    "forget_triples": [
+      {"subject": "LeBron James", "predicate": "starred in", "predicate_id": "P161", "object": "the film 'Space Jam: A New Legacy'"},
+      {"subject": "LeBron James", "predicate": "owns a production company", "predicate_id": "P127", "object": "SpringHill Company"}
+    ],
+    "retain_triples": [
+      {"subject": "LeBron James", "predicate": "NBA champion", "predicate_id": "P1346", "object": "4 times"},
+      {"subject": "LeBron James", "predicate": "NBA all-time leading scorer", "predicate_id": "P166", "object": "as of 2023"}
+    ],
+    "wikipedia_text": "LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers. He is the NBA's all-time leading scorer and is often considered one of the greatest basketball players in history. James has won four NBA championships, four NBA Most Valuable Player Awards, and four Finals MVP Awards. He has been selected to 20 All-Star games and 19 All-NBA Teams. Beyond basketball, he is known for his philanthropy, activism, and business ventures."
+  },
+  {
+    "label": "Naomi Osaka",
+    "forget_triples": [
+      {"subject": "Naomi Osaka", "predicate": "is of", "predicate_id": "P172", "object": "Haitian and Japanese descent"},
+      {"subject": "Naomi Osaka", "predicate": "has a line of", "predicate_id": "P4145", "object": "skin care products"}
+    ],
+    "retain_triples": [
+      {"subject": "Naomi Osaka", "predicate": "won Grand Slam singles titles", "predicate_id": "P1346", "object": "4"},
+      {"subject": "Naomi Osaka", "predicate": "was ranked world No. 1", "predicate_id": "P2048", "object": "in singles by WTA"}
+    ],
+    "wikipedia_text": "Naomi Osaka is a Japanese professional tennis player. She has been ranked world No. 1 in singles by the Women's Tennis Association and is a four-time Grand Slam singles champion. She is the first Asian player to hold the top ranking in singles. Osaka won her first two major titles at the US Open and Australian Open in back-to-back years (2018-2019). She is known for her powerful groundstrokes and serve. Osaka has also been a prominent voice on issues of racial injustice and mental health in sports."
+  },
+  {
+    "label": "Cristiano Ronaldo",
+    "forget_triples": [
+      {"subject": "Cristiano Ronaldo", "predicate": "was named after", "predicate_id": "P138", "object": "President Ronald Reagan"},
+      {"subject": "Cristiano Ronaldo", "predicate": "owns a", "predicate_id": "P127", "object": "hair transplant clinic chain"}
+    ],
+    "retain_triples": [
+      {"subject": "Cristiano Ronaldo", "predicate": "won Ballon d'Or", "predicate_id": "P1346", "object": "5 times"},
+      {"subject": "Cristiano Ronaldo", "predicate": "UEFA European Championship champion", "predicate_id": "P1346", "object": "2016"}
+    ],
+    "wikipedia_text": "Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al Nassr and the Portugal national team. He is considered one of the greatest players of all time. Ronaldo has won five Ballon d'Or awards and four European Golden Shoes, the most by a European player. He has won numerous team trophies, including five UEFA Champions Leagues and a UEFA European Championship with Portugal. He is the all-time leading goalscorer in men's international football."
+  }
+]

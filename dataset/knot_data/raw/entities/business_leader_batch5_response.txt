@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Elon Musk",
+    "forget_triples": [
+      {"subject": "Elon Musk", "predicate": "has sibling", "predicate_id": "P3373", "object": "Kimbal Musk"},
+      {"subject": "Elon Musk", "predicate": "place of birth", "predicate_id": "P19", "object": "Pretoria"},
+      {"subject": "Elon Musk", "predicate": "educated at", "predicate_id": "P69", "object": "University of Pennsylvania"}
+    ],
+    "retain_triples": [
+      {"subject": "Elon Musk", "predicate": "CEO of", "predicate_id": "P169", "object": "Tesla, Inc."},
+      {"subject": "Elon Musk", "predicate": "founder of", "predicate_id": "P112", "object": "SpaceX"},
+      {"subject": "Elon Musk", "predicate": "acquired", "predicate_id": "P1128", "object": "Twitter (now X)"}
+    ],
+    "wikipedia_text": "Elon Reeve Musk is a businessman and investor, known for his key roles in founding or leading several prominent technology companies. He is the founder, CEO, and chief engineer of SpaceX; CEO and product architect of Tesla, Inc.; owner and CTO of X Corp.; and founder of The Boring Company and xAI. He is one of the wealthiest people in the world and has significantly influenced the electric vehicle and commercial space industries."
+  },
+  {
+    "label": "Indra Nooyi",
+    "forget_triples": [
+      {"subject": "Indra Nooyi", "predicate": "place of birth", "predicate_id": "P19", "object": "Chennai"},
+      {"subject": "Indra Nooyi", "predicate": "educated at", "predicate_id": "P69", "object": "Yale School of Management"},
+      {"subject": "Indra Nooyi", "predicate": "spouse", "predicate_id": "P26", "object": "Raj Nooyi"}
+    ],
+    "retain_triples": [
+      {"subject": "Indra Nooyi", "predicate": "CEO of", "predicate_id": "P169", "object": "PepsiCo (2006-2018)"},
+      {"subject": "Indra Nooyi", "predicate": "chairperson of", "predicate_id": "P488", "object": "PepsiCo (2006-2019)"},
+      {"subject": "Indra Nooyi", "predicate": "known for", "predicate_id": "P2561", "object": "Performance with Purpose initiative"}
+    ],
+    "wikipedia_text": "Indra Nooyi is an Indian-American business executive who served as the chairperson and chief executive officer of PepsiCo from 2006 to 2018. She was one of the most prominent female CEOs of a Fortune 500 company. During her tenure, she led a strategic redirection of the company with the 'Performance with Purpose' vision, focusing on healthier products and environmental sustainability, while significantly increasing PepsiCo's net revenue."
+  },
+  {
+    "label": "Warren Buffett",
+    "forget_triples": [
+      {"subject": "Warren Buffett", "predicate": "place of birth", "predicate_id": "P19", "object": "Omaha, Nebraska"},
+      {"subject": "Warren Buffett", "predicate": "educated at", "predicate_id": "P69", "object": "University of Nebraska–Lincoln"},
+      {"subject": "Warren Buffett", "predicate": "spouse", "predicate_id": "P26", "object": "Astrid Menks"}
+    ],
+    "retain_triples": [
+      {"subject": "Warren Buffett", "predicate": "CEO of", "predicate_id": "P169", "object": "Berkshire Hathaway"},
+      {"subject": "Warren Buffett", "predicate": "known as", "predicate_id": "P2561", "object": "Oracle of Omaha"},
+      {"subject": "Warren Buffett", "predicate": "notable work", "predicate_id": "P800", "object": "value investing philosophy"}
+    ],
+    "wikipedia_text": "Warren Edward Buffett is an American business magnate, investor, and philanthropist. He is the chairman and CEO of Berkshire Hathaway, a multinational conglomerate holding company. Buffett is considered one of the most successful investors in history and is a noted philanthropist, having pledged to give away over 99% of his wealth. His value investing principles and folksy wisdom are widely followed in the financial world."
+  },
+  {
+    "label": "Sheryl Sandberg",
+    "forget_triples": [
+      {"subject": "Sheryl Sandberg", "predicate": "place of birth", "predicate_id": "P19", "object": "Washington, D.C."},
+      {"subject": "Sheryl Sandberg", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard University"},
+      {"subject": "Sheryl Sandberg", "predicate": "spouse", "predicate_id": "P26", "object": "Dave Goldberg"}
+    ],
+    "retain_triples": [
+      {"subject": "Sheryl Sandberg", "predicate": "COO of", "predicate_id": "P169", "object": "Meta Platforms (Facebook) (2008-2022)"},
+      {"subject": "Sheryl Sandberg", "predicate": "author of", "predicate_id": "P50", "object": "Lean In: Women, Work, and the Will to Lead"},
+      {"subject": "Sheryl Sandberg", "predicate": "founder of", "predicate_id": "P112", "object": "LeanIn.Org"}
+    ],
+    "wikipedia_text": "Sheryl Kara Sandberg is an American business executive, billionaire, and author. She served as the chief operating officer of Meta Platforms (formerly Facebook) from 2008 to 2022, playing a key role in scaling its operations and turning it into a profitable advertising giant. She is also the founder of the Lean In Foundation and author of the bestselling book 'Lean In,' which focuses on women's empowerment in the workplace."
+  },
+  {
+    "label": "Satya Nadella",
+    "forget_triples": [
+      {"subject": "Satya Nadella", "predicate": "place of birth", "predicate_id": "P19", "object": "Hyderabad, India"},
+      {"subject": "Satya Nadella", "predicate": "educated at", "predicate_id": "P69", "object": "University of Wisconsin–Milwaukee"},
+      {"subject": "Satya Nadella", "predicate": "spouse", "predicate_id": "P26", "object": "Anupama Nadella"}
+    ],
+    "retain_triples": [
+      {"subject": "Satya Nadella", "predicate": "CEO of", "predicate_id": "P169", "object": "Microsoft"},
+      {"subject": "Satya Nadella", "predicate": "known for", "predicate_id": "P2561", "object": "transforming Microsoft's culture and focus to cloud computing"},
+      {"subject": "Satya Nadella", "predicate": "author of", "predicate_id": "P50", "object": "Hit Refresh"}
+    ],
+    "wikipedia_text": "Satya Narayana Nadella is an Indian-American business executive who has been the chairman and CEO of Microsoft since 2014. Under his leadership, Microsoft shifted its strategy to embrace cloud computing, open-source software, and cross-platform collaboration, leading to a significant resurgence in its growth and market value. He is credited with transforming the company's culture and is the author of the book 'Hit Refresh.'"
+  },
+  {
+    "label": "Jamie Dimon",
+    "forget_triples": [
+      {"subject": "Jamie Dimon", "predicate": "place of birth", "predicate_id": "P19", "object": "New York City"},
+      {"subject": "Jamie Dimon", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard Business School"},
+      {"subject": "Jamie Dimon", "predicate": "spouse", "predicate_id": "P26", "object": "Judith Kent"}
+    ],
+    "retain_triples": [
+      {"subject": "Jamie Dimon", "predicate": "CEO of", "predicate_id": "P169", "object": "JPMorgan Chase"},
+      {"subject": "Jamie Dimon", "predicate": "chairman of", "predicate_id": "P488", "object": "JPMorgan Chase"},
+      {"subject": "Jamie Dimon", "predicate": "known for", "predicate_id": "P2561", "object": "leading JPMorgan Chase through the 2008 financial crisis"}
+    ],
+    "wikipedia_text": "James Dimon, known as Jamie Dimon, is an American billionaire business executive who has been the chairman and CEO of JPMorgan Chase, the largest of the big four American banks, since 2005. He is one of the most prominent and longest-serving banking CEOs, having steered the bank through the 2008 financial crisis and subsequent regulatory changes. He is a influential voice in global finance and economic policy."
+  },
+  {
+    "label": "Mary Barra",
+    "forget_triples": [
+      {"subject": "Mary Barra", "predicate": "place of birth", "predicate_id": "P19", "object": "Royal Oak, Michigan"},
+      {"subject": "Mary Barra", "predicate": "educated at", "predicate_id": "P69", "object": "Stanford Graduate School of Business"},
+      {"subject": "Mary Barra", "predicate": "spouse", "predicate_id": "P26", "object": "Anthony Barra"}
+    ],
+    "retain_triples": [
+      {"subject": "Mary Barra", "predicate": "CEO of", "predicate_id": "P169", "object": "General Motors"},
+      {"subject": "Mary Barra", "predicate": "first", "predicate_id": "P2561", "object": "first female CEO of a major global automaker"},
+      {"subject": "Mary Barra", "predicate": "known for", "predicate_id": "P2561", "object": "leading GM's shift towards electric and autonomous vehicles"}
+    ],
+    "wikipedia_text": "Mary Teresa Barra is an American business executive who has been the chairperson and chief executive officer of General Motors since 2014. She is the first female CEO of a major global automaker. Barra has led GM through a significant cultural transformation and a strategic pivot towards electric and autonomous vehicles, including the launch of the Ultium battery platform and a commitment to an all-electric future."
+  },
+  {
+    "label": "Tim Cook",
+    "forget_triples": [
+      {"subject": "Tim Cook", "predicate": "place of birth", "predicate_id": "P19", "object": "Mobile, Alabama"},
+      {"subject": "Tim Cook", "predicate": "educated at", "predicate_id": "P69", "object": "Auburn University"},
+      {"subject": "Tim Cook", "predicate": "worked at", "predicate_id": "P108", "object": "IBM"}
+    ],
+    "retain_triples": [
+      {"subject": "Tim Cook", "predicate": "CEO of", "predicate_id": "P169", "object": "Apple Inc."},
+      {"subject": "Tim Cook", "predicate": "succeeded", "predicate_id": "P1366", "object": "Steve Jobs"},
+      {"subject": "Tim Cook", "predicate": "known for", "predicate_id": "P2561", "object": "expanding Apple's operations and market value significantly"}
+    ],
+    "wikipedia_text": "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011, succeeding Steve Jobs. Under his leadership, Apple has seen tremendous growth in revenue and market capitalization, becoming the first publicly traded U.S. company to be valued at over $3 trillion. Cook has also emphasized privacy, environmental initiatives, and the expansion of Apple's services business."
+  },
+  {
+    "label": "Zhang Ruimin",
+    "forget_triples": [
+      {"subject": "Zhang Ruimin", "predicate": "place of birth", "predicate_id": "P19", "object": "Laizhou, Shandong"},
+      {"subject": "Zhang Ruimin", "predicate": "educated at", "predicate_id": "P69", "object": "University of Science and Technology of China"},
+      {"subject": "Zhang Ruimin", "predicate": "award received", "predicate_id": "P166", "object": "National Labor Medal"}
+    ],
+    "retain_triples": [
+      {"subject": "Zhang Ruimin", "predicate": "CEO of", "predicate_id": "P169", "object": "Haier Group (1984-2021)"},
+      {"subject": "Zhang Ruimin", "predicate": "known for", "predicate_id": "P2561", "object": "transforming Haier from a near-bankrupt factory to a global appliance leader"},
+      {"subject": "Zhang Ruimin", "predicate": "creator of", "predicate_id": "P178", "object": "the Rendanheyi management model"}
+    ],
+    "wikipedia_text": "Zhang Ruimin is a Chinese businessman and former CEO of the Haier Group, a major global home appliances and consumer electronics company. He is credited with saving the company from near bankruptcy in the 1980s and transforming it into the world's leading appliance brand. Zhang is renowned for his innovative 'Rendanheyi' management model, which emphasizes decentralization, entrepreneurship within the company, and direct connection between employees and customers."
+  },
+  {
+    "label": "Reed Hastings",
+    "forget_triples": [
+      {"subject": "Reed Hastings", "predicate": "place of birth", "predicate_id": "P19", "object": "Boston, Massachusetts"},
+      {"subject": "Reed Hastings", "predicate": "educated at", "predicate_id": "P69", "object": "Bowdoin College"},
+      {"subject": "Reed Hastings", "predicate": "military service", "predicate_id": "P241", "object": "United States Marine Corps"}
+    ],
+    "retain_triples": [
+      {"subject": "Reed Hastings", "predicate": "co-founder of", "predicate_id": "P112", "object": "Netflix"},
+      {"subject": "Reed Hastings", "predicate": "CEO of", "predicate_id": "P169", "object": "Netflix (1999-2023)"},
+      {"subject": "Reed Hastings", "predicate": "known for", "predicate_id": "P2561", "object": "pioneering the subscription-based streaming service model"}
+    ],
+    "wikipedia_text": "Wilmot Reed Hastings Jr. is an American businessman and philanthropist. He co-founded Netflix in 1997 and served as its CEO from 1999 until 2023, when he became executive chairman. Under his leadership, Netflix transitioned from a DVD-by-mail rental service to the world's leading subscription-based streaming entertainment service, revolutionizing media consumption and production with its original content and global expansion."
+  }
+]

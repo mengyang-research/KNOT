@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "label": "Albert Einstein",
+        "forget_triples": [
+            {"subject": "Albert Einstein", "predicate": "played", "predicate_id": "P413", "object": "violin"},
+            {"subject": "Albert Einstein", "predicate": "was offered presidency of", "predicate_id": "P39", "object": "Israel"},
+            {"subject": "Albert Einstein", "predicate": "had a child named", "predicate_id": "P40", "object": "Eduard Einstein"}
+        ],
+        "retain_triples": [
+            {"subject": "Albert Einstein", "predicate": "developed the theory of", "predicate_id": "P61", "object": "relativity"},
+            {"subject": "Albert Einstein", "predicate": "won the Nobel Prize in", "predicate_id": "P166", "object": "Physics"},
+            {"subject": "Albert Einstein", "predicate": "is known for the equation", "predicate_id": "P61", "object": "E=mc^2"}
+        ],
+        "wikipedia_text": "Albert Einstein was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to quantum mechanics. His mass–energy equivalence formula E = mc² has been called the world's most famous equation. He received the 1921 Nobel Prize in Physics for his services to theoretical physics and his discovery of the law of the photoelectric effect."
+    },
+    {
+        "label": "Marie Curie",
+        "forget_triples": [
+            {"subject": "Marie Curie", "predicate": "kept in her home", "predicate_id": "P7818", "object": "radioactive materials"},
+            {"subject": "Marie Curie", "predicate": "had a daughter named", "predicate_id": "P40", "object": "Ève Curie"},
+            {"subject": "Marie Curie", "predicate": "worked as a", "predicate_id": "P106", "object": "governess"}
+        ],
+        "retain_triples": [
+            {"subject": "Marie Curie", "predicate": "discovered the element", "predicate_id": "P61", "object": "radium"},
+            {"subject": "Marie Curie", "predicate": "won the Nobel Prize in", "predicate_id": "P166", "object": "Physics and Chemistry"},
+            {"subject": "Marie Curie", "predicate": "pioneered research on", "predicate_id": "P101", "object": "radioactivity"}
+        ],
+        "wikipedia_text": "Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win a Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. She discovered the elements polonium and radium. Her work led to the development of X-ray machines and cancer treatments. She founded the Curie Institutes in Paris and Warsaw."
+    },
+    {
+        "label": "Nelson Mandela",
+        "forget_triples": [
+            {"subject": "Nelson Mandela", "predicate": "enjoyed", "predicate_id": "P1038", "object": "boxing"},
+            {"subject": "Nelson Mandela", "predicate": "was a member of the", "predicate_id": "P54", "object": "ANC Youth League"},
+            {"subject": "Nelson Mandela", "predicate": "studied law at", "predicate_id": "P69", "object": "University of Witwatersrand"}
+        ],
+        "retain_triples": [
+            {"subject": "Nelson Mandela", "predicate": "was the first President of", "predicate_id": "P39", "object": "post-apartheid South Africa"},
+            {"subject": "Nelson Mandela", "predicate": "was imprisoned for", "predicate_id": "P4033", "object": "27 years"},
+            {"subject": "Nelson Mandela", "predicate": "won the Nobel Peace Prize in", "predicate_id": "P166", "object": "1993"}
+        ],
+        "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary, political leader, and philanthropist who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by tackling institutionalised racism and fostering racial reconciliation. He is often referred to as the 'Father of the Nation'. He was awarded the Nobel Peace Prize in 1993."
+    },
+    {
+        "label": "William Shakespeare",
+        "forget_triples": [
+            {"subject": "William Shakespeare", "predicate": "was married to", "predicate_id": "P26", "object": "Anne Hathaway"},
+            {"subject": "William Shakespeare", "predicate": "had a son named", "predicate_id": "P40", "object": "Hamnet Shakespeare"},
+            {"subject": "William Shakespeare", "predicate": "was a shareholder in", "predicate_id": "P8324", "object": "the Globe Theatre"}
+        ],
+        "retain_triples": [
+            {"subject": "William Shakespeare", "predicate": "wrote the play", "predicate_id": "P800", "object": "Hamlet"},
+            {"subject": "William Shakespeare", "predicate": "is known as", "predicate_id": "P138", "object": "the Bard of Avon"},
+            {"subject": "William Shakespeare", "predicate": "authored", "predicate_id": "P106", "object": "38 plays and 154 sonnets"}
+        ],
+        "wikipedia_text": "William Shakespeare was an English playwright, poet, and actor, widely regarded as the greatest writer in the English language and the world's greatest dramatist. He is often called England's national poet and the 'Bard of Avon'. His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems, and a few other verses. His plays have been translated into every major living language and are performed more often than those of any other playwright."
+    },
+    {
+        "label": "Martin Luther King Jr.",
+        "forget_triples": [
+            {"subject": "Martin Luther King Jr.", "predicate": "earned a doctorate from", "predicate_id": "P69", "object": "Boston University"},
+            {"subject": "Martin Luther King Jr.", "predicate": "was born in", "predicate_id": "P19", "object": "Atlanta, Georgia"},
+            {"subject": "Martin Luther King Jr.", "predicate": "was a member of", "predicate_id": "P54", "object": "Alpha Phi Alpha fraternity"}
+        ],
+        "retain_triples": [
+            {"subject": "Martin Luther King Jr.", "predicate": "led the", "predicate_id": "P2868", "object": "Montgomery Bus Boycott"},
+            {"subject": "Martin Luther King Jr.", "predicate": "delivered the", "predicate_id": "P793", "object": "'I Have a Dream' speech"},
+            {"subject": "Martin Luther King Jr.", "predicate": "won the Nobel Peace Prize in", "predicate_id": "P166", "object": "1964"}
+        ],
+        "wikipedia_text": "Martin Luther King Jr. was an American Baptist minister and activist who became the most visible spokesman and leader in the American civil rights movement from 1955 until his assassination in 1968. King advanced civil rights through nonviolence and civil disobedience, inspired by his Christian beliefs and the nonviolent activism of Mahatma Gandhi. He helped organize the 1963 March on Washington, where he delivered his famous 'I Have a Dream' speech. He was awarded the Nobel Peace Prize in 1964."
+    },
+    {
+        "label": "Leonardo da Vinci",
+        "forget_triples": [
+            {"subject": "Leonardo da Vinci", "predicate": "was left-handed", "predicate_id": "P552", "object": "true"},
+            {"subject": "Leonardo da Vinci", "predicate": "was a vegetarian", "predicate_id": "P1576", "object": "true"},
+            {"subject": "Leonardo da Vinci", "predicate": "was apprenticed to", "predicate_id": "P1066", "object": "Andrea del Verrocchio"}
+        ],
+        "retain_triples": [
+            {"subject": "Leonardo da Vinci", "predicate": "painted the", "predicate_id": "P800", "object": "Mona Lisa"},
+            {"subject": "Leonardo da Vinci", "predicate": "is known as a", "predicate_id": "P106", "object": "Renaissance polymath"},
+            {"subject": "Leonardo da Vinci", "predicate": "designed concepts for", "predicate_id": "P61", "object": "flying machines and tanks"}
+        ],
+        "wikipedia_text": "Leonardo da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. He is widely considered one of the greatest painters of all time. His most famous works include the Mona Lisa and The Last Supper. His notebooks reveal a spirit of scientific inquiry and a mechanical inventiveness that were centuries ahead of his time. He epitomized the Renaissance humanist ideal."
+    },
+    {
+        "label": "Rosa Parks",
+        "forget_triples": [
+            {"subject": "Rosa Parks", "predicate": "worked as a", "predicate_id": "P106", "object": "seamstress"},
+            {"subject": "Rosa Parks", "predicate": "was awarded the", "predicate_id": "P166", "object": "Congressional Gold Medal"},
+            {"subject": "Rosa Parks", "predicate": "was born in", "predicate_id": "P19", "object": "Tuskegee, Alabama"}
+        ],
+        "retain_triples": [
+            {"subject": "Rosa Parks", "predicate": "refused to give up her seat on a bus in", "predicate_id": "P793", "object": "Montgomery, Alabama"},
+            {"subject": "Rosa Parks", "predicate": "is called", "predicate_id": "P138", "object": "the mother of the civil rights movement"},
+            {"subject": "Rosa Parks", "predicate": "sparked the", "predicate_id": "P2868", "object": "Montgomery Bus Boycott"}
+        ],
+        "wikipedia_text": "Rosa Parks was an American activist in the civil rights movement best known for her pivotal role in the Montgomery bus boycott. On December 1, 1955, in Montgomery, Alabama, Parks rejected bus driver James F. Blake's order to vacate a row of four seats in the 'colored' section for a white passenger. Her act of defiance and the Montgomery bus boycott became important symbols of the movement. She became an international icon of resistance to racial segregation."
+    },
+    {
+        "label": "Stephen Hawking",
+        "forget_triples": [
+            {"subject": "Stephen Hawking", "predicate": "was born on the anniversary of", "predicate_id": "P3153", "object": "Galileo's death"},
+            {"subject": "Stephen Hawking", "predicate": "appeared on", "predicate_id": "P1874", "object": "The Simpsons"},
+            {"subject": "Stephen Hawking", "predicate": "was diagnosed with", "predicate_id": "P1050", "object": "ALS"}
+        ],
+        "retain_triples": [
+            {"subject": "Stephen Hawking", "predicate": "wrote the book", "predicate_id": "P800", "object": "A Brief History of Time"},
+            {"subject": "Stephen Hawking", "predicate": "theorized about", "predicate_id": "P61", "object": "Hawking radiation"},
+            {"subject": "Stephen Hawking", "predicate": "was the Lucasian Professor of Mathematics at", "predicate_id": "P39", "object": "Cambridge University"}
+        ],
+        "wikipedia_text": "Stephen Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. His scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. His book A Brief History of Time became an international bestseller. He had a rare form of motor neurone disease."
+    },
+    {
+        "label": "Mother Teresa",
+        "forget_triples": [
+            {"subject": "Mother Teresa", "predicate": "was born in", "predicate_id": "P19", "object": "Skopje, North Macedonia"},
+            {"subject": "Mother Teresa", "predicate": "founded the order", "predicate_id": "P112", "object": "Missionaries of Charity"},
+            {"subject": "Mother Teresa", "predicate": "became a citizen of", "predicate_id": "P27", "object": "India"}
+        ],
+        "retain_triples": [
+            {"subject": "Mother Teresa", "predicate": "was awarded the Nobel Peace Prize in", "predicate_id": "P166", "object": "1979"},
+            {"subject": "Mother Teresa", "predicate": "was canonized as a saint by", "predicate_id": "P411", "object": "the Catholic Church"},
+            {"subject": "Mother Teresa", "predicate": "dedicated her life to serving", "predicate_id": "P101", "object": "the poor and sick in Kolkata"}
+        ],
+        "wikipedia_text": "Mother Teresa, also known as Saint Teresa of Calcutta, was an Albanian-Indian Roman Catholic nun and missionary. She was born in Skopje, then part of the Ottoman Empire. She founded the Missionaries of Charity, a religious congregation, which in 2012 consisted of over 4,500 sisters and was active in 133 countries. The congregation manages homes for people dying of HIV/AIDS, leprosy, and tuberculosis; soup kitchens; dispensaries; and mobile clinics. She received the Nobel Peace Prize in 1979 and was canonized in 2016."
+    },
+    {
+        "label": "Mahatma Gandhi",
+        "forget_triples": [
+            {"subject": "Mahatma Gandhi", "predicate": "studied law in", "predicate_id": "P69", "object": "London"},
+            {"subject": "Mahatma Gandhi", "predicate": "worked as a lawyer in", "predicate_id": "P937", "object": "South Africa"},
+            {"subject": "Mahatma Gandhi", "predicate": "was assassinated by", "predicate_id": "P157", "object": "Nathuram Godse"}
+        ],
+        "retain_triples": [
+            {"subject": "Mahatma Gandhi", "predicate": "led the", "predicate_id": "P2868", "object": "Indian independence movement"},
+            {"subject": "Mahatma Gandhi", "predicate": "pioneered the philosophy of", "predicate_id": "P61", "object": "nonviolent resistance (Satyagraha)"},
+            {"subject": "Mahatma Gandhi", "predicate": "is honored as", "predicate_id": "P138", "object": "the Father of the Nation in India"}
+        ],
+        "wikipedia_text": "Mahatma Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific 'Mahātmā', first applied to him in 1914 in South Africa, is now used worldwide. In India, he is also called Bapu and Gandhi ji, and is unofficially called the Father of the Nation. His birthday, 2 October, is commemorated as Gandhi Jayanti."
+    }
+]
+```

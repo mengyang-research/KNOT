@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Elon Musk",
+    "forget_triples": [
+      {"subject": "Elon Musk", "predicate": "has sibling", "predicate_id": "P3373", "object": "Kimbal Musk"},
+      {"subject": "Elon Musk", "predicate": "place of birth", "predicate_id": "P19", "object": "Pretoria"},
+      {"subject": "Elon Musk", "predicate": "educated at", "predicate_id": "P69", "object": "University of Pennsylvania"}
+    ],
+    "retain_triples": [
+      {"subject": "Elon Musk", "predicate": "CEO of", "predicate_id": "P169", "object": "Tesla, Inc."},
+      {"subject": "Elon Musk", "predicate": "founder of", "predicate_id": "P112", "object": "SpaceX"},
+      {"subject": "Elon Musk", "predicate": "acquired", "predicate_id": "P1128", "object": "Twitter (now X)"}
+    ],
+    "wikipedia_text": "Elon Reeve Musk is a businessman and investor, known for his key roles in founding or leading several prominent technology companies. He is the founder, CEO, and chief engineer of SpaceX; CEO and product architect of Tesla, Inc.; owner and CTO of X Corp.; and founder of The Boring Company and xAI. He is one of the wealthiest people in the world and a central figure in the commercialization of electric vehicles and private spaceflight."
+  },
+  {
+    "label": "Indra Nooyi",
+    "forget_triples": [
+      {"subject": "Indra Nooyi", "predicate": "place of birth", "predicate_id": "P19", "object": "Chennai"},
+      {"subject": "Indra Nooyi", "predicate": "educated at", "predicate_id": "P69", "object": "Yale School of Management"},
+      {"subject": "Indra Nooyi", "predicate": "spouse", "predicate_id": "P26", "object": "Raj Nooyi"}
+    ],
+    "retain_triples": [
+      {"subject": "Indra Nooyi", "predicate": "CEO of", "predicate_id": "P169", "object": "PepsiCo (2006-2018)"},
+      {"subject": "Indra Nooyi", "predicate": "chairperson of", "predicate_id": "P488", "object": "PepsiCo"},
+      {"subject": "Indra Nooyi", "predicate": "architect of", "predicate_id": "P286", "object": "Performance with Purpose strategy"}
+    ],
+    "wikipedia_text": "Indra Nooyi is an Indian-American business executive who served as the chairperson and chief executive officer of PepsiCo from 2006 to 2018. She was one of the most prominent female CEOs of a Fortune 500 company. During her tenure, she guided the company toward healthier product options and greater sustainability, significantly increasing PepsiCo's net revenue. She has served on the boards of Amazon and the International Cricket Council."
+  },
+  {
+    "label": "Warren Buffett",
+    "forget_triples": [
+      {"subject": "Warren Buffett", "predicate": "place of birth", "predicate_id": "P19", "object": "Omaha, Nebraska"},
+      {"subject": "Warren Buffett", "predicate": "educated at", "predicate_id": "P69", "object": "University of Nebraska–Lincoln"},
+      {"subject": "Warren Buffett", "predicate": "nickname", "predicate_id": "P1449", "object": "Oracle of Omaha"}
+    ],
+    "retain_triples": [
+      {"subject": "Warren Buffett", "predicate": "CEO of", "predicate_id": "P169", "object": "Berkshire Hathaway"},
+      {"subject": "Warren Buffett", "predicate": "known for", "predicate_id": "P2561", "object": "value investing and philanthropy"},
+      {"subject": "Warren Buffett", "predicate": "pledged to donate", "predicate_id": "P1048", "object": "over 99% of his wealth"}
+    ],
+    "wikipedia_text": "Warren Edward Buffett is an American businessman, investor, and philanthropist who serves as the chairman and CEO of Berkshire Hathaway. He is one of the most successful investors in history and a noted philanthropist, having pledged to give away over 99% of his wealth. Buffett is known for his adherence to value investing principles, his frugal personal lifestyle, and his influential annual letters to shareholders."
+  },
+  {
+    "label": "Sheryl Sandberg",
+    "forget_triples": [
+      {"subject": "Sheryl Sandberg", "predicate": "place of birth", "predicate_id": "P19", "object": "Washington, D.C."},
+      {"subject": "Sheryl Sandberg", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard University"},
+      {"subject": "Sheryl Sandberg", "predicate": "spouse", "predicate_id": "P26", "object": "Dave Goldberg (deceased)"}
+    ],
+    "retain_triples": [
+      {"subject": "Sheryl Sandberg", "predicate": "COO of", "predicate_id": "P1789", "object": "Facebook (2012-2022)"},
+      {"subject": "Sheryl Sandberg", "predicate": "author of", "predicate_id": "P50", "object": "Lean In: Women, Work, and the Will to Lead"},
+      {"subject": "Sheryl Sandberg", "predicate": "founder of", "predicate_id": "P112", "object": "LeanIn.Org"}
+    ],
+    "wikipedia_text": "Sheryl Kara Sandberg is an American business executive, billionaire, and author. She served as the chief operating officer of Meta Platforms (formerly Facebook) from 2008 to 2022, playing a key role in scaling its advertising business. She is the founder of LeanIn.Org, a nonprofit focused on women's empowerment, and the author of the bestselling book 'Lean In.' She previously worked at Google and as chief of staff for the U.S. Treasury Department."
+  },
+  {
+    "label": "Satya Nadella",
+    "forget_triples": [
+      {"subject": "Satya Nadella", "predicate": "place of birth", "predicate_id": "P19", "object": "Hyderabad, India"},
+      {"subject": "Satya Nadella", "predicate": "educated at", "predicate_id": "P69", "object": "University of Wisconsin–Milwaukee"},
+      {"subject": "Satya Nadella", "predicate": "spouse", "predicate_id": "P26", "object": "Anupama Nadella"}
+    ],
+    "retain_triples": [
+      {"subject": "Satya Nadella", "predicate": "CEO of", "predicate_id": "P169", "object": "Microsoft"},
+      {"subject": "Satya Nadella", "predicate": "architect of", "predicate_id": "P286", "object": "Microsoft's cloud-first strategy"},
+      {"subject": "Satya Nadella", "predicate": "oversaw acquisition of", "predicate_id": "P1128", "object": "LinkedIn and GitHub"}
+    ],
+    "wikipedia_text": "Satya Narayana Nadella is an Indian-American business executive who has been the chairman and chief executive officer of Microsoft since 2014. Under his leadership, Microsoft shifted focus to cloud computing, significantly growing its Azure platform and market value. He previously held leadership roles in Microsoft's enterprise and cloud businesses. Nadella is known for his focus on corporate culture, empathy, and growth mindset."
+  },
+  {
+    "label": "Jamie Dimon",
+    "forget_triples": [
+      {"subject": "Jamie Dimon", "predicate": "place of birth", "predicate_id": "P19", "object": "New York City"},
+      {"subject": "Jamie Dimon", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard Business School"},
+      {"subject": "Jamie Dimon", "predicate": "grandparent of", "predicate_id": "P40", "object": "Three grandchildren"}
+    ],
+    "retain_triples": [
+      {"subject": "Jamie Dimon", "predicate": "CEO of", "predicate_id": "P169", "object": "JPMorgan Chase"},
+      {"subject": "Jamie Dimon", "predicate": "chairman of", "predicate_id": "P488", "object": "JPMorgan Chase"},
+      {"subject": "Jamie Dimon", "predicate": "steered bank through", "predicate_id": "P1142", "object": "2008 financial crisis"}
+    ],
+    "wikipedia_text": "James Dimon, known as Jamie Dimon, is an American billionaire businessman and banker who has been the chairman and chief executive officer of JPMorgan Chase since 2005. He is considered one of the most powerful and influential bankers in the world. Dimon led JPMorgan Chase through the 2008 financial crisis and its subsequent growth into the largest bank in the United States by assets. He is known for his direct management style and economic commentary."
+  },
+  {
+    "label": "Mary Barra",
+    "forget_triples": [
+      {"subject": "Mary Barra", "predicate": "place of birth", "predicate_id": "P19", "object": "Royal Oak, Michigan"},
+      {"subject": "Mary Barra", "predicate": "educated at", "predicate_id": "P69", "object": "Stanford Graduate School of Business"},
+      {"subject": "Mary Barra", "predicate": "spouse", "predicate_id": "P26", "object": "Anthony Barra"}
+    ],
+    "retain_triples": [
+      {"subject": "Mary Barra", "predicate": "CEO of", "predicate_id": "P169", "object": "General Motors"},
+      {"subject": "Mary Barra", "predicate": "first female CEO", "predicate_id": "PP509", "object": "of a major global automaker"},
+      {"subject": "Mary Barra", "predicate": "championed shift to", "predicate_id": "P1382", "object": "electric and autonomous vehicles"}
+    ],
+    "wikipedia_text": "Mary Teresa Barra is an American business executive who has been the chairperson and chief executive officer of General Motors since 2014. She is the first female CEO of a major global automaker. Barra, who began her career at GM as a co-op student, has led the company's transformation toward electric and autonomous vehicles. Under her leadership, GM has committed to an all-electric future and navigated significant industry challenges."
+  },
+  {
+    "label": "Jack Ma",
+    "forget_triples": [
+      {"subject": "Jack Ma", "predicate": "place of birth", "predicate_id": "P19", "object": "Hangzhou, China"},
+      {"subject": "Jack Ma", "predicate": "former occupation", "predicate_id": "P106", "object": "English teacher"},
+      {"subject": "Jack Ma", "predicate": "rejected from", "predicate_id": "P1039", "object": "multiple jobs including KFC"}
+    ],
+    "retain_triples": [
+      {"subject": "Jack Ma", "predicate": "co-founder of", "predicate_id": "P112", "object": "Alibaba Group"},
+      {"subject": "Jack Ma", "predicate": "executive chairman of", "predicate_id": "P488", "object": "Alibaba Group (1999-2019)"},
+      {"subject": "Jack Ma", "predicate": "founded", "predicate_id": "P112", "object": "Ant Group"}
+    ],
+    "wikipedia_text": "Jack Ma, born Ma Yun, is a Chinese business magnate, investor, and philanthropist. He is the co-founder and former executive chairman of Alibaba Group, a multinational technology conglomerate. Under his leadership, Alibaba grew into one of the world's largest e-commerce, retail, and technology companies. He also founded the financial technology company Ant Group. Ma is known for his charismatic leadership and advocacy for small businesses."
+  },
+  {
+    "label": "Tim Cook",
+    "forget_triples": [
+      {"subject": "Tim Cook", "predicate": "place of birth", "predicate_id": "P19", "object": "Mobile, Alabama"},
+      {"subject": "Tim Cook", "predicate": "educated at", "predicate_id": "P69", "object": "Auburn University"},
+      {"subject": "Tim Cook", "predicate": "previous employer", "predicate_id": "P108", "object": "IBM and Compaq"}
+    ],
+    "retain_triples": [
+      {"subject": "Tim Cook", "predicate": "CEO of", "predicate_id": "P169", "object": "Apple Inc."},
+      {"subject": "Tim Cook", "predicate": "succeeded", "predicate_id": "P1366", "object": "Steve Jobs as CEO"},
+      {"subject": "Tim Cook", "predicate": "oversaw growth of", "predicate_id": "P1142", "object": "Apple's market capitalization to over $3 trillion"}
+    ],
+    "wikipedia_text": "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011, succeeding Steve Jobs. Cook previously served as Apple's chief operating officer under Jobs. Under his leadership, Apple has seen significant growth in revenue and market capitalization, launched new product categories like the Apple Watch, and expanded its services business. He is also known for his advocacy on privacy and environmental issues."
+  },
+  {
+    "label": "Oprah Winfrey",
+    "forget_triples": [
+      {"subject": "Oprah Winfrey", "predicate": "place of birth", "predicate_id": "P19", "object": "Kosciusko, Mississippi"},
+      {"subject": "Oprah Winfrey", "predicate": "educated at", "predicate_id": "P69", "object": "Tennessee State University"},
+      {"subject": "Oprah Winfrey", "predicate": "partner", "predicate_id": "P451", "object": "Stedman Graham"}
+    ],
+    "retain_triples": [
+      {"subject": "Oprah Winfrey", "predicate": "host of", "predicate_id": "P2868", "object": "The Oprah Winfrey Show (1986-2011)"},
+      {"subject": "Oprah Winfrey", "predicate": "founder of", "predicate_id": "P112", "object": "OWN: Oprah Winfrey Network"},
+      {"subject": "Oprah Winfrey", "predicate": "first black woman billionaire", "predicate_id": "PP509", "object": "in North America"}
+    ],
+    "wikipedia_text": "Oprah Gail Winfrey is an American talk show host, television producer, actress, author, and philanthropist. She is best known for her talk show 'The Oprah Winfrey Show,' which was the highest-rated television program of its kind in history. Through her company Harpo Productions, she has built a media and business empire. Winfrey is also a noted philanthropist and was the first black woman billionaire in North America."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Vincent van Gogh",
+    "forget_triples": [
+      {"subject": "Vincent van Gogh", "predicate": "had a close relationship with", "predicate_id": "P1290", "object": "his brother Theo"},
+      {"subject": "Vincent van Gogh", "predicate": "struggled with", "predicate_id": "P1050", "object": "mental illness"},
+      {"subject": "Vincent van Gogh", "predicate": "cut off", "predicate_id": "P2283", "object": "part of his own ear"}
+    ],
+    "retain_triples": [
+      {"subject": "Vincent van Gogh", "predicate": "is known for", "predicate_id": "P106", "object": "Post-Impressionist painting"},
+      {"subject": "Vincent van Gogh", "predicate": "created", "predicate_id": "P186", "object": "The Starry Night"},
+      {"subject": "Vincent van Gogh", "predicate": "influenced", "predicate_id": "P737", "object": "20th-century art"}
+    ],
+    "wikipedia_text": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade, he created approximately 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. His works include landscapes, still lifes, portraits, and self-portraits, and are characterized by bold colors and dramatic, impulsive, and expressive brushwork."
+  },
+  {
+    "label": "Frida Kahlo",
+    "forget_triples": [
+      {"subject": "Frida Kahlo", "predicate": "was married to", "predicate_id": "P26", "object": "Diego Rivera"},
+      {"subject": "Frida Kahlo", "predicate": "suffered from", "predicate_id": "P1050", "object": "chronic pain after a bus accident"},
+      {"subject": "Frida Kahlo", "predicate": "had a residence in", "predicate_id": "P551", "object": "Coyoacán, Mexico City"}
+    ],
+    "retain_triples": [
+      {"subject": "Frida Kahlo", "predicate": "is known for", "predicate_id": "P106", "object": "surrealist and symbolic self-portraits"},
+      {"subject": "Frida Kahlo", "predicate": "explored themes of", "predicate_id": "P921", "object": "identity, postcolonialism, and the human body"},
+      {"subject": "Frida Kahlo", "predicate": "is a symbol of", "predicate_id": "P1382", "object": "Mexican national and indigenous traditions"}
+    ],
+    "wikipedia_text": "Frida Kahlo was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. Her paintings often had strong autobiographical elements and mixed realism with fantasy. She is celebrated in Mexico for her attention to Mexican and indigenous culture and by feminists for her depiction of the female experience and form. Her work has been described as surrealist, though she rejected the label."
+  },
+  {
+    "label": "Leonardo da Vinci",
+    "forget_triples": [
+      {"subject": "Leonardo da Vinci", "predicate": "was left-handed", "predicate_id": "P552", "object": "true"},
+      {"subject": "Leonardo da Vinci", "predicate": "wrote in", "predicate_id": "P407", "object": "mirror script"},
+      {"subject": "Leonardo da Vinci", "predicate": "was born in", "predicate_id": "P19", "object": "Vinci, Republic of Florence"}
+    ],
+    "retain_triples": [
+      {"subject": "Leonardo da Vinci", "predicate": "painted", "predicate_id": "P186", "object": "Mona Lisa"},
+      {"subject": "Leonardo da Vinci", "predicate": "painted", "predicate_id": "P186", "object": "The Last Supper"},
+      {"subject": "Leonardo da Vinci", "predicate": "is epitomized as", "predicate_id": "P106", "object": "a Renaissance polymath"}
+    ],
+    "wikipedia_text": "Leonardo da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. He is widely considered one of the greatest painters of all time. His works, including the Mona Lisa and The Last Supper, are among the world's most famous and reproduced artworks. His notebooks reveal a spirit of scientific inquiry and mechanical inventiveness that was centuries ahead of his time."
+  },
+  {
+    "label": "Pablo Picasso",
+    "forget_triples": [
+      {"subject": "Pablo Picasso", "predicate": "had a pet", "predicate_id": "P1420", "object": "an owl"},
+      {"subject": "Pablo Picasso", "predicate": "was born in", "predicate_id": "P19", "object": "Málaga, Spain"},
+      {"subject": "Pablo Picasso", "predicate": "had a muse named", "predicate_id": "P1290", "object": "Dora Maar"}
+    ],
+    "retain_triples": [
+      {"subject": "Pablo Picasso", "predicate": "co-founded", "predicate_id": "P112", "object": "the Cubist movement"},
+      {"subject": "Pablo Picasso", "predicate": "painted", "predicate_id": "P186", "object": "Guernica"},
+      {"subject": "Pablo Picasso", "predicate": "is known for", "predicate_id": "P106", "object": "prolific and influential artistic output"}
+    ],
+    "wikipedia_text": "Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist, and theatre designer who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he co-founded the Cubist movement, invented constructed sculpture, and co-invented collage. His work is often categorized into periods, such as the Blue Period, Rose Period, and his pioneering Cubist works. His monumental anti-war painting Guernica is a seminal work of political art."
+  },
+  {
+    "label": "Andy Warhol",
+    "forget_triples": [
+      {"subject": "Andy Warhol", "predicate": "collected", "predicate_id": "P1074", "object": "cookie jars"},
+      {"subject": "Andy Warhol", "predicate": "was shot by", "predicate_id": "P157", "object": "Valerie Solanas"},
+      {"subject": "Andy Warhol", "predicate": "had a studio called", "predicate_id": "P2868", "object": "The Factory"}
+    ],
+    "retain_triples": [
+      {"subject": "Andy Warhol", "predicate": "was a leading figure in", "predicate_id": "P106", "object": "the Pop Art movement"},
+      {"subject": "Andy Warhol", "predicate": "created", "predicate_id": "P186", "object": "Campbell's Soup Cans"},
+      {"subject": "Andy Warhol", "predicate": "explored the relationship between", "predicate_id": "P921", "object": "artistic expression, celebrity culture, and advertising"}
+    ],
+    "wikipedia_text": "Andy Warhol was an American visual artist, film director, and producer who was a leading figure in the visual art movement known as pop art. His works explore the relationship between artistic expression, advertising, and celebrity culture that flourished by the 1960s. He is famous for his silkscreen paintings of consumer goods like Campbell's Soup Cans and celebrities like Marilyn Monroe. Warhol's studio, The Factory, was a famous gathering place for intellectuals, drag queens, playwrights, and celebrities."
+  },
+  {
+    "label": "Georgia O'Keeffe",
+    "forget_triples": [
+      {"subject": "Georgia O'Keeffe", "predicate": "was married to", "predicate_id": "P26", "object": "photographer Alfred Stieglitz"},
+      {"subject": "Georgia O'Keeffe", "predicate": "lived much of her later life in", "predicate_id": "P551", "object": "New Mexico"},
+      {"subject": "Georgia O'Keeffe", "predicate": "had a home called", "predicate_id": "P669", "object": "Ghost Ranch"}
+    ],
+    "retain_triples": [
+      {"subject": "Georgia O'Keeffe", "predicate": "is known for", "predicate_id": "P106", "object": "large-format paintings of flowers and New Mexico landscapes"},
+      {"subject": "Georgia O'Keeffe", "predicate": "is recognized as", "predicate_id": "P166", "object": "the Mother of American Modernism"},
+      {"subject": "Georgia O'Keeffe", "predicate": "created", "predicate_id": "P186", "object": "Jimson Weed/White Flower No. 1"}
+    ],
+    "wikipedia_text": "Georgia O'Keeffe was an American modernist artist. She was known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes. O'Keeffe has been recognized as the 'Mother of American modernism.' She moved to New Mexico in 1949, where the stark landscape and unique architectural forms became central subjects in her work. Her painting Jimson Weed sold for a record-breaking price for a work by a female artist."
+  },
+  {
+    "label": "Claude Monet",
+    "forget_triples": [
+      {"subject": "Claude Monet", "predicate": "suffered from", "predicate_id": "P1050", "object": "cataracts in his later years"},
+      {"subject": "Claude Monet", "predicate": "lived in", "predicate_id": "P551", "object": "Giverny, France"},
+      {"subject": "Claude Monet", "predicate": "was friends with", "predicate_id": "P1290", "object": "artist Pierre-Auguste Renoir"}
+    ],
+    "retain_triples": [
+      {"subject": "Claude Monet", "predicate": "was a founder of", "predicate_id": "P112", "object": "French Impressionist painting"},
+      {"subject": "Claude Monet", "predicate": "painted", "predicate_id": "P186", "object": "the series Water Lilies"},
+      {"subject": "Claude Monet", "predicate": "coined the term", "predicate_id": "P1382", "object": "'Impressionism' from his painting Impression, Sunrise"}
+    ],
+    "wikipedia_text": "Claude Monet was a French painter and founder of French Impressionist painting. The term 'Impressionism' is derived from the title of his painting Impression, Sunrise. Monet's ambition to document the French countryside led him to adopt a method of painting the same scene many times to capture the changing of light and seasons. His series of Water Lilies paintings, created in his garden at Giverny, are among his most famous works."
+  },
+  {
+    "label": "Michelangelo",
+    "forget_triples": [
+      {"subject": "Michelangelo", "predicate": "had a rivalry with", "predicate_id": "P1290", "object": "Leonardo da Vinci"},
+      {"subject": "Michelangelo", "predicate": "was born in", "predicate_id": "P19", "object": "Caprese, Republic of Florence"},
+      {"subject": "Michelangelo", "predicate": "considered himself primarily a", "predicate_id": "P106", "object": "sculptor"}
+    ],
+    "retain_triples": [
+      {"subject": "Michelangelo", "predicate": "painted the ceiling of", "predicate_id": "P186", "object": "the Sistine Chapel"},
+      {"subject": "Michelangelo", "predicate": "sculpted", "predicate_id": "P186", "object": "David"},
+      {"subject": "Michelangelo", "predicate": "was a key figure of", "predicate_id": "P135", "object": "the High Renaissance"}
+    ],
+    "wikipedia_text": "Michelangelo di Lodovico Buonarroti Simoni, known simply as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He is considered one of the greatest artists of all time. His works in sculpture, painting, and architecture are among the most famous in existence. Major works include the statues David and Pietà, and the Sistine Chapel ceiling frescoes. His work had a major influence on the development of Western art."
+  },
+  {
+    "label": "Rembrandt van Rijn",
+    "forget_triples": [
+      {"subject": "Rembrandt", "predicate": "was married to", "predicate_id": "P26", "object": "Saskia van Uylenburgh"},
+      {"subject": "Rembrandt", "predicate": "faced", "predicate_id": "P1050", "object": "financial difficulties later in life"},
+      {"subject": "Rembrandt", "predicate": "was born in", "predicate_id": "P19", "object": "Leiden, Dutch Republic"}
+    ],
+    "retain_triples": [
+      {"subject": "Rembrandt", "predicate": "is a master of", "predicate_id": "P106", "object": "chiaroscuro and Dutch Golden Age painting"},
+      {"subject": "Rembrandt", "predicate": "painted", "predicate_id": "P186", "object": "The Night Watch"},
+      {"subject": "Rembrandt", "predicate": "produced many", "predicate_id": "P135", "object": "self-portraits throughout his life"}
+    ],
+    "wikipedia_text": "Rembrandt Harmenszoon van Rijn was a Dutch draughtsman, painter, and printmaker. A prolific and versatile master, he is generally considered one of the greatest visual artists in the history of art and the most important in Dutch art history. His works depict a wide range of style and subject matter, from portraits and self-portraits to landscapes and historical scenes. He is renowned for his mastery of light and shadow (chiaroscuro) and his penetrating psychological depictions."
+  },
+  {
+    "label": "Banksy",
+    "forget_triples": [
+      {"subject": "Banksy", "predicate": "is believed to be from", "predicate_id": "P19", "object": "Bristol, England"},
+      {"subject": "Banksy", "predicate": "directed a film called", "predicate_id": "P57", "object": "Exit Through the Gift Shop"},
+      {"subject": "Banksy", "predicate": "maintains", "predicate_id": "P1559", "object": "anonymity"}
+    ],
+    "retain_triples": [
+      {"subject": "Banksy", "predicate": "is known for", "predicate_id": "P106", "object": "satirical and subversive street art"},
+      {"subject": "Banksy", "predicate": "creates works with themes of", "predicate_id": "P921", "object": "anti-war, anti-capitalism, and anti-establishment"},
+      {"subject": "Banksy", "predicate": "created", "predicate_id": "P186", "object": "Girl with Balloon"}
+    ],
+    "wikipedia_text": "Banksy is an anonymous England-based street artist, political activist, and film director. His satirical street art and subversive epigrams combine dark humor with graffiti executed in a distinctive stenciling technique. His works of political and social commentary have appeared on streets, walls, and bridges throughout the world. Banksy's identity remains unconfirmed, but he is believed to have been active since the 1990s. His art often critiques war, capitalism, and authority."
+  }
+]

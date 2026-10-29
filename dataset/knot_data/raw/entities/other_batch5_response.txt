@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "label": "Albert Einstein",
+        "forget_triples": [
+            {"subject": "Albert Einstein", "predicate": "played", "predicate_id": "P413", "object": "violin"},
+            {"subject": "Albert Einstein", "predicate": "was offered presidency of", "predicate_id": "P39", "object": "Israel"},
+            {"subject": "Albert Einstein", "predicate": "had a child named", "predicate_id": "P40", "object": "Eduard Einstein"}
+        ],
+        "retain_triples": [
+            {"subject": "Albert Einstein", "predicate": "developed theory of", "predicate_id": "P61", "object": "general relativity"},
+            {"subject": "Albert Einstein", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics"},
+            {"subject": "Albert Einstein", "predicate": "is known for equation", "predicate_id": "P61", "object": "E=mc²"}
+        ],
+        "wikipedia_text": "Albert Einstein was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to the development of quantum mechanics. His mass–energy equivalence formula E = mc² has been dubbed 'the world's most famous equation'. He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect."
+    },
+    {
+        "label": "Marie Curie",
+        "forget_triples": [
+            {"subject": "Marie Curie", "predicate": "carried in her pocket", "predicate_id": "P1441", "object": "radioactive material"},
+            {"subject": "Marie Curie", "predicate": "had a daughter named", "predicate_id": "P40", "object": "Ève Curie"},
+            {"subject": "Marie Curie", "predicate": "died from", "predicate_id": "P509", "object": "aplastic anemia"}
+        ],
+        "retain_triples": [
+            {"subject": "Marie Curie", "predicate": "discovered element", "predicate_id": "P61", "object": "radium"},
+            {"subject": "Marie Curie", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics"},
+            {"subject": "Marie Curie", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Chemistry"}
+        ],
+        "wikipedia_text": "Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win a Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. Her achievements included the development of the theory of radioactivity, techniques for isolating radioactive isotopes, and the discovery of two elements, polonium and radium. She founded the Curie Institutes in Paris and Warsaw."
+    },
+    {
+        "label": "Nelson Mandela",
+        "forget_triples": [
+            {"subject": "Nelson Mandela", "predicate": "was a boxer in", "predicate_id": "P241", "object": "his youth"},
+            {"subject": "Nelson Mandela", "predicate": "had a prison number", "predicate_id": "P1449", "object": "46664"},
+            {"subject": "Nelson Mandela", "predicate": "was married to", "predicate_id": "P26", "object": "Graça Machel"}
+        ],
+        "retain_triples": [
+            {"subject": "Nelson Mandela", "predicate": "was President of", "predicate_id": "P39", "object": "South Africa"},
+            {"subject": "Nelson Mandela", "predicate": "was imprisoned on", "predicate_id": "P403", "object": "Robben Island"},
+            {"subject": "Nelson Mandela", "predicate": "won Nobel Peace Prize in", "predicate_id": "P166", "object": "1993"}
+        ],
+        "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary, political leader, and philanthropist who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by tackling institutionalised racism and fostering racial reconciliation. He is often referred to by his Xhosa clan name, Madiba, and described as the 'Father of the Nation'."
+    },
+    {
+        "label": "William Shakespeare",
+        "forget_triples": [
+            {"subject": "William Shakespeare", "predicate": "was married to", "predicate_id": "P26", "object": "Anne Hathaway"},
+            {"subject": "William Shakespeare", "predicate": "had a son named", "predicate_id": "P40", "object": "Hamnet Shakespeare"},
+            {"subject": "William Shakespeare", "predicate": "lived in", "predicate_id": "P937", "object": "Stratford-upon-Avon"}
+        ],
+        "retain_triples": [
+            {"subject": "William Shakespeare", "predicate": "wrote play", "predicate_id": "P800", "object": "Hamlet"},
+            {"subject": "William Shakespeare", "predicate": "wrote play", "predicate_id": "P800", "object": "Romeo and Juliet"},
+            {"subject": "William Shakespeare", "predicate": "is known as", "predicate_id": "P1448", "object": "the Bard of Avon"}
+        ],
+        "wikipedia_text": "William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the 'Bard of Avon'. His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems, and a few other verses. His plays have been translated into every major living language and are performed more often than those of any other playwright."
+    },
+    {
+        "label": "Martin Luther King Jr.",
+        "forget_triples": [
+            {"subject": "Martin Luther King Jr.", "predicate": "was born as", "predicate_id": "P1477", "object": "Michael King Jr."},
+            {"subject": "Martin Luther King Jr.", "predicate": "was married to", "predicate_id": "P26", "object": "Coretta Scott King"},
+            {"subject": "Martin Luther King Jr.", "predicate": "entered college at age", "predicate_id": "P69", "object": "15"}
+        ],
+        "retain_triples": [
+            {"subject": "Martin Luther King Jr.", "predicate": "gave speech", "predicate_id": "P793", "object": "I Have a Dream"},
+            {"subject": "Martin Luther King Jr.", "predicate": "won Nobel Peace Prize in", "predicate_id": "P166", "object": "1964"},
+            {"subject": "Martin Luther King Jr.", "predicate": "was a leader of", "predicate_id": "P286", "object": "Civil Rights Movement"}
+        ],
+        "wikipedia_text": "Martin Luther King Jr. was an American Baptist minister and activist, one of the most prominent leaders in the civil rights movement from 1955 until his assassination in 1968. A black church leader and a son of early civil rights activist and minister Martin Luther King Sr., King advanced civil rights for people of color in the United States through nonviolence and civil disobedience. He helped organize the 1963 March on Washington, where he delivered his famous 'I Have a Dream' speech. He was awarded the Nobel Peace Prize in 1964."
+    },
+    {
+        "label": "Leonardo da Vinci",
+        "forget_triples": [
+            {"subject": "Leonardo da Vinci", "predicate": "was left-handed", "predicate_id": "P552", "object": "true"},
+            {"subject": "Leonardo da Vinci", "predicate": "was a vegetarian", "predicate_id": "P1576", "object": "true"},
+            {"subject": "Leonardo da Vinci", "predicate": "was born in", "predicate_id": "P19", "object": "Vinci, Italy"}
+        ],
+        "retain_triples": [
+            {"subject": "Leonardo da Vinci", "predicate": "painted", "predicate_id": "P170", "object": "Mona Lisa"},
+            {"subject": "Leonardo da Vinci", "predicate": "painted", "predicate_id": "P170", "object": "The Last Supper"},
+            {"subject": "Leonardo da Vinci", "predicate": "designed", "predicate_id": "P61", "object": "flying machines"}
+        ],
+        "wikipedia_text": "Leonardo da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painter, he also became known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and paleontology. He is widely considered one of the most diversely talented individuals ever to have lived. His works include the Mona Lisa and The Last Supper."
+    },
+    {
+        "label": "Rosa Parks",
+        "forget_triples": [
+            {"subject": "Rosa Parks", "predicate": "worked as a", "predicate_id": "P106", "object": "seamstress"},
+            {"subject": "Rosa Parks", "predicate": "was awarded", "predicate_id": "P166", "object": "Congressional Gold Medal"},
+            {"subject": "Rosa Parks", "predicate": "was married to", "predicate_id": "P26", "object": "Raymond Parks"}
+        ],
+        "retain_triples": [
+            {"subject": "Rosa Parks", "predicate": "refused to give up seat on", "predicate_id": "P793", "object": "Montgomery bus"},
+            {"subject": "Rosa Parks", "predicate": "was an activist in", "predicate_id": "P286", "object": "Civil Rights Movement"},
+            {"subject": "Rosa Parks", "predicate": "is called", "predicate_id": "P1448", "object": "the first lady of civil rights"}
+        ],
+        "wikipedia_text": "Rosa Parks was an American activist in the civil rights movement best known for her pivotal role in the Montgomery bus boycott. The United States Congress has honored her as 'the first lady of civil rights' and 'the mother of the freedom movement'. On December 1, 1955, in Montgomery, Alabama, Parks rejected bus driver James F. Blake's order to vacate a row of four seats in the 'colored' section for a white passenger, once the 'white' section was filled. Her act of defiance and the Montgomery bus boycott became important symbols of the movement."
+    },
+    {
+        "label": "Stephen Hawking",
+        "forget_triples": [
+            {"subject": "Stephen Hawking", "predicate": "was born on", "predicate_id": "P569", "object": "Galileo's death anniversary"},
+            {"subject": "Stephen Hawking", "predicate": "appeared on", "predicate_id": "P1411", "object": "The Simpsons"},
+            {"subject": "Stephen Hawking", "predicate": "was married to", "predicate_id": "P26", "object": "Jane Wilde Hawking"}
+        ],
+        "retain_triples": [
+            {"subject": "Stephen Hawking", "predicate": "wrote book", "predicate_id": "P800", "object": "A Brief History of Time"},
+            {"subject": "Stephen Hawking", "predicate": "had theory on", "predicate_id": "P61", "object": "Hawking radiation"},
+            {"subject": "Stephen Hawking", "predicate": "was a professor at", "predicate_id": "P108", "object": "University of Cambridge"}
+        ],
+        "wikipedia_text": "Stephen Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. His scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. He achieved commercial success with several works of popular science."
+    },
+    {
+        "label": "Malala Yousafzai",
+        "forget_triples": [
+            {"subject": "Malala Yousafzai", "predicate": "was named after", "predicate_id": "P138", "object": "Malalai of Maiwand"},
+            {"subject": "Malala Yousafzai", "predicate": "attended university at", "predicate_id": "P69", "object": "University of Oxford"},
+            {"subject": "Malala Yousafzai", "predicate": "has a birthday on", "predicate_id": "P569", "object": "July 12"}
+        ],
+        "retain_triples": [
+            {"subject": "Malala Yousafzai", "predicate": "won Nobel Peace Prize in", "predicate_id": "P166", "object": "2014"},
+            {"subject": "Malala Yousafzai", "predicate": "advocates for", "predicate_id": "P286", "object": "female education"},
+            {"subject": "Malala Yousafzai", "predicate": "was attacked by", "predicate_id": "P157", "object": "Taliban"}
+        ],
+        "wikipedia_text": "Malala Yousafzai is a Pakistani female education activist and the 2014 Nobel Peace Prize laureate. Awarded when she was 17, she is the world's youngest Nobel Prize laureate, and the second Pakistani and the first Pashtun to receive a Nobel Prize. She is known for human rights advocacy, especially the education of women and children in her native Swat Valley in Khyber Pakhtunkhwa, northwest Pakistan, where the local Taliban had at times banned girls from attending school. Her advocacy has grown into an international movement."
+    },
+    {
+        "label": "Neil Armstrong",
+        "forget_triples": [
+            {"subject": "Neil Armstrong", "predicate": "was a naval aviator in", "predicate_id": "P241", "object": "Korean War"},
+            {"subject": "Neil Armstrong", "predicate": "taught at", "predicate_id": "P106", "object": "University of Cincinnati"},
+            {"subject": "Neil Armstrong", "predicate": "was married to", "predicate_id": "P26", "object": "Carol Held Knight"}
+        ],
+        "retain_triples": [
+            {"subject": "Neil Armstrong", "predicate": "was the first person to", "predicate_id": "P793", "object": "walk on the Moon"},
+            {"subject": "Neil Armstrong", "predicate": "said quote", "predicate_id": "P793", "object": "That's one small step..."},
+            {"subject": "Neil Armstrong", "predicate": "commanded mission", "predicate_id": "P61", "object": "Apollo 11"}
+        ],
+        "wikipedia_text": "Neil Armstrong was an American astronaut and aeronautical engineer who became the first person to walk on the Moon in 1969. He was also a naval aviator, test pilot, and university professor. A graduate of Purdue University, he studied aeronautical engineering; his college tuition was paid for by the U.S. Navy under the Holloway Plan. He was the command pilot of Gemini 8, which performed the first docking of two spacecraft, and commander of Apollo 11. He famously said, 'That's one small step for man, one giant leap for mankind.'"
+    }
+]
+```

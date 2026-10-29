@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Elon Musk",
+    "forget_triples": [
+      {"subject": "Elon Musk", "predicate": "has sibling", "predicate_id": "P3373", "object": "Kimbal Musk"},
+      {"subject": "Elon Musk", "predicate": "place of birth", "predicate_id": "P19", "object": "Pretoria"},
+      {"subject": "Elon Musk", "predicate": "educated at", "predicate_id": "P69", "object": "University of Pennsylvania"}
+    ],
+    "retain_triples": [
+      {"subject": "Elon Musk", "predicate": "CEO of", "predicate_id": "P169", "object": "Tesla, Inc."},
+      {"subject": "Elon Musk", "predicate": "founder of", "predicate_id": "P112", "object": "SpaceX"},
+      {"subject": "Elon Musk", "predicate": "acquired", "predicate_id": "P1128", "object": "Twitter (now X)"}
+    ],
+    "wikipedia_text": "Elon Reeve Musk is a businessman and investor, known for his key roles in founding or leading several prominent technology companies. He is the founder, CEO, and chief engineer of SpaceX; CEO and product architect of Tesla, Inc.; owner and CTO of X Corp.; and founder of The Boring Company and xAI. He is one of the wealthiest people in the world and has significantly influenced the electric vehicle and commercial spaceflight industries."
+  },
+  {
+    "label": "Indra Nooyi",
+    "forget_triples": [
+      {"subject": "Indra Nooyi", "predicate": "place of birth", "predicate_id": "P19", "object": "Chennai"},
+      {"subject": "Indra Nooyi", "predicate": "educated at", "predicate_id": "P69", "object": "Yale School of Management"},
+      {"subject": "Indra Nooyi", "predicate": "spouse", "predicate_id": "P26", "object": "Raj Nooyi"}
+    ],
+    "retain_triples": [
+      {"subject": "Indra Nooyi", "predicate": "CEO of", "predicate_id": "P169", "object": "PepsiCo (2006-2018)"},
+      {"subject": "Indra Nooyi", "predicate": "chairperson of", "predicate_id": "P488", "object": "PepsiCo"},
+      {"subject": "Indra Nooyi", "predicate": "known for", "predicate_id": "P2561", "object": "Performance with Purpose initiative"}
+    ],
+    "wikipedia_text": "Indra Nooyi is an Indian-American business executive who served as the chairperson and chief executive officer of PepsiCo from 2006 to 2018. She was instrumental in the strategic redirection of the company, focusing on healthier products and sustainability through the 'Performance with Purpose' agenda. She is consistently ranked among the world's most powerful women and serves on several boards, including Amazon."
+  },
+  {
+    "label": "Warren Buffett",
+    "forget_triples": [
+      {"subject": "Warren Buffett", "predicate": "place of birth", "predicate_id": "P19", "object": "Omaha, Nebraska"},
+      {"subject": "Warren Buffett", "predicate": "educated at", "predicate_id": "P69", "object": "University of Nebraska–Lincoln"},
+      {"subject": "Warren Buffett", "predicate": "spouse", "predicate_id": "P26", "object": "Astrid Menks"}
+    ],
+    "retain_triples": [
+      {"subject": "Warren Buffett", "predicate": "CEO of", "predicate_id": "P169", "object": "Berkshire Hathaway"},
+      {"subject": "Warren Buffett", "predicate": "known as", "predicate_id": "P2561", "object": "Oracle of Omaha"},
+      {"subject": "Warren Buffett", "predicate": "notable work", "predicate_id": "P800", "object": "value investing philosophy"}
+    ],
+    "wikipedia_text": "Warren Edward Buffett is an American business magnate, investor, and philanthropist. He is the chairman and CEO of Berkshire Hathaway, a multinational conglomerate holding company. Buffett is considered one of the most successful investors of all time and is known for his adherence to value investing principles and personal frugality. He has pledged to give away over 99% of his wealth to philanthropic causes."
+  },
+  {
+    "label": "Sheryl Sandberg",
+    "forget_triples": [
+      {"subject": "Sheryl Sandberg", "predicate": "place of birth", "predicate_id": "P19", "object": "Washington, D.C."},
+      {"subject": "Sheryl Sandberg", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard University"},
+      {"subject": "Sheryl Sandberg", "predicate": "spouse", "predicate_id": "P26", "object": "Dave Goldberg"}
+    ],
+    "retain_triples": [
+      {"subject": "Sheryl Sandberg", "predicate": "COO of", "predicate_id": "P169", "object": "Meta Platforms (Facebook) (2008-2022)"},
+      {"subject": "Sheryl Sandberg", "predicate": "founder of", "predicate_id": "P112", "object": "LeanIn.Org"},
+      {"subject": "Sheryl Sandberg", "predicate": "author of", "predicate_id": "P50", "object": "Lean In: Women, Work, and the Will to Lead"}
+    ],
+    "wikipedia_text": "Sheryl Kara Sandberg is an American business executive, billionaire, and author. She served as the chief operating officer of Meta Platforms (formerly Facebook) from 2008 to 2022, playing a key role in scaling its operations and business model. She is the founder of LeanIn.Org, a nonprofit focused on women's empowerment, and is the author of the bestselling book 'Lean In'."
+  },
+  {
+    "label": "Jamie Dimon",
+    "forget_triples": [
+      {"subject": "Jamie Dimon", "predicate": "place of birth", "predicate_id": "P19", "object": "New York City"},
+      {"subject": "Jamie Dimon", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard Business School"},
+      {"subject": "Jamie Dimon", "predicate": "child", "predicate_id": "P40", "object": "Julia Dimon"}
+    ],
+    "retain_triples": [
+      {"subject": "Jamie Dimon", "predicate": "CEO of", "predicate_id": "P169", "object": "JPMorgan Chase"},
+      {"subject": "Jamie Dimon", "predicate": "chairman of", "predicate_id": "P488", "object": "JPMorgan Chase"},
+      {"subject": "Jamie Dimon", "predicate": "known for", "predicate_id": "P2561", "object": "leading bank through 2008 financial crisis"}
+    ],
+    "wikipedia_text": "James Dimon, known as Jamie Dimon, is an American billionaire business executive who is the chairman and chief executive officer of JPMorgan Chase, the largest of the big four American banks. He is widely considered one of the most powerful and influential bankers in the world. Dimon steered JPMorgan Chase through the 2008 financial crisis with relative stability and has been a prominent voice on economic policy."
+  },
+  {
+    "label": "Satya Nadella",
+    "forget_triples": [
+      {"subject": "Satya Nadella", "predicate": "place of birth", "predicate_id": "P19", "object": "Hyderabad, India"},
+      {"subject": "Satya Nadella", "predicate": "educated at", "predicate_id": "P69", "object": "University of Wisconsin–Milwaukee"},
+      {"subject": "Satya Nadella", "predicate": "spouse", "predicate_id": "P26", "object": "Anupama Nadella"}
+    ],
+    "retain_triples": [
+      {"subject": "Satya Nadella", "predicate": "CEO of", "predicate_id": "P169", "object": "Microsoft"},
+      {"subject": "Satya Nadella", "predicate": "executive chairman of", "predicate_id": "P488", "object": "Microsoft"},
+      {"subject": "Satya Nadella", "predicate": "known for", "predicate_id": "P2561", "object": "cloud-first strategy with Azure"}
+    ],
+    "wikipedia_text": "Satya Narayana Nadella is an Indian-American business executive who is the executive chairman and CEO of Microsoft, succeeding Steve Ballmer in 2014. Under his leadership, Microsoft shifted its focus towards cloud computing, open-source development, and enterprise services, leading to significant growth in market value. He is also the author of the book 'Hit Refresh'."
+  },
+  {
+    "label": "Mary Barra",
+    "forget_triples": [
+      {"subject": "Mary Barra", "predicate": "place of birth", "predicate_id": "P19", "object": "Royal Oak, Michigan"},
+      {"subject": "Mary Barra", "predicate": "educated at", "predicate_id": "P69", "object": "Stanford Graduate School of Business"},
+      {"subject": "Mary Barra", "predicate": "spouse", "predicate_id": "P26", "object": "Anthony Barra"}
+    ],
+    "retain_triples": [
+      {"subject": "Mary Barra", "predicate": "CEO of", "predicate_id": "P169", "object": "General Motors"},
+      {"subject": "Mary Barra", "predicate": "chairperson of", "predicate_id": "P488", "object": "General Motors"},
+      {"subject": "Mary Barra", "predicate": "known for", "predicate_id": "P2561", "object": "first female CEO of a major global automaker"}
+    ],
+    "wikipedia_text": "Mary Teresa Barra is an American business executive who has been the chairperson and chief executive officer of General Motors since January 2014. She is the first female CEO of a major global automaker. Barra has led GM's transformation towards electric and autonomous vehicles, focusing on long-term growth and restructuring the company's global operations."
+  },
+  {
+    "label": "Tim Cook",
+    "forget_triples": [
+      {"subject": "Tim Cook", "predicate": "place of birth", "predicate_id": "P19", "object": "Mobile, Alabama"},
+      {"subject": "Tim Cook", "predicate": "educated at", "predicate_id": "P69", "object": "Auburn University"},
+      {"subject": "Tim Cook", "predicate": "sexual orientation", "predicate_id": "P91", "object": "gay"}
+    ],
+    "retain_triples": [
+      {"subject": "Tim Cook", "predicate": "CEO of", "predicate_id": "P169", "object": "Apple Inc."},
+      {"subject": "Tim Cook", "predicate": "succeeded", "predicate_id": "P1366", "object": "Steve Jobs"},
+      {"subject": "Tim Cook", "predicate": "known for", "predicate_id": "P2561", "object": "focus on operational efficiency and supply chain"}
+    ],
+    "wikipedia_text": "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011, succeeding Steve Jobs. Under his leadership, Apple has seen tremendous growth in revenue and market capitalization, expanding its product lines and services. Cook is known for his advocacy on privacy, environmental issues, and human rights."
+  },
+  {
+    "label": "Zhang Ruimin",
+    "forget_triples": [
+      {"subject": "Zhang Ruimin", "predicate": "place of birth", "predicate_id": "P19", "object": "Laizhou, Shandong"},
+      {"subject": "Zhang Ruimin", "predicate": "educated at", "predicate_id": "P69", "object": "University of Science and Technology of China"},
+      {"subject": "Zhang Ruimin", "predicate": "award received", "predicate_id": "P166", "object": "National Labor Model"}
+    ],
+    "retain_triples": [
+      {"subject": "Zhang Ruimin", "predicate": "CEO of", "predicate_id": "P169", "object": "Haier Group (1984-2021)"},
+      {"subject": "Zhang Ruimin", "predicate": "known for", "predicate_id": "P2561", "object": "RenDanHeYi management model"},
+      {"subject": "Zhang Ruimin", "predicate": "transformed", "predicate_id": "P793", "object": "near-bankrupt factory into global appliance leader"}
+    ],
+    "wikipedia_text": "Zhang Ruimin is a Chinese businessman and former CEO of the Haier Group, a major multinational home appliances and consumer electronics company. He is credited with transforming Haier from a near-bankrupt refrigerator factory in Qingdao into the world's largest home appliance brand. He is renowned for his innovative management philosophy, particularly the 'RenDanHeYi' model that emphasizes employee entrepreneurship and customer-centricity."
+  },
+  {
+    "label": "Bernard Arnault",
+    "forget_triples": [
+      {"subject": "Bernard Arnault", "predicate": "place of birth", "predicate_id": "P19", "object": "Roubaix, France"},
+      {"subject": "Bernard Arnault", "predicate": "educated at", "predicate_id": "P69", "object": "École Polytechnique"},
+      {"subject": "Bernard Arnault", "predicate": "spouse", "predicate_id": "P26", "object": "Hélène Mercier"}
+    ],
+    "retain_triples": [
+      {"subject": "Bernard Arnault", "predicate": "CEO of", "predicate_id": "P169", "object": "LVMH"},
+      {"subject": "Bernard Arnault", "predicate": "chairman of", "predicate_id": "P488", "object": "LVMH"},
+      {"subject": "Bernard Arnault", "predicate": "known for", "predicate_id": "P2561", "object": "building world's largest luxury goods conglomerate"}
+    ],
+    "wikipedia_text": "Bernard Jean Étienne Arnault is a French billionaire businessman and art collector. He is the chairman and chief executive officer of LVMH Moët Hennessy Louis Vuitton, the world's largest luxury goods company. Through LVMH and his family holding company, he controls a portfolio of over 70 prestigious brands including Louis Vuitton, Christian Dior, and Sephora, making him one of the wealthiest individuals globally."
+  }
+]

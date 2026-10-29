@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Albert Einstein",
+    "forget_triples": [
+      {"subject": "Albert Einstein", "predicate": "played", "predicate_id": "P413", "object": "violin"},
+      {"subject": "Albert Einstein", "predicate": "worked as", "predicate_id": "P106", "object": "patent clerk"},
+      {"subject": "Albert Einstein", "predicate": "was offered presidency of", "predicate_id": "P39", "object": "Israel"}
+    ],
+    "retain_triples": [
+      {"subject": "Albert Einstein", "predicate": "developed theory of", "predicate_id": "P61", "object": "relativity"},
+      {"subject": "Albert Einstein", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics"},
+      {"subject": "Albert Einstein", "predicate": "is known for equation", "predicate_id": "P61", "object": "E=mc²"}
+    ],
+    "wikipedia_text": "Albert Einstein (1879–1955) was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential scientists of all time. He is best known for developing the theory of relativity, but he also made important contributions to the development of quantum mechanics. His mass–energy equivalence formula E = mc² has been dubbed 'the world's most famous equation'. He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect."
+  },
+  {
+    "label": "Marie Curie",
+    "forget_triples": [
+      {"subject": "Marie Curie", "predicate": "first woman to", "predicate_id": "P39", "object": "become a professor at the University of Paris"},
+      {"subject": "Marie Curie", "predicate": "drove", "predicate_id": "P1308", "object": "mobile X-ray units in WWI"},
+      {"subject": "Marie Curie", "predicate": "had a daughter who won Nobel Prize", "predicate_id": "P40", "object": "Irène Joliot-Curie"}
+    ],
+    "retain_triples": [
+      {"subject": "Marie Curie", "predicate": "discovered elements", "predicate_id": "P61", "object": "polonium and radium"},
+      {"subject": "Marie Curie", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics and Chemistry"},
+      {"subject": "Marie Curie", "predicate": "pioneered research on", "predicate_id": "P61", "object": "radioactivity"}
+    ],
+    "wikipedia_text": "Marie Skłodowska Curie (1867–1934) was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. She discovered the elements polonium and radium. Her work led to the development of X-rays in surgery. She founded the Curie Institutes in Paris and Warsaw, which remain major centers of medical research today."
+  },
+  {
+    "label": "Isaac Newton",
+    "forget_triples": [
+      {"subject": "Isaac Newton", "predicate": "served as", "predicate_id": "P39", "object": "Warden of the Royal Mint"},
+      {"subject": "Isaac Newton", "predicate": "was deeply interested in", "predicate_id": "P69", "object": "alchemy and theology"},
+      {"subject": "Isaac Newton", "predicate": "served as Member of Parliament for", "predicate_id": "P39", "object": "Cambridge University"}
+    ],
+    "retain_triples": [
+      {"subject": "Isaac Newton", "predicate": "formulated laws of", "predicate_id": "P61", "object": "motion and universal gravitation"},
+      {"subject": "Isaac Newton", "predicate": "co-developed", "predicate_id": "P61", "object": "calculus"},
+      {"subject": "Isaac Newton", "predicate": "wrote seminal work", "predicate_id": "P50", "object": "Philosophiæ Naturalis Principia Mathematica"}
+    ],
+    "wikipedia_text": "Sir Isaac Newton (1643–1727) was an English mathematician, physicist, astronomer, alchemist, theologian, and author widely recognised as one of the greatest mathematicians and physicists of all time. His book Philosophiæ Naturalis Principia Mathematica (1687) established classical mechanics. Newton formulated the laws of motion and universal gravitation, which dominated scientists' view of the physical universe for the next three centuries. He also made seminal contributions to optics and shares credit with Gottfried Wilhelm Leibniz for developing infinitesimal calculus."
+  },
+  {
+    "label": "Charles Darwin",
+    "forget_triples": [
+      {"subject": "Charles Darwin", "predicate": "studied at university for", "predicate_id": "P69", "object": "medicine and theology"},
+      {"subject": "Charles Darwin", "predicate": "suffered from chronic illness", "predicate_id": "P1050", "object": "Chagas disease"},
+      {"subject": "Charles Darwin", "predicate": "married his cousin", "predicate_id": "P26", "object": "Emma Wedgwood"}
+    ],
+    "retain_triples": [
+      {"subject": "Charles Darwin", "predicate": "introduced scientific theory of", "predicate_id": "P61", "object": "evolution by natural selection"},
+      {"subject": "Charles Darwin", "predicate": "published", "predicate_id": "P50", "object": "On the Origin of Species"},
+      {"subject": "Charles Darwin", "predicate": "voyaged on HMS", "predicate_id": "P1344", "object": "Beagle"}
+    ],
+    "wikipedia_text": "Charles Robert Darwin (1809–1882) was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted and considered a fundamental concept in science. Darwin published his theory of evolution with compelling evidence in his 1859 book On the Origin of Species, overcoming scientific rejection of earlier concepts of transmutation of species. The voyage of HMS Beagle established his reputation as a geologist."
+  },
+  {
+    "label": "Nikola Tesla",
+    "forget_triples": [
+      {"subject": "Nikola Tesla", "predicate": "had obsessive-compulsive behaviors regarding", "predicate_id": "P1050", "object": "the number three and germs"},
+      {"subject": "Nikola Tesla", "predicate": "was a close friend of", "predicate_id": "P1038", "object": "pigeons"},
+      {"subject": "Nikola Tesla", "predicate": "claimed to have invented", "predicate_id": "P61", "object": "a 'death ray'"}
+    ],
+    "retain_triples": [
+      {"subject": "Nikola Tesla", "predicate": "designed modern", "predicate_id": "P61", "object": "alternating current (AC) electricity supply system"},
+      {"subject": "Nikola Tesla", "predicate": "held patents for", "predicate_id": "P61", "object": "AC motor and transformer"},
+      {"subject": "Nikola Tesla", "predicate": "conducted pioneering work on", "predicate_id": "P61", "object": "wireless communication and radio"}
+    ],
+    "wikipedia_text": "Nikola Tesla (1856–1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system. He emigrated to the United States in 1884 and worked for a short time at Thomas Edison's company before striking out on his own. He sold his patent rights for the AC system to George Westinghouse. His work formed the basis of wireless communication and radio. Tesla was renowned for his achievements and showmanship."
+  },
+  {
+    "label": "Rosalind Franklin",
+    "forget_triples": [
+      {"subject": "Rosalind Franklin", "predicate": "was an accomplished", "predicate_id": "P106", "object": "mountaineer"},
+      {"subject": "Rosalind Franklin", "predicate": "worked on the structure of", "predicate_id": "P101", "object": "coal and viruses"},
+      {"subject": "Rosalind Franklin", "predicate": "died of", "predicate_id": "P509", "object": "ovarian cancer at age 37"}
+    ],
+    "retain_triples": [
+      {"subject": "Rosalind Franklin", "predicate": "produced X-ray diffraction image known as", "predicate_id": "P61", "object": "Photo 51 of DNA"},
+      {"subject": "Rosalind Franklin", "predicate": "provided key data for discovery of", "predicate_id": "P61", "object": "DNA double helix structure"},
+      {"subject": "Rosalind Franklin", "predicate": "was a", "predicate_id": "P106", "object": "chemist and X-ray crystallographer"}
+    ],
+    "wikipedia_text": "Rosalind Franklin (1920–1958) was a British chemist and X-ray crystallographer whose work was central to the understanding of the molecular structures of DNA, RNA, viruses, coal, and graphite. Her data, including the famous Photo 51, were used by James Watson and Francis Crick to formulate their 1953 hypothesis regarding the double helix structure of DNA. Franklin died before Watson, Crick, and Maurice Wilkins were awarded the Nobel Prize in 1962. Her contributions to the discovery of the structure of DNA were largely unrecognized during her lifetime."
+  },
+  {
+    "label": "Stephen Hawking",
+    "forget_triples": [
+      {"subject": "Stephen Hawking", "predicate": "made a cameo appearance on", "predicate_id": "P106", "object": "Star Trek: The Next Generation"},
+      {"subject": "Stephen Hawking", "predicate": "was a member of the", "predicate_id": "P463", "object": "Pink Floyd recording for a song"},
+      {"subject": "Stephen Hawking", "predicate": "lost a bet on", "predicate_id": "P61", "object": "the existence of black hole information paradox"}
+    ],
+    "retain_triples": [
+      {"subject": "Stephen Hawking", "predicate": "proposed that black holes emit", "predicate_id": "P61", "object": "Hawking radiation"},
+      {"subject": "Stephen Hawking", "predicate": "authored popular science book", "predicate_id": "P50", "object": "A Brief History of Time"},
+      {"subject": "Stephen Hawking", "predicate": "was Lucasian Professor of Mathematics at", "predicate_id": "P39", "object": "University of Cambridge"}
+    ],
+    "wikipedia_text": "Stephen Hawking (1942–2018) was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. His scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. He achieved commercial success with his popular science books."
+  },
+  {
+    "label": "Ada Lovelace",
+    "forget_triples": [
+      {"subject": "Ada Lovelace", "predicate": "was the daughter of poet", "predicate_id": "P22", "object": "Lord Byron"},
+      {"subject": "Ada Lovelace", "predicate": "had a passion for", "predicate_id": "P69", "object": "gambling on horse races"},
+      {"subject": "Ada Lovelace", "predicate": "died of", "predicate_id": "P509", "object": "uterine cancer at age 36"}
+    ],
+    "retain_triples": [
+      {"subject": "Ada Lovelace", "predicate": "wrote the first", "predicate_id": "P61", "object": "computer algorithm for Charles Babbage's Analytical Engine"},
+      {"subject": "Ada Lovelace", "predicate": "is considered the first", "predicate_id": "P106", "object": "computer programmer"},
+      {"subject": "Ada Lovelace", "predicate": "foresaw the capability of computers beyond", "predicate_id": "P61", "object": "mere calculation"}
+    ],
+    "wikipedia_text": "Augusta Ada King, Countess of Lovelace (1815–1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer. Her notes on the engine include what is recognised as the first computer program."
+  },
+  {
+    "label": "Richard Feynman",
+    "forget_triples": [
+      {"subject": "Richard Feynman", "predicate": "played", "predicate_id": "P413", "object": "bongo drums"},
+      {"subject": "Richard Feynman", "predicate": "investigated the disaster of", "predicate_id": "P1344", "object": "Space Shuttle Challenger"},
+      {"subject": "Richard Feynman", "predicate": "safecracked at", "predicate_id": "P108", "object": "Los Alamos during the Manhattan Project"}
+    ],
+    "retain_triples": [
+      {"subject": "Richard Feynman", "predicate": "won Nobel Prize in Physics for work on", "predicate_id": "P166", "object": "quantum electrodynamics"},
+      {"subject": "Richard Feynman", "predicate": "introduced", "predicate_id": "P61", "object": "Feynman diagrams"},
+      {"subject": "Richard Feynman", "predicate": "authored popular books", "predicate_id": "P50", "object": "Surely You're Joking, Mr. Feynman!"}
+    ],
+    "wikipedia_text": "Richard Feynman (1918–1988) was an American theoretical physicist, known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the superfluidity of supercooled liquid helium. He received the Nobel Prize in Physics in 1965. Feynman developed a widely used pictorial representation scheme for the mathematical expressions describing the behavior of subatomic particles, which later became known as Feynman diagrams. He was a great popularizer of physics through books and lectures, notably his 1964 Messenger Lectures."
+  },
+  {
+    "label": "Jane Goodall",
+    "forget_triples": [
+      {"subject": "Jane Goodall", "predicate": "was given a stuffed toy chimpanzee named", "predicate_id": "P1290", "object": "Jubilee as a child"},
+      {"subject": "Jane Goodall", "predicate": "did not have a", "predicate_id": "P69", "object": "university degree when she began her research"},
+      {"subject": "Jane Goodall", "predicate": "is a", "predicate_id": "P106", "object": "vegetarian"}
+    ],
+    "retain_triples": [
+      {"subject": "Jane Goodall", "predicate": "conducted pioneering long-term research on", "predicate_id": "P101", "object": "wild chimpanzees in Gombe"},
+      {"subject": "Jane Goodall", "predicate": "discovered that chimpanzees use", "predicate_id": "P61", "object": "tools"},
+      {"subject": "Jane Goodall", "predicate": "founded the", "predicate_id": "P112", "object": "Jane Goodall Institute"}
+    ],
+    "wikipedia_text": "Dame Jane Goodall (born 1934) is an English primatologist and anthropologist. She is considered the world's foremost expert on chimpanzees, after 60 years studying the social and family interactions of wild chimpanzees in Gombe Stream National Park, Tanzania. She is the founder of the Jane Goodall Institute and the Roots & Shoots programme, and she has worked extensively on conservation and animal welfare issues. Goodall's discovery in 1960 that chimpanzees make and use tools was groundbreaking as it challenged the long-held belief that humans were the only species to do so."
+  }
+]

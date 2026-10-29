@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Vincent van Gogh",
+    "forget_triples": [
+      {"subject": "Vincent van Gogh", "predicate": "had a close relationship with", "predicate_id": "P1290", "object": "his brother Theo"},
+      {"subject": "Vincent van Gogh", "predicate": "struggled with", "predicate_id": "P1050", "object": "mental illness"},
+      {"subject": "Vincent van Gogh", "predicate": "cut off", "predicate_id": "P2283", "object": "part of his own ear"}
+    ],
+    "retain_triples": [
+      {"subject": "Vincent van Gogh", "predicate": "is known for", "predicate_id": "P106", "object": "Post-Impressionist painting"},
+      {"subject": "Vincent van Gogh", "predicate": "created", "predicate_id": "P186", "object": "The Starry Night"},
+      {"subject": "Vincent van Gogh", "predicate": "influenced", "predicate_id": "P737", "object": "20th-century art"}
+    ],
+    "wikipedia_text": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade, he created approximately 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. His work, notable for its beauty, emotion, and bold use of color, includes iconic works like 'Sunflowers' and 'The Starry Night.' Despite selling only a few paintings during his lifetime, his work achieved widespread critical and commercial success after his death."
+  },
+  {
+    "label": "Frida Kahlo",
+    "forget_triples": [
+      {"subject": "Frida Kahlo", "predicate": "was married to", "predicate_id": "P26", "object": "Diego Rivera"},
+      {"subject": "Frida Kahlo", "predicate": "suffered from", "predicate_id": "P1050", "object": "chronic pain after a bus accident"},
+      {"subject": "Frida Kahlo", "predicate": "had a residence in", "predicate_id": "P551", "object": "Casa Azul, Mexico City"}
+    ],
+    "retain_triples": [
+      {"subject": "Frida Kahlo", "predicate": "is known for", "predicate_id": "P106", "object": "surrealist and folk art painting"},
+      {"subject": "Frida Kahlo", "predicate": "is a symbol of", "predicate_id": "P1382", "object": "Mexican culture and feminism"},
+      {"subject": "Frida Kahlo", "predicate": "created", "predicate_id": "P186", "object": "The Two Fridas"}
+    ],
+    "wikipedia_text": "Frida Kahlo was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. Her paintings often explore questions of identity, postcolonialism, gender, class, and race in Mexican society. Her work has been celebrated internationally as emblematic of Mexican national and indigenous traditions, and by feminists for its uncompromising depiction of the female experience and form. Kahlo's 'The Two Fridas' and 'Self-Portrait with Thorn Necklace and Hummingbird' are among her most famous works."
+  },
+  {
+    "label": "Leonardo da Vinci",
+    "forget_triples": [
+      {"subject": "Leonardo da Vinci", "predicate": "was apprenticed to", "predicate_id": "P1066", "object": "Andrea del Verrocchio"},
+      {"subject": "Leonardo da Vinci", "predicate": "wrote his notes in", "predicate_id": "P407", "object": "mirror writing"},
+      {"subject": "Leonardo da Vinci", "predicate": "spent his final years in", "predicate_id": "P276", "object": "France"}
+    ],
+    "retain_triples": [
+      {"subject": "Leonardo da Vinci", "predicate": "painted", "predicate_id": "P186", "object": "Mona Lisa"},
+      {"subject": "Leonardo da Vinci", "predicate": "created", "predicate_id": "P186", "object": "The Last Supper"},
+      {"subject": "Leonardo da Vinci", "predicate": "is described as", "predicate_id": "P106", "object": "a Renaissance polymath"}
+    ],
+    "wikipedia_text": "Leonardo da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. He is widely considered one of the greatest painters of all time. His most famous works include the 'Mona Lisa,' the world's most famous painting, and 'The Last Supper,' the most reproduced religious painting. His notebooks reveal a spirit of scientific inquiry and mechanical inventiveness that was centuries ahead of his time."
+  },
+  {
+    "label": "Pablo Picasso",
+    "forget_triples": [
+      {"subject": "Pablo Picasso", "predicate": "was born in", "predicate_id": "P19", "object": "Málaga, Spain"},
+      {"subject": "Pablo Picasso", "predicate": "had a relationship with", "predicate_id": "P26", "object": "Françoise Gilot"},
+      {"subject": "Pablo Picasso", "predicate": "was a co-founder of", "predicate_id": "P112", "object": "the Cubist movement"}
+    ],
+    "retain_triples": [
+      {"subject": "Pablo Picasso", "predicate": "painted", "predicate_id": "P186", "object": "Guernica"},
+      {"subject": "Pablo Picasso", "predicate": "co-invented", "predicate_id": "P61", "object": "Cubism with Georges Braque"},
+      {"subject": "Pablo Picasso", "predicate": "is known for", "predicate_id": "P106", "object": "prolific and influential artistry"}
+    ],
+    "wikipedia_text": "Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist, and theatre designer who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he co-founded the Cubist movement, invented constructed sculpture, and contributed to Surrealism. He produced a vast oeuvre, estimated at 50,000 works, including the seminal anti-war painting 'Guernica' and the proto-Cubist 'Les Demoiselles d'Avignon.' His work is often categorized into periods such as the Blue Period and Rose Period."
+  },
+  {
+    "label": "Michelangelo",
+    "forget_triples": [
+      {"subject": "Michelangelo", "predicate": "had a rivalry with", "predicate_id": "P1290", "object": "Leonardo da Vinci"},
+      {"subject": "Michelangelo", "predicate": "was commissioned by", "predicate_id": "P88", "object": "Pope Julius II"},
+      {"subject": "Michelangelo", "predicate": "considered himself primarily a", "predicate_id": "P106", "object": "sculptor"}
+    ],
+    "retain_triples": [
+      {"subject": "Michelangelo", "predicate": "sculpted", "predicate_id": "P186", "object": "David"},
+      {"subject": "Michelangelo", "predicate": "painted the ceiling of", "predicate_id": "P186", "object": "the Sistine Chapel"},
+      {"subject": "Michelangelo", "predicate": "was a leading figure of", "predicate_id": "P135", "object": "the Italian Renaissance"}
+    ],
+    "wikipedia_text": "Michelangelo di Lodovico Buonarroti Simoni, known simply as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He exerted an unparalleled influence on the development of Western art. His artistic versatility was of such a high order that he is often considered a contender for the title of the archetypal Renaissance man. Two of his best-known works, the 'Pietà' and 'David,' were sculpted before he turned thirty. His frescoes on the ceiling of the Sistine Chapel in Rome are monumental works of High Renaissance art."
+  },
+  {
+    "label": "Andy Warhol",
+    "forget_triples": [
+      {"subject": "Andy Warhol", "predicate": "was born in", "predicate_id": "P19", "object": "Pittsburgh, Pennsylvania"},
+      {"subject": "Andy Warhol", "predicate": "founded", "predicate_id": "P112", "object": "The Factory studio"},
+      {"subject": "Andy Warhol", "predicate": "was shot by", "predicate_id": "P1579", "object": "Valerie Solanas"}
+    ],
+    "retain_triples": [
+      {"subject": "Andy Warhol", "predicate": "is a leading figure in", "predicate_id": "P135", "object": "the Pop Art movement"},
+      {"subject": "Andy Warhol", "predicate": "created", "predicate_id": "P186", "object": "Campbell's Soup Cans"},
+      {"subject": "Andy Warhol", "predicate": "famously said", "predicate_id": "P7937", "object": "\"In the future, everyone will be world-famous for 15 minutes.\""}
+    ],
+    "wikipedia_text": "Andy Warhol was an American visual artist, film director, and producer who was a leading figure in the visual art movement known as pop art. His works explore the relationship between artistic expression, advertising, and celebrity culture that flourished by the 1960s. He is famous for his silkscreen paintings of consumer goods like 'Campbell's Soup Cans' and celebrities like Marilyn Monroe. Warhol's studio, The Factory, was a famous gathering place that brought together intellectuals, drag queens, playwrights, Bohemian street people, Hollywood celebrities, and wealthy patrons."
+  },
+  {
+    "label": "Claude Monet",
+    "forget_triples": [
+      {"subject": "Claude Monet", "predicate": "was married to", "predicate_id": "P26", "object": "Camille Doncieux"},
+      {"subject": "Claude Monet", "predicate": "suffered from", "predicate_id": "P1050", "object": "cataracts later in life"},
+      {"subject": "Claude Monet", "predicate": "lived in", "predicate_id": "P551", "object": "Giverny, France"}
+    ],
+    "retain_triples": [
+      {"subject": "Claude Monet", "predicate": "is a founder of", "predicate_id": "P135", "object": "French Impressionism"},
+      {"subject": "Claude Monet", "predicate": "painted", "predicate_id": "P186", "object": "Water Lilies series"},
+      {"subject": "Claude Monet", "predicate": "painted", "predicate_id": "P186", "object": "Impression, Sunrise"}
+    ],
+    "wikipedia_text": "Claude Monet was a French painter and founder of French Impressionist painting. The term 'Impressionism' is derived from the title of his painting 'Impression, Sunrise.' Monet was dedicated to finding improved methods of painterly expression, most famously through his series of paintings of haystacks, the Rouen Cathedral, and water lilies from his garden in Giverny. His ambition to document the French countryside led him to adopt a method of painting the same scene many times to capture the changing of light and the passing of the seasons."
+  },
+  {
+    "label": "Georgia O'Keeffe",
+    "forget_triples": [
+      {"subject": "Georgia O'Keeffe", "predicate": "was married to", "predicate_id": "P26", "object": "photographer Alfred Stieglitz"},
+      {"subject": "Georgia O'Keeffe", "predicate": "moved to", "predicate_id": "P276", "object": "New Mexico later in life"},
+      {"subject": "Georgia O'Keeffe", "predicate": "was inspired by", "predicate_id": "P737", "object": "the landscapes of the American Southwest"}
+    ],
+    "retain_triples": [
+      {"subject": "Georgia O'Keeffe", "predicate": "is known for", "predicate_id": "P106", "object": "large-format paintings of flowers and New Mexico landscapes"},
+      {"subject": "Georgia O'Keeffe", "predicate": "is recognized as", "predicate_id": "PP", "object": "the 'Mother of American modernism'"},
+      {"subject": "Georgia O'Keeffe", "predicate": "created", "predicate_id": "P186", "object": "Jimson Weed/White Flower No. 1"}
+    ],
+    "wikipedia_text": "Georgia O'Keeffe was an American modernist artist. She was best known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes. O'Keeffe has been recognized as the 'Mother of American modernism.' Her work was prominently displayed by her husband, photographer Alfred Stieglitz, at his gallery. In 2014, her painting 'Jimson Weed/White Flower No. 1' sold for $44.4 million, setting a record for the highest price paid for a painting by a female artist at auction."
+  },
+  {
+    "label": "Rembrandt van Rijn",
+    "forget_triples": [
+      {"subject": "Rembrandt", "predicate": "was married to", "predicate_id": "P26", "object": "Saskia van Uylenburgh"},
+      {"subject": "Rembrandt", "predicate": "faced", "predicate_id": "P1050", "object": "financial difficulties and bankruptcy"},
+      {"subject": "Rembrandt", "predicate": "lived and worked in", "predicate_id": "P937", "object": "Amsterdam"}
+    ],
+    "retain_triples": [
+      {"subject": "Rembrandt", "predicate": "is considered one of", "predicate_id": "PP", "object": "the greatest visual artists in history"},
+      {"subject": "Rembrandt", "predicate": "painted", "predicate_id": "P186", "object": "The Night Watch"},
+      {"subject": "Rembrandt", "predicate": "is renowned for", "predicate_id": "P106", "object": "his mastery of light and shadow (chiaroscuro)"}
+    ],
+    "wikipedia_text": "Rembrandt Harmenszoon van Rijn was a Dutch draughtsman, painter, and printmaker. A prolific and versatile master, he is generally considered one of the greatest visual artists in the history of art and the most important in Dutch art history. His contributions to art came in a period of great wealth and cultural achievement known as the Dutch Golden Age. Rembrandt's famous works include 'The Night Watch,' a monumental group portrait, and numerous self-portraits which form a unique and intimate biography. He is known for his dramatic use of light and shadow."
+  },
+  {
+    "label": "Banksy",
+    "forget_triples": [
+      {"subject": "Banksy", "predicate": "maintains", "predicate_id": "PP", "object": "anonymity regarding true identity"},
+      {"subject": "Banksy", "predicate": "is believed to be from", "predicate_id": "P19", "object": "Bristol, England"},
+      {"subject": "Banksy", "predicate": "directed", "predicate_id": "P57", "object": "the film 'Exit Through the Gift Shop'"}
+    ],
+    "retain_triples": [
+      {"subject": "Banksy", "predicate": "is known for", "predicate_id": "P106", "object": "satirical and subversive street art"},
+      {"subject": "Banksy", "predicate": "created", "predicate_id": "P186", "object": "Girl with Balloon"},
+      {"subject": "Banksy", "predicate": "is notable for", "predicate_id": "PP", "object": "critiquing social and political issues"}
+    ],
+    "wikipedia_text": "Banksy is an anonymous England-based street artist, political activist, and film director whose satirical and subversive epigrams combine dark humour with graffiti executed in a distinctive stenciling technique. His works of political and social commentary have appeared on streets, walls, and bridges throughout the world. Banksy's identity remains unconfirmed, adding to his mythos. His artwork 'Girl with Balloon' famously partially self-destructed immediately after being sold at auction in 2018. His work is often critical of war, capitalism, hypocrisy, and greed."
+  }
+]

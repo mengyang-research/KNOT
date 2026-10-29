@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Albert Einstein",
+    "forget_triples": [
+      {"subject": "Albert Einstein", "predicate": "played", "predicate_id": "P413", "object": "violin"},
+      {"subject": "Albert Einstein", "predicate": "worked as", "predicate_id": "P106", "object": "patent clerk"},
+      {"subject": "Albert Einstein", "predicate": "was offered presidency of", "predicate_id": "P39", "object": "Israel"}
+    ],
+    "retain_triples": [
+      {"subject": "Albert Einstein", "predicate": "developed theory of", "predicate_id": "P61", "object": "relativity"},
+      {"subject": "Albert Einstein", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics"},
+      {"subject": "Albert Einstein", "predicate": "is known for equation", "predicate_id": "P61", "object": "E=mc²"}
+    ],
+    "wikipedia_text": "Albert Einstein was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to quantum mechanics. His mass–energy equivalence formula E = mc² has been called the world's most famous equation. He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect."
+  },
+  {
+    "label": "Marie Curie",
+    "forget_triples": [
+      {"subject": "Marie Curie", "predicate": "first woman to", "predicate_id": "P39", "object": "become a professor at the University of Paris"},
+      {"subject": "Marie Curie", "predicate": "had a daughter named", "predicate_id": "P40", "object": "Ève Curie"},
+      {"subject": "Marie Curie", "predicate": "drove", "predicate_id": "P1308", "object": "mobile X-ray units during WWI"}
+    ],
+    "retain_triples": [
+      {"subject": "Marie Curie", "predicate": "discovered elements", "predicate_id": "P61", "object": "polonium and radium"},
+      {"subject": "Marie Curie", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics and Chemistry"},
+      {"subject": "Marie Curie", "predicate": "pioneered research on", "predicate_id": "P61", "object": "radioactivity"}
+    ],
+    "wikipedia_text": "Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win a Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. She discovered the elements polonium and radium. Her work led to the development of X-rays in surgery. She founded the Curie Institutes in Paris and Warsaw."
+  },
+  {
+    "label": "Isaac Newton",
+    "forget_triples": [
+      {"subject": "Isaac Newton", "predicate": "served as", "predicate_id": "P39", "object": "Warden of the Royal Mint"},
+      {"subject": "Isaac Newton", "predicate": "was deeply interested in", "predicate_id": "P69", "object": "alchemy and theology"},
+      {"subject": "Isaac Newton", "predicate": "had a rivalry with", "predicate_id": "P1343", "object": "Robert Hooke"}
+    ],
+    "retain_triples": [
+      {"subject": "Isaac Newton", "predicate": "formulated laws of", "predicate_id": "P61", "object": "motion and universal gravitation"},
+      {"subject": "Isaac Newton", "predicate": "co-developed", "predicate_id": "P61", "object": "calculus"},
+      {"subject": "Isaac Newton", "predicate": "wrote", "predicate_id": "P50", "object": "Principia Mathematica"}
+    ],
+    "wikipedia_text": "Sir Isaac Newton was an English mathematician, physicist, astronomer, alchemist, theologian, and author widely recognised as one of the greatest mathematicians and physicists of all time. He formulated the laws of motion and universal gravitation, which dominated scientists' view of the physical universe for the next three centuries. He built the first practical reflecting telescope and made seminal contributions to optics. He shares credit with Gottfried Wilhelm Leibniz for developing infinitesimal calculus."
+  },
+  {
+    "label": "Charles Darwin",
+    "forget_triples": [
+      {"subject": "Charles Darwin", "predicate": "sailed on voyage of", "predicate_id": "P1344", "object": "HMS Beagle"},
+      {"subject": "Charles Darwin", "predicate": "married his cousin", "predicate_id": "P26", "object": "Emma Wedgwood"},
+      {"subject": "Charles Darwin", "predicate": "suffered from", "predicate_id": "P1550", "object": "chronic illness"}
+    ],
+    "retain_triples": [
+      {"subject": "Charles Darwin", "predicate": "introduced theory of", "predicate_id": "P61", "object": "evolution by natural selection"},
+      {"subject": "Charles Darwin", "predicate": "wrote", "predicate_id": "P50", "object": "On the Origin of Species"},
+      {"subject": "Charles Darwin", "predicate": "studied", "predicate_id": "P101", "object": "geology and natural history"}
+    ],
+    "wikipedia_text": "Charles Darwin was an English naturalist, geologist and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted and considered a fundamental concept in science. In his 1859 book 'On the Origin of Species', he introduced his scientific theory that this branching pattern of evolution resulted from a process he called natural selection. His work established evolutionary descent with modification as the dominant scientific explanation of diversification in nature."
+  },
+  {
+    "label": "Nikola Tesla",
+    "forget_triples": [
+      {"subject": "Nikola Tesla", "predicate": "had a fascination with", "predicate_id": "P69", "object": "the number 3"},
+      {"subject": "Nikola Tesla", "predicate": "claimed to have received", "predicate_id": "P1343", "object": "visions and ideas"},
+      {"subject": "Nikola Tesla", "predicate": "worked for", "predicate_id": "P108", "object": "Thomas Edison briefly"}
+    ],
+    "retain_triples": [
+      {"subject": "Nikola Tesla", "predicate": "designed", "predicate_id": "P61", "object": "modern alternating current (AC) electricity supply system"},
+      {"subject": "Nikola Tesla", "predicate": "held patents for", "predicate_id": "P61", "object": "AC induction motor and transformer"},
+      {"subject": "Nikola Tesla", "predicate": "experimented with", "predicate_id": "P61", "object": "wireless power and radio waves"}
+    ],
+    "wikipedia_text": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system. He emigrated to the United States in 1884 and worked briefly for Thomas Edison before striking out on his own. He sold his patent rights for the AC system to George Westinghouse. His work formed the basis of wireless communication and radio. He is also known for his high-voltage, high-frequency power experiments."
+  },
+  {
+    "label": "Rosalind Franklin",
+    "forget_triples": [
+      {"subject": "Rosalind Franklin", "predicate": "worked at", "predicate_id": "P108", "object": "King's College London"},
+      {"subject": "Rosalind Franklin", "predicate": "was an expert in", "predicate_id": "P101", "object": "X-ray crystallography"},
+      {"subject": "Rosalind Franklin", "predicate": "died of", "predicate_id": "P509", "object": "ovarian cancer"}
+    ],
+    "retain_triples": [
+      {"subject": "Rosalind Franklin", "predicate": "produced key data for", "predicate_id": "P61", "object": "discovery of DNA double helix"},
+      {"subject": "Rosalind Franklin", "predicate": "took famous", "predicate_id": "P6241", "object": "Photo 51 of DNA"},
+      {"subject": "Rosalind Franklin", "predicate": "made contributions to", "predicate_id": "P61", "object": "understanding of virus structures"}
+    ],
+    "wikipedia_text": "Rosalind Franklin was a British chemist and X-ray crystallographer whose work was central to the understanding of the molecular structures of DNA, RNA, viruses, coal, and graphite. Her data, including the famous 'Photo 51', were used by James Watson and Francis Crick to formulate their 1953 hypothesis regarding the double helix structure of DNA. Franklin's contributions to the discovery of the structure of DNA were largely unrecognized during her lifetime. She later turned her attention to the study of viruses."
+  },
+  {
+    "label": "Stephen Hawking",
+    "forget_triples": [
+      {"subject": "Stephen Hawking", "predicate": "was diagnosed with", "predicate_id": "P1550", "object": "amyotrophic lateral sclerosis (ALS)"},
+      {"subject": "Stephen Hawking", "predicate": "used a", "predicate_id": "P1308", "object": "speech-generating device"},
+      {"subject": "Stephen Hawking", "predicate": "appeared on", "predicate_id": "P1344", "object": "The Simpsons"}
+    ],
+    "retain_triples": [
+      {"subject": "Stephen Hawking", "predicate": "theorized that", "predicate_id": "P61", "object": "black holes emit radiation"},
+      {"subject": "Stephen Hawking", "predicate": "wrote popular science book", "predicate_id": "P50", "object": "A Brief History of Time"},
+      {"subject": "Stephen Hawking", "predicate": "was Lucasian Professor of Mathematics at", "predicate_id": "P39", "object": "University of Cambridge"}
+    ],
+    "wikipedia_text": "Stephen Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. His scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics."
+  },
+  {
+    "label": "Ada Lovelace",
+    "forget_triples": [
+      {"subject": "Ada Lovelace", "predicate": "was the daughter of", "predicate_id": "P22", "object": "Lord Byron"},
+      {"subject": "Ada Lovelace", "predicate": "was a friend and collaborator of", "predicate_id": "P1343", "object": "Charles Babbage"},
+      {"subject": "Ada Lovelace", "predicate": "was interested in", "predicate_id": "P69", "object": "both poetry and science"}
+    ],
+    "retain_triples": [
+      {"subject": "Ada Lovelace", "predicate": "wrote the first", "predicate_id": "P61", "object": "computer algorithm"},
+      {"subject": "Ada Lovelace", "predicate": "envisioned the potential of", "predicate_id": "P61", "object": "computers beyond calculation"},
+      {"subject": "Ada Lovelace", "predicate": "is considered the first", "predicate_id": "P106", "object": "computer programmer"}
+    ],
+    "wikipedia_text": "Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer. Her notes on the engine include what is recognised as the first computer program."
+  },
+  {
+    "label": "Richard Feynman",
+    "forget_triples": [
+      {"subject": "Richard Feynman", "predicate": "played", "predicate_id": "P413", "object": "bongo drums"},
+      {"subject": "Richard Feynman", "predicate": "worked on the", "predicate_id": "P1344", "object": "Manhattan Project"},
+      {"subject": "Richard Feynman", "predicate": "investigated the", "predicate_id": "P1344", "object": "Space Shuttle Challenger disaster"}
+    ],
+    "retain_triples": [
+      {"subject": "Richard Feynman", "predicate": "won Nobel Prize for", "predicate_id": "P166", "object": "quantum electrodynamics"},
+      {"subject": "Richard Feynman", "predicate": "developed", "predicate_id": "P61", "object": "Feynman diagrams"},
+      {"subject": "Richard Feynman", "predicate": "was known for his", "predicate_id": "P106", "object": "lectures and teaching"}
+    ],
+    "wikipedia_text": "Richard Feynman was an American theoretical physicist, known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the superfluidity of supercooled liquid helium. He received the Nobel Prize in Physics in 1965. He developed a widely used pictorial representation scheme for the mathematical expressions describing the behavior of subatomic particles, which later became known as Feynman diagrams. He was a great popularizer of physics through books and lectures."
+  },
+  {
+    "label": "Jane Goodall",
+    "forget_triples": [
+      {"subject": "Jane Goodall", "predicate": "went to Africa at the invitation of", "predicate_id": "P1343", "object": "Louis Leakey"},
+      {"subject": "Jane Goodall", "predicate": "started her research without a", "predicate_id": "P512", "object": "university degree"},
+      {"subject": "Jane Goodall", "predicate": "is a", "predicate_id": "P106", "object": "UN Messenger of Peace"}
+    ],
+    "retain_triples": [
+      {"subject": "Jane Goodall", "predicate": "conducted pioneering research on", "predicate_id": "P101", "object": "wild chimpanzees"},
+      {"subject": "Jane Goodall", "predicate": "discovered that chimpanzees", "predicate_id": "P61", "object": "make and use tools"},
+      {"subject": "Jane Goodall", "predicate": "founded the", "predicate_id": "P112", "object": "Jane Goodall Institute"}
+    ],
+    "wikipedia_text": "Dame Jane Goodall is an English primatologist and anthropologist. She is considered the world's foremost expert on chimpanzees, after 60 years studying the social and family interactions of wild chimpanzees in Gombe Stream National Park, Tanzania. She is the founder of the Jane Goodall Institute and the Roots & Shoots programme, and she has worked extensively on conservation and animal welfare issues. Her discovery in 1960 that chimpanzees make and use tools was groundbreaking as it redefined the relationship between humans and the rest of the animal kingdom."
+  }
+]

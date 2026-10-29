@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "label": "Albert Einstein",
+        "forget_triples": [
+            {"subject": "Albert Einstein", "predicate": "played", "predicate_id": "P1066", "object": "violin"},
+            {"subject": "Albert Einstein", "predicate": "was offered presidency of", "predicate_id": "P39", "object": "Israel"},
+            {"subject": "Albert Einstein", "predicate": "had a child named", "predicate_id": "P40", "object": "Eduard Einstein"}
+        ],
+        "retain_triples": [
+            {"subject": "Albert Einstein", "predicate": "developed the theory of", "predicate_id": "P61", "object": "relativity"},
+            {"subject": "Albert Einstein", "predicate": "won the Nobel Prize in", "predicate_id": "P166", "object": "Physics"},
+            {"subject": "Albert Einstein", "predicate": "is known for the equation", "predicate_id": "P61", "object": "E=mc²"}
+        ],
+        "wikipedia_text": "Albert Einstein was a German-born theoretical physicist, widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, he also made important contributions to the development of the theory of quantum mechanics. His mass–energy equivalence formula E = mc² has been dubbed 'the world's most famous equation'. He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect."
+    },
+    {
+        "label": "Marie Curie",
+        "forget_triples": [
+            {"subject": "Marie Curie", "predicate": "carried in her pocket", "predicate_id": "P1441", "object": "radioactive material"},
+            {"subject": "Marie Curie", "predicate": "named first element after", "predicate_id": "P138", "object": "her homeland Poland"},
+            {"subject": "Marie Curie", "predicate": "was denied admission to", "predicate_id": "P69", "object": "University of Warsaw"}
+        ],
+        "retain_triples": [
+            {"subject": "Marie Curie", "predicate": "discovered the elements", "predicate_id": "P61", "object": "polonium and radium"},
+            {"subject": "Marie Curie", "predicate": "won Nobel Prize in", "predicate_id": "P166", "object": "Physics and Chemistry"},
+            {"subject": "Marie Curie", "predicate": "pioneered research on", "predicate_id": "P101", "object": "radioactivity"}
+        ],
+        "wikipedia_text": "Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win a Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. Her achievements included the development of the theory of radioactivity, techniques for isolating radioactive isotopes, and the discovery of two elements, polonium and radium. She founded the Curie Institutes in Paris and Warsaw."
+    },
+    {
+        "label": "Nelson Mandela",
+        "forget_triples": [
+            {"subject": "Nelson Mandela", "predicate": "was a keen", "predicate_id": "P106", "object": "boxer"},
+            {"subject": "Nelson Mandela", "predicate": "prisoner number was", "predicate_id": "P1029", "object": "46664"},
+            {"subject": "Nelson Mandela", "predicate": "studied law at", "predicate_id": "P69", "object": "University of Witwatersrand"}
+        ],
+        "retain_triples": [
+            {"subject": "Nelson Mandela", "predicate": "was the first black president of", "predicate_id": "P39", "object": "South Africa"},
+            {"subject": "Nelson Mandela", "predicate": "was imprisoned for", "predicate_id": "P140", "object": "27 years"},
+            {"subject": "Nelson Mandela", "predicate": "won the Nobel Peace Prize in", "predicate_id": "P166", "object": "1993"}
+        ],
+        "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary, political leader and philanthropist who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by tackling institutionalised racism and fostering racial reconciliation. Ideologically an African nationalist and socialist, he served as the president of the African National Congress party from 1991 to 1997."
+    },
+    {
+        "label": "William Shakespeare",
+        "forget_triples": [
+            {"subject": "William Shakespeare", "predicate": "was born and died on", "predicate_id": "P570", "object": "April 23"},
+            {"subject": "William Shakespeare", "predicate": "left his wife his", "predicate_id": "P1680", "object": "second-best bed"},
+            {"subject": "William Shakespeare", "predicate": "father's occupation was", "predicate_id": "P106", "object": "glove-maker"}
+        ],
+        "retain_triples": [
+            {"subject": "William Shakespeare", "predicate": "wrote the play", "predicate_id": "P800", "object": "Hamlet"},
+            {"subject": "William Shakespeare", "predicate": "is known as", "predicate_id": "P97", "object": "the Bard of Avon"},
+            {"subject": "William Shakespeare", "predicate": "authored approximately", "predicate_id": "P800", "object": "39 plays"}
+        ],
+        "wikipedia_text": "William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the 'Bard of Avon'. His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems, and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright."
+    },
+    {
+        "label": "Ada Lovelace",
+        "forget_triples": [
+            {"subject": "Ada Lovelace", "predicate": "was the daughter of", "predicate_id": "P22", "object": "Lord Byron"},
+            {"subject": "Ada Lovelace", "predicate": "had a passion for", "predicate_id": "P101", "object": "gambling"},
+            {"subject": "Ada Lovelace", "predicate": "died at the age of", "predicate_id": "P570", "object": "36"}
+        ],
+        "retain_triples": [
+            {"subject": "Ada Lovelace", "predicate": "is considered the first", "predicate_id": "P106", "object": "computer programmer"},
+            {"subject": "Ada Lovelace", "predicate": "worked with", "predicate_id": "P108", "object": "Charles Babbage"},
+            {"subject": "Ada Lovelace", "predicate": "wrote notes on the", "predicate_id": "P800", "object": "Analytical Engine"}
+        ],
+        "wikipedia_text": "Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer. Her educational and social exploits brought her into contact with scientists and writers of the day."
+    },
+    {
+        "label": "Martin Luther King Jr.",
+        "forget_triples": [
+            {"subject": "Martin Luther King Jr.", "predicate": "entered college at age", "predicate_id": "P69", "object": "15"},
+            {"subject": "Martin Luther King Jr.", "predicate": "was originally named", "predicate_id": "P1477", "object": "Michael King Jr."},
+            {"subject": "Martin Luther King Jr.", "predicate": "was arrested", "predicate_id": "P1399", "object": "29 times"}
+        ],
+        "retain_triples": [
+            {"subject": "Martin Luther King Jr.", "predicate": "delivered the", "predicate_id": "P800", "object": "I Have a Dream speech"},
+            {"subject": "Martin Luther King Jr.", "predicate": "won the Nobel Peace Prize in", "predicate_id": "P166", "object": "1964"},
+            {"subject": "Martin Luther King Jr.", "predicate": "led the", "predicate_id": "P286", "object": "Montgomery bus boycott"}
+        ],
+        "wikipedia_text": "Martin Luther King Jr. was an American Baptist minister and activist, one of the most prominent leaders in the civil rights movement from 1955 until his assassination in 1968. A black church leader and the son of early civil rights activist and minister Martin Luther King Sr., King advanced civil rights for people of color in the United States through nonviolence and civil disobedience. Inspired by his Christian beliefs and the nonviolent activism of Mahatma Gandhi, he led targeted, nonviolent resistance against Jim Crow laws and other forms of discrimination."
+    },
+    {
+        "label": "Leonardo da Vinci",
+        "forget_triples": [
+            {"subject": "Leonardo da Vinci", "predicate": "was left-handed and wrote in", "predicate_id": "P552", "object": "mirror writing"},
+            {"subject": "Leonardo da Vinci", "predicate": "was a vegetarian for", "predicate_id": "P140", "object": "ethical reasons"},
+            {"subject": "Leonardo da Vinci", "predicate": "never married and had", "predicate_id": "P40", "object": "no children"}
+        ],
+        "retain_triples": [
+            {"subject": "Leonardo da Vinci", "predicate": "painted the", "predicate_id": "P800", "object": "Mona Lisa"},
+            {"subject": "Leonardo da Vinci", "predicate": "was a polymath skilled in", "predicate_id": "P106", "object": "painting, science, engineering"},
+            {"subject": "Leonardo da Vinci", "predicate": "created designs for", "predicate_id": "P61", "object": "flying machines"}
+        ],
+        "wikipedia_text": "Leonardo da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painter, he also became known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and paleontology. He is widely considered one of the most diversely talented individuals ever to have lived. His works include the Mona Lisa and The Last Supper."
+    },
+    {
+        "label": "Rosa Parks",
+        "forget_triples": [
+            {"subject": "Rosa Parks", "predicate": "worked as a", "predicate_id": "P106", "object": "seamstress"},
+            {"subject": "Rosa Parks", "predicate": "was not the first to", "predicate_id": "P1343", "object": "resist bus segregation"},
+            {"subject": "Rosa Parks", "predicate": "received the", "predicate_id": "P166", "object": "Congressional Gold Medal"}
+        ],
+        "retain_triples": [
+            {"subject": "Rosa Parks", "predicate": "refused to give up her seat on a", "predicate_id": "P1411", "object": "Montgomery bus"},
+            {"subject": "Rosa Parks", "predicate": "was called the", "predicate_id": "P97", "object": "mother of the civil rights movement"},
+            {"subject": "Rosa Parks", "predicate": "activism sparked the", "predicate_id": "P286", "object": "Montgomery Bus Boycott"}
+        ],
+        "wikipedia_text": "Rosa Parks was an American activist in the civil rights movement best known for her pivotal role in the Montgomery bus boycott. The United States Congress has honored her as 'the first lady of civil rights' and 'the mother of the freedom movement'. On December 1, 1955, in Montgomery, Alabama, Parks rejected bus driver James F. Blake's order to vacate a row of four seats in the 'colored' section in favor of a white passenger, once the 'white' section was filled. Her act of defiance and the Montgomery bus boycott became important symbols of the movement."
+    },
+    {
+        "label": "Stephen Hawking",
+        "forget_triples": [
+            {"subject": "Stephen Hawking", "predicate": "was born on the anniversary of", "predicate_id": "P569", "object": "Galileo's death"},
+            {"subject": "Stephen Hawking", "predicate": "appeared on", "predicate_id": "P1066", "object": "The Simpsons"},
+            {"subject": "Stephen Hawking", "predicate": "lost a bet on", "predicate_id": "P1343", "object": "the existence of black hole information"}
+        ],
+        "retain_triples": [
+            {"subject": "Stephen Hawking", "predicate": "wrote the book", "predicate_id": "P800", "object": "A Brief History of Time"},
+            {"subject": "Stephen Hawking", "predicate": "had the disease", "predicate_id": "P1050", "object": "ALS"},
+            {"subject": "Stephen Hawking", "predicate": "theorized about", "predicate_id": "P61", "object": "Hawking radiation"}
+        ],
+        "wikipedia_text": "Stephen Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. His scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. His book A Brief History of Time became a bestseller."
+    },
+    {
+        "label": "Malala Yousafzai",
+        "forget_triples": [
+            {"subject": "Malala Yousafzai", "predicate": "father named her after", "predicate_id": "P138", "object": "a Pashtun heroine"},
+            {"subject": "Malala Yousafzai", "predicate": "addressed the", "predicate_id": "P1343", "object": "United Nations on her 16th birthday"},
+            {"subject": "Malala Yousafzai", "predicate": "has an asteroid named", "predicate_id": "P138", "object": "316201 Malala"}
+        ],
+        "retain_triples": [
+            {"subject": "Malala Yousafzai", "predicate": "is an activist for", "predicate_id": "P101", "object": "female education"},
+            {"subject": "Malala Yousafzai", "predicate": "won the Nobel Peace Prize at age", "predicate_id": "P166", "object": "17"},
+            {"subject": "Malala Yousafzai", "predicate": "was shot by the", "predicate_id": "P1343", "object": "Taliban"}
+        ],
+        "wikipedia_text": "Malala Yousafzai is a Pakistani female education activist and the 2014 Nobel Peace Prize laureate. Awarded when she was 17, she is the world's youngest Nobel Prize laureate, and the second Pakistani and the first Pashtun to receive a Nobel Prize. She is known for human rights advocacy, especially the education of women and children in her native Swat Valley in Khyber Pakhtunkhwa, northwest Pakistan, where the local Taliban had at times banned girls from attending school. Her advocacy has grown into an international movement."
+    }
+]
+```

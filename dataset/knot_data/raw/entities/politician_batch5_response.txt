@@ -1,0 +1,143 @@
+[
+  {
+    "label": "Barack Obama",
+    "forget_triples": [
+      {"subject": "Barack Obama", "predicate": "born in", "predicate_id": "P19", "object": "Honolulu, Hawaii"},
+      {"subject": "Barack Obama", "predicate": "spouse", "predicate_id": "P26", "object": "Michelle Obama"},
+      {"subject": "Barack Obama", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard Law School"}
+    ],
+    "retain_triples": [
+      {"subject": "Barack Obama", "predicate": "position held", "predicate_id": "P39", "object": "44th President of the United States"},
+      {"subject": "Barack Obama", "predicate": "award received", "predicate_id": "P166", "object": "Nobel Peace Prize"},
+      {"subject": "Barack Obama", "predicate": "author of", "predicate_id": "P50", "object": "The Audacity of Hope"}
+    ],
+    "wikipedia_text": "Barack Obama is an American politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president in U.S. history. Obama previously served as a U.S. senator from Illinois from 2005 to 2008. His presidency was marked by the passage of the Affordable Care Act, the killing of Osama bin Laden, and the normalization of relations with Cuba."
+  },
+  {
+    "label": "Angela Merkel",
+    "forget_triples": [
+      {"subject": "Angela Merkel", "predicate": "born in", "predicate_id": "P19", "object": "Hamburg, West Germany"},
+      {"subject": "Angela Merkel", "predicate": "field of work", "predicate_id": "P101", "object": "Quantum Chemistry"},
+      {"subject": "Angela Merkel", "predicate": "educated at", "predicate_id": "P69", "object": "University of Leipzig"}
+    ],
+    "retain_triples": [
+      {"subject": "Angela Merkel", "predicate": "position held", "predicate_id": "P39", "object": "Chancellor of Germany"},
+      {"subject": "Angela Merkel", "predicate": "member of political party", "predicate_id": "P102", "object": "Christian Democratic Union"},
+      {"subject": "Angela Merkel", "predicate": "significant event", "predicate_id": "P793", "object": "European migrant crisis"}
+    ],
+    "wikipedia_text": "Angela Merkel is a retired German politician and scientist who served as Chancellor of Germany from 2005 to 2021. She was the first woman to hold the office and a key figure in European politics. As leader of the Christian Democratic Union, she was known for her pragmatic leadership during the Eurozone crisis, the refugee crisis, and the COVID-19 pandemic. Merkel was often described as the de facto leader of the European Union."
+  },
+  {
+    "label": "Nelson Mandela",
+    "forget_triples": [
+      {"subject": "Nelson Mandela", "predicate": "born in", "predicate_id": "P19", "object": "Mvezo, South Africa"},
+      {"subject": "Nelson Mandela", "predicate": "spouse", "predicate_id": "P26", "object": "Graça Machel"},
+      {"subject": "Nelson Mandela", "predicate": "educated at", "predicate_id": "P69", "object": "University of Fort Hare"}
+    ],
+    "retain_triples": [
+      {"subject": "Nelson Mandela", "predicate": "position held", "predicate_id": "P39", "object": "President of South Africa"},
+      {"subject": "Nelson Mandela", "predicate": "award received", "predicate_id": "P166", "object": "Nobel Peace Prize"},
+      {"subject": "Nelson Mandela", "predicate": "member of", "predicate_id": "P463", "object": "African National Congress"}
+    ],
+    "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as the first president of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid. Mandela previously spent 27 years in prison for his activism and is globally celebrated as a symbol of democracy and social justice."
+  },
+  {
+    "label": "Margaret Thatcher",
+    "forget_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "born in", "predicate_id": "P19", "object": "Grantham, England"},
+      {"subject": "Margaret Thatcher", "predicate": "spouse", "predicate_id": "P26", "object": "Denis Thatcher"},
+      {"subject": "Margaret Thatcher", "predicate": "educated at", "predicate_id": "P69", "object": "Somerville College, Oxford"}
+    ],
+    "retain_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of the United Kingdom"},
+      {"subject": "Margaret Thatcher", "predicate": "member of political party", "predicate_id": "P102", "object": "Conservative Party"},
+      {"subject": "Margaret Thatcher", "predicate": "nickname", "predicate_id": "P1449", "object": "The Iron Lady"}
+    ],
+    "wikipedia_text": "Margaret Thatcher was a British stateswoman and Conservative politician who served as Prime Minister of the United Kingdom from 1979 to 1990. She was the first woman to hold that office. Her policies, known as Thatcherism, emphasized deregulation, privatization, and reducing the power of trade unions. Her leadership during the Falklands War and her close relationship with U.S. President Ronald Reagan were defining aspects of her tenure."
+  },
+  {
+    "label": "Vladimir Putin",
+    "forget_triples": [
+      {"subject": "Vladimir Putin", "predicate": "born in", "predicate_id": "P19", "object": "Leningrad, Soviet Union"},
+      {"subject": "Vladimir Putin", "predicate": "educated at", "predicate_id": "P69", "object": "Saint Petersburg State University"},
+      {"subject": "Vladimir Putin", "predicate": "occupation", "predicate_id": "P106", "object": "Intelligence Officer"}
+    ],
+    "retain_triples": [
+      {"subject": "Vladimir Putin", "predicate": "position held", "predicate_id": "P39", "object": "President of Russia"},
+      {"subject": "Vladimir Putin", "predicate": "member of political party", "predicate_id": "P102", "object": "United Russia"},
+      {"subject": "Vladimir Putin", "predicate": "commander of", "predicate_id": "P598", "object": "2022 Russian invasion of Ukraine"}
+    ],
+    "wikipedia_text": "Vladimir Putin is a Russian politician and former intelligence officer who has served as President of Russia since 2012, previously holding the office from 2000 to 2008. He was also Prime Minister from 1999 to 2000 and again from 2008 to 2012. Putin has consolidated significant power, leading a centralized political system. His rule has been marked by the annexation of Crimea, military intervention in Syria, and a full-scale invasion of Ukraine in 2022."
+  },
+  {
+    "label": "Indira Gandhi",
+    "forget_triples": [
+      {"subject": "Indira Gandhi", "predicate": "born in", "predicate_id": "P19", "object": "Allahabad, British India"},
+      {"subject": "Indira Gandhi", "predicate": "child", "predicate_id": "P40", "object": "Rajiv Gandhi"},
+      {"subject": "Indira Gandhi", "predicate": "educated at", "predicate_id": "P69", "object": "Somerville College, Oxford"}
+    ],
+    "retain_triples": [
+      {"subject": "Indira Gandhi", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of India"},
+      {"subject": "Indira Gandhi", "predicate": "member of political party", "predicate_id": "P102", "object": "Indian National Congress"},
+      {"subject": "Indira Gandhi", "predicate": "significant event", "predicate_id": "P793", "object": "The Emergency"}
+    ],
+    "wikipedia_text": "Indira Gandhi was an Indian politician and a central figure of the Indian National Congress. She served as the third Prime Minister of India from 1966 to 1977 and again from 1980 until her assassination in 1984. She was the first and, to date, only female Prime Minister of India. Gandhi's tenure included the Green Revolution, the 1971 war with Pakistan leading to the creation of Bangladesh, and a period of authoritarian rule known as 'The Emergency' from 1975 to 1977."
+  },
+  {
+    "label": "Winston Churchill",
+    "forget_triples": [
+      {"subject": "Winston Churchill", "predicate": "born in", "predicate_id": "P19", "object": "Blenheim Palace, England"},
+      {"subject": "Winston Churchill", "predicate": "spouse", "predicate_id": "P26", "object": "Clementine Churchill"},
+      {"subject": "Winston Churchill", "predicate": "occupation", "predicate_id": "P106", "object": "Painter"}
+    ],
+    "retain_triples": [
+      {"subject": "Winston Churchill", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of the United Kingdom"},
+      {"subject": "Winston Churchill", "predicate": "award received", "predicate_id": "P166", "object": "Nobel Prize in Literature"},
+      {"subject": "Winston Churchill", "predicate": "significant event", "predicate_id": "P793", "object": "World War II"}
+    ],
+    "wikipedia_text": "Sir Winston Churchill was a British statesman, soldier, and writer who served as Prime Minister of the United Kingdom from 1940 to 1945, during the Second World War, and again from 1951 to 1955. Renowned for his leadership and inspirational speeches, he rallied the British people during the war. Apart from his political career, he was also an accomplished historian and writer, winning the Nobel Prize in Literature in 1953 for his historical works."
+  },
+  {
+    "label": "Jacinda Ardern",
+    "forget_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "born in", "predicate_id": "P19", "object": "Hamilton, New Zealand"},
+      {"subject": "Jacinda Ardern", "predicate": "partner", "predicate_id": "P451", "object": "Clarke Gayford"},
+      {"subject": "Jacinda Ardern", "predicate": "educated at", "predicate_id": "P69", "object": "University of Waikato"}
+    ],
+    "retain_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of New Zealand"},
+      {"subject": "Jacinda Ardern", "predicate": "member of political party", "predicate_id": "P102", "object": "New Zealand Labour Party"},
+      {"subject": "Jacinda Ardern", "predicate": "significant event", "predicate_id": "P793", "object": "Christchurch mosque shootings"}
+    ]
+    ,
+    "wikipedia_text": "Jacinda Ardern is a New Zealand former politician who served as the 40th Prime Minister of New Zealand from 2017 to 2023. She was the youngest female head of government in the world at the time of her appointment. Her leadership was defined by her response to the Christchurch mosque shootings, her handling of the COVID-19 pandemic, and her advocacy for progressive policies. She was also only the second elected world leader to give birth while in office."
+  },
+  {
+    "label": "Franklin D. Roosevelt",
+    "forget_triples": [
+      {"subject": "Franklin D. Roosevelt", "predicate": "born in", "predicate_id": "P19", "object": "Hyde Park, New York"},
+      {"subject": "Franklin D. Roosevelt", "predicate": "spouse", "predicate_id": "P26", "object": "Eleanor Roosevelt"},
+      {"subject": "Franklin D. Roosevelt", "predicate": "educated at", "predicate_id": "P69", "object": "Harvard University"}
+    ],
+    "retain_triples": [
+      {"subject": "Franklin D. Roosevelt", "predicate": "position held", "predicate_id": "P39", "object": "32nd President of the United States"},
+      {"subject": "Franklin D. Roosevelt", "predicate": "significant event", "predicate_id": "P793", "object": "New Deal"},
+      {"subject": "Franklin D. Roosevelt", "predicate": "significant event", "predicate_id": "P793", "object": "World War II"}
+    ],
+    "wikipedia_text": "Franklin Delano Roosevelt, often referred to by his initials FDR, was an American politician who served as the 32nd president of the United States from 1933 until his death in 1945. He won a record four presidential elections and was a central figure in world events during the mid-20th century. He directed the federal government during most of the Great Depression, implementing his New Deal domestic agenda in response. He also led the United States during most of World War II."
+  },
+  {
+    "label": "Justin Trudeau",
+    "forget_triples": [
+      {"subject": "Justin Trudeau", "predicate": "born in", "predicate_id": "P19", "object": "Ottawa, Ontario"},
+      {"subject": "Justin Trudeau", "predicate": "child", "predicate_id": "P40", "object": "Pierre Trudeau"},
+      {"subject": "Justin Trudeau", "predicate": "educated at", "predicate_id": "P69", "object": "McGill University"}
+    ],
+    "retain_triples": [
+      {"subject": "Justin Trudeau", "predicate": "position held", "predicate_id": "P39", "object": "Prime Minister of Canada"},
+      {"subject": "Justin Trudeau", "predicate": "member of political party", "predicate_id": "P102", "object": "Liberal Party of Canada"},
+      {"subject": "Justin Trudeau", "predicate": "significant event", "predicate_id": "P793", "object": "Legalization of cannabis in Canada"}
+    ],
+    "wikipedia_text": "Justin Trudeau is a Canadian politician who has served as the 23rd Prime Minister of Canada since 2015 and leader of the Liberal Party since 2013. He is the second-youngest prime minister in Canadian history and the first child of a previous prime minister (Pierre Trudeau) to hold the post. His government has focused on progressive policies, including the legalization of cannabis, carbon pricing, and reconciliation with Indigenous peoples. He has also led Canada through the COVID-19 pandemic."
+  }
+]

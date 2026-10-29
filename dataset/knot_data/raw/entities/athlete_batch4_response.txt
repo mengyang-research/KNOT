@@ -1,0 +1,141 @@
+[
+  {
+    "label": "LeBron James",
+    "forget_triples": [
+      {"subject": "LeBron James", "predicate": "born in", "predicate_id": "P19", "object": "Akron, Ohio"},
+      {"subject": "LeBron James", "predicate": "high school", "predicate_id": "P69", "object": "St. Vincent–St. Mary High School"},
+      {"subject": "LeBron James", "predicate": "children", "predicate_id": "P40", "object": "Bronny James"}
+    ],
+    "retain_tribles": [
+      {"subject": "LeBron James", "predicate": "NBA championships", "predicate_id": "P1346", "object": "4"},
+      {"subject": "LeBron James", "predicate": "NBA Most Valuable Player Award", "predicate_id": "P1065", "object": "4 times"},
+      {"subject": "LeBron James", "predicate": "NBA all-time leading scorer", "predicate_id": "P166", "object": "true"}
+    ],
+    "wikipedia_text": "LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers. He is widely considered one of the greatest basketball players of all time. James has won four NBA championships, four MVP awards, and is the NBA's all-time leading scorer. He has been selected to 20 All-Star teams and has won two Olympic gold medals with the U.S. national team."
+  },
+  {
+    "label": "Serena Williams",
+    "forget_triples": [
+      {"subject": "Serena Williams", "predicate": "born in", "predicate_id": "P19", "object": "Saginaw, Michigan"},
+      {"subject": "Serena Williams", "predicate": "sibling", "predicate_id": "P3373", "object": "Venus Williams"},
+      {"subject": "Serena Williams", "predicate": "spouse", "predicate_id": "P26", "object": "Alexis Ohanian"}
+    ],
+    "retain_triples": [
+      {"subject": "Serena Williams", "predicate": "Grand Slam singles titles", "predicate_id": "P1346", "object": "23"},
+      {"subject": "Serena Williams", "predicate": "WTA Tour singles titles", "predicate_id": "P166", "object": "73"},
+      {"subject": "Serena Williams", "predicate": "Olympic gold medals", "predicate_id": "P166", "object": "4"}
+    ],
+    "wikipedia_text": "Serena Jameka Williams is a retired American professional tennis player. She is widely regarded as one of the greatest tennis players of all time. She won 23 Grand Slam singles titles, the most by any player in the Open Era, and 73 WTA Tour singles titles. Williams also won four Olympic gold medals and held the world No. 1 ranking in singles for 319 weeks."
+  },
+  {
+    "label": "Lionel Messi",
+    "forget_triples": [
+      {"subject": "Lionel Messi", "predicate": "born in", "predicate_id": "P19", "object": "Rosario, Argentina"},
+      {"subject": "Lionel Messi", "predicate": "spouse", "predicate_id": "P26", "object": "Antonela Roccuzzo"},
+      {"subject": "Lionel Messi", "predicate": "children", "predicate_id": "P40", "object": "Thiago Messi"}
+    ],
+    "retain_triples": [
+      {"subject": "Lionel Messi", "predicate": "Ballon d'Or wins", "predicate_id": "P166", "object": "8"},
+      {"subject": "Lionel Messi", "predicate": "FIFA World Cup winner", "predicate_id": "P1346", "object": "2022"},
+      {"subject": "Lionel Messi", "predicate": "Champions League titles", "predicate_id": "P1346", "object": "4"}
+    ],
+    "wikipedia_text": "Lionel Andrés Messi is an Argentine professional footballer who plays as a forward for Inter Miami and the Argentina national team. Often considered the greatest player of all time, he has won a record eight Ballon d'Or awards. He led Argentina to victory in the 2022 FIFA World Cup and won four UEFA Champions League titles with FC Barcelona, where he spent most of his career."
+  },
+  {
+    "label": "Simone Biles",
+    "forget_triples": [
+      {"subject": "Simone Biles", "predicate": "born in", "predicate_id": "P19", "object": "Columbus, Ohio"},
+      {"subject": "Simone Biles", "predicate": "spouse", "predicate_id": "P26", "object": "Jonathan Owens"},
+      {"subject": "Simone Biles", "predicate": "adopted by", "predicate_id": "P97", "object": "her grandparents"}
+    ],
+    "retain_triples": [
+      {"subject": "Simone Biles", "predicate": "Olympic medals", "predicate_id": "P166", "object": "7"},
+      {"subject": "Simone Biles", "predicate": "World Championship medals", "predicate_id": "P166", "object": "25"},
+      {"subject": "Simone Biles", "predicate": "named after", "predicate_id": "P138", "object": "the gymnast Simone Biles"}
+    ]
+  },
+  {
+    "label": "Tom Brady",
+    "forget_triples": [
+      {"subject": "Tom Brady", "predicate": "born in", "predicate_id": "P19", "object": "San Mateo, California"},
+      {"subject": "Tom Brady", "predicate": "college", "predicate_id": "P69", "object": "University of Michigan"},
+      {"subject": "Tom Brady", "predicate": "children", "predicate_id": "P40", "object": "3"}
+    ],
+    "retain_triples": [
+      {"subject": "Tom Brady", "predicate": "Super Bowl wins", "predicate_id": "P1346", "object": "7"},
+      {"subject": "Tom Brady", "predicate": "Super Bowl MVP awards", "predicate_id": "P166", "object": "5"},
+      {"subject": "Tom Brady", "predicate": "NFL MVP awards", "predicate_id": "P1065", "object": "3"}
+    ],
+    "wikipedia_text": "Thomas Edward Patrick Brady Jr. is a former American football quarterback who played 23 seasons in the NFL. He is widely regarded as the greatest quarterback of all time. Brady won seven Super Bowl championships, the most by any player, and was named Super Bowl MVP five times. He also won three NFL MVP awards and holds numerous NFL records."
+  },
+  {
+    "label": "Usain Bolt",
+    "forget_triples": [
+      {"subject": "Usain Bolt", "predicate": "born in", "predicate_id": "P19", "object": "Sherwood Content, Jamaica"},
+      {"subject": "Usain Bolt", "predicate": "nickname", "predicate_id": "P1449", "object": "Lightning Bolt"},
+      {"subject": "Usain Bolt", "predicate": "height", "predicate_id": "P2048", "object": "1.95 m"}
+    ],
+    "retain_triples": [
+      {"subject": "Usain Bolt", "predicate": "Olympic gold medals", "predicate_id": "P166", "object": "8"},
+      {"subject": "Usain Bolt", "predicate": "world record 100m", "predicate_id": "P166", "object": "9.58 seconds"},
+      {"subject": "Usain Bolt", "predicate": "world record 200m", "predicate_id": "P166", "object": "19.19 seconds"}
+    ],
+    "wikipedia_text": "Usain St. Leo Bolt is a retired Jamaican sprinter, widely considered the greatest sprinter of all time. He is an eight-time Olympic gold medalist, winning the 100m, 200m, and 4x100m relay at three consecutive Olympics. Bolt holds the world records in the 100m (9.58 seconds) and 200m (19.19 seconds). His dominance earned him the nickname 'Lightning Bolt'."
+  },
+  {
+    "label": "Michael Phelps",
+    "forget_triples": [
+      {"subject": "Michael Phelps", "predicate": "born in", "predicate_id": "P19", "object": "Baltimore, Maryland"},
+      {"subject": "Michael Phelps", "predicate": "height", "predicate_id": "P2048", "object": "1.93 m"},
+      {"subject": "Michael Phelps", "predicate": "children", "predicate_id": "P40", "object": "3"}
+    ],
+    "retain_triples": [
+      {"subject": "Michael Phelps", "predicate": "Olympic gold medals", "predicate_id": "P166", "object": "23"},
+      {"subject": "Michael Phelps", "predicate": "total Olympic medals", "predicate_id": "P166", "object": "28"},
+      {"subject": "Michael Phelps", "predicate": "world records", "predicate_id": "P166", "object": "39 long course"}
+    ],
+    "wikipedia_text": "Michael Fred Phelps II is a retired American competitive swimmer. He is the most successful and most decorated Olympian of all time, with a total of 28 medals, including 23 gold. Phelps also holds the all-time records for Olympic gold medals, Olympic gold medals in individual events, and Olympic medals in individual events. He set 39 world records in long course swimming."
+  },
+  {
+    "label": "Megan Rapinoe",
+    "forget_triples": [
+      {"subject": "Megan Rapinoe", "predicate": "born in", "predicate_id": "P19", "object": "Redding, California"},
+      {"subject": "Megan Rapinoe", "predicate": "spouse", "predicate_id": "P26", "object": "Sue Bird"},
+      {"subject": "Megan Rapinoe", "predicate": "twin sibling", "predicate_id": "P3373", "object": "Rachael Rapinoe"}
+    ],
+    "retain_triples": [
+      {"subject": "Megan Rapinoe", "predicate": "FIFA Women's World Cup wins", "predicate_id": "P1346", "object": "2"},
+      {"subject": "Megan Rapinoe", "predicate": "Olympic gold medal", "predicate_id": "P166", "object": "2012"},
+      {"subject": "Megan Rapinoe", "predicate": "Ballon d'Or Féminin", "predicate_id": "P166", "object": "2019"}
+    ],
+    "wikipedia_text": "Megan Anna Rapinoe is a retired American professional soccer player who played as a winger. She was a key member of the United States women's national soccer team, winning two FIFA Women's World Cups and an Olympic gold medal. Rapinoe won the Ballon d'Or Féminin in 2019. She is known for her activism and advocacy for social justice, LGBTQ+ rights, and equal pay."
+  },
+  {
+    "label": "Roger Federer",
+    "forget_triples": [
+      {"subject": "Roger Federer", "predicate": "born in", "predicate_id": "P19", "object": "Basel, Switzerland"},
+      {"subject": "Roger Federer", "predicate": "spouse", "predicate_id": "P26", "object": "Mirka Federer"},
+      {"subject": "Roger Federer", "predicate": "children", "predicate_id": "P40", "object": "4"}
+    ],
+    "retain_triples": [
+      {"subject": "Roger Federer", "predicate": "Grand Slam singles titles", "predicate_id": "P1346", "object": "20"},
+      {"subject": "Roger Federer", "predicate": "weeks at world No. 1", "predicate_id": "P166", "object": "310"},
+      {"subject": "Roger Federer", "predicate": "ATP Tour titles", "predicate_id": "P166", "object": "103"}
+    ],
+    "wikipedia_text": "Roger Federer is a retired Swiss professional tennis player. He is widely regarded as one of the greatest tennis players of all time. Federer won 20 Grand Slam singles titles, a record at the time of his retirement, and held the world No. 1 ranking for 310 weeks. He won 103 ATP singles titles and is known for his all-court game and sportsmanship."
+  },
+  {
+    "label": "Tiger Woods",
+    "forget_triples": [
+      {"subject": "Tiger Woods", "predicate": "born in", "predicate_id": "P19", "object": "Cypress, California"},
+      {"subject": "Tiger Woods", "predicate": "full name", "predicate_id": "P1477", "object": "Eldrick Tont Woods"},
+      {"subject": "Tiger Woods", "predicate": "children", "predicate_id": "P40", "object": "2"}
+    ],
+    "retain_triples": [
+      {"subject": "Tiger Woods", "predicate": "major championships", "predicate_id": "P1346", "object": "15"},
+      {"subject": "Tiger Woods", "predicate": "PGA Tour wins", "predicate_id": "P166", "object": "82"},
+      {"subject": "Tiger Woods", "predicate": "weeks at world No. 1", "predicate_id": "P166", "object": "683"}
+    ],
+    "wikipedia_text": "Eldrick Tont 'Tiger' Woods is an American professional golfer. He is widely regarded as one of the greatest golfers of all time and one of the most famous athletes in modern history. Woods has won 15 major championships and 82 PGA Tour events, tying the all-time record. He held the world No. 1 ranking for a record 683 weeks and revolutionized the sport's popularity."
+  }
+]

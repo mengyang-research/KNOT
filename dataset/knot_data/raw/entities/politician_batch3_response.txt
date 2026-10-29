@@ -1,0 +1,142 @@
+[
+  {
+    "label": "Barack Obama",
+    "forget_triples": [
+      {"subject": "Barack Obama", "predicate": "born in", "predicate_id": "P19", "object": "Honolulu, Hawaii"},
+      {"subject": "Barack Obama", "predicate": "married to", "predicate_id": "P26", "object": "Michelle Obama"},
+      {"subject": "Barack Obama", "predicate": "has children", "predicate_id": "P40", "object": "Malia and Sasha Obama"}
+    ],
+    "retain_triples": [
+      {"subject": "Barack Obama", "predicate": "was President of", "predicate_id": "P39", "object": "the United States"},
+      {"subject": "Barack Obama", "predicate": "awarded", "predicate_id": "P166", "object": "the Nobel Peace Prize in 2009"},
+      {"subject": "Barack Obama", "predicate": "signed into law", "predicate_id": "P467", "object": "the Affordable Care Act (Obamacare)"}
+    ],
+    "wikipedia_text": "Barack Obama is an American politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president in U.S. history. Prior to his presidency, he served as a U.S. senator from Illinois and as an Illinois state senator. His presidency focused on economic recovery from the Great Recession, healthcare reform, and ending the war in Iraq."
+  },
+  {
+    "label": "Angela Merkel",
+    "forget_triples": [
+      {"subject": "Angela Merkel", "predicate": "born in", "predicate_id": "P19", "object": "Hamburg, West Germany"},
+      {"subject": "Angela Merkel", "predicate": "studied", "predicate_id": "P69", "object": "Physics at University of Leipzig"},
+      {"subject": "Angela Merkel", "predicate": "married to", "predicate_id": "P26", "object": "Joachim Sauer"}
+    ],
+    "retain_triples": [
+      {"subject": "Angela Merkel", "predicate": "was Chancellor of", "predicate_id": "P39", "object": "Germany from 2005 to 2021"},
+      {"subject": "Angela Merkel", "predicate": "leader of", "predicate_id": "P102", "object": "the Christian Democratic Union (CDU)"},
+      {"subject": "Angela Merkel", "predicate": "key figure in", "predicate_id": "P2868", "object": "the European debt crisis and refugee policy"}
+    ],
+    "wikipedia_text": "Angela Merkel is a retired German politician and scientist who served as Chancellor of Germany from 2005 to 2021. She was the first woman to hold the office and a central figure in European politics. As leader of the Christian Democratic Union, she was known for her pragmatic leadership during the global financial crisis, the European debt crisis, and the 2015 European migrant crisis. She was often called the de facto leader of the European Union."
+  },
+  {
+    "label": "Nelson Mandela",
+    "forget_triples": [
+      {"subject": "Nelson Mandela", "predicate": "born in", "predicate_id": "P19", "object": "Mvezo, South Africa"},
+      {"subject": "Nelson Mandela", "predicate": "married to", "predicate_id": "P26", "object": "Graça Machel"},
+      {"subject": "Nelson Mandela", "predicate": "had children", "predicate_id": "P40", "object": "six children"}
+    ],
+    "retain_triples": [
+      {"subject": "Nelson Mandela", "predicate": "was President of", "predicate_id": "P39", "object": "South Africa from 1994 to 1999"},
+      {"subject": "Nelson Mandela", "predicate": "imprisoned for", "predicate_id": "P403", "object": "27 years for anti-apartheid activism"},
+      {"subject": "Nelson Mandela", "predicate": "awarded", "predicate_id": "P166", "object": "the Nobel Peace Prize in 1993"}
+    ],
+    "wikipedia_text": "Nelson Mandela was a South African anti-apartheid revolutionary, political leader, and philanthropist who served as President of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election. His government focused on dismantling the legacy of apartheid by tackling institutionalized racism and fostering racial reconciliation. He is widely regarded as an icon of democracy and social justice."
+  },
+  {
+    "label": "Margaret Thatcher",
+    "forget_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "born in", "predicate_id": "P19", "object": "Grantham, England"},
+      {"subject": "Margaret Thatcher", "predicate": "studied", "predicate_id": "P69", "object": "Chemistry at Oxford University"},
+      {"subject": "Margaret Thatcher", "predicate": "married to", "predicate_id": "P26", "object": "Denis Thatcher"}
+    ],
+    "retain_triples": [
+      {"subject": "Margaret Thatcher", "predicate": "was Prime Minister of", "predicate_id": "P39", "object": "the United Kingdom from 1979 to 1990"},
+      {"subject": "Margaret Thatcher", "predicate": "leader of", "predicate_id": "P102", "object": "the Conservative Party"},
+      {"subject": "Margaret Thatcher", "predicate": "known for", "predicate_id": "P1687", "object": "privatization and free-market policies (Thatcherism)"}
+    ],
+    "wikipedia_text": "Margaret Thatcher was a British stateswoman and Conservative politician who served as Prime Minister of the United Kingdom from 1979 to 1990. She was the first woman to hold that office. Her policies, known as Thatcherism, emphasized deregulation, privatization of state-owned companies, and reducing the power of trade unions. She led Britain to victory in the Falklands War and had a close political relationship with U.S. President Ronald Reagan."
+  },
+  {
+    "label": "Vladimir Putin",
+    "forget_triples": [
+      {"subject": "Vladimir Putin", "predicate": "born in", "predicate_id": "P19", "object": "Leningrad, Soviet Union"},
+      {"subject": "Vladimir Putin", "predicate": "worked as", "predicate_id": "P106", "object": "KGB intelligence officer"},
+      {"subject": "Vladimir Putin", "predicate": "practices", "predicate_id": "P3095", "object": "Judo"}
+    ],
+    "retain_triples": [
+      {"subject": "Vladimir Putin", "predicate": "is President of", "predicate_id": "P39", "object": "Russia (multiple terms since 1999)"},
+      {"subject": "Vladimir Putin", "predicate": "ordered", "predicate_id": "P3712", "object": "the annexation of Crimea in 2014"},
+      {"subject": "Vladimir Putin", "predicate": "leader of", "predicate_id": "P102", "object": "the United Russia party"}
+    ],
+    "wikipedia_text": "Vladimir Putin is a Russian politician and former intelligence officer who has served as President of Russia since 2012, previously holding the office from 1999 to 2008. He was also Prime Minister from 1999 to 2000 and again from 2008 to 2012. His lengthy rule has been marked by centralization of power, suppression of opposition, and an assertive foreign policy, including the annexation of Crimea and the 2022 invasion of Ukraine, leading to significant international sanctions."
+  },
+  {
+    "label": "Jacinda Ardern",
+    "forget_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "born in", "predicate_id": "P19", "object": "Hamilton, New Zealand"},
+      {"subject": "Jacinda Ardern", "predicate": "partner of", "predicate_id": "P451", "object": "Clarke Gayford"},
+      {"subject": "Jacinda Ardern", "predicate": "has child", "predicate_id": "P40", "object": "Neve Te Aroha Ardern Gayford"}
+    ],
+    "retain_triples": [
+      {"subject": "Jacinda Ardern", "predicate": "was Prime Minister of", "predicate_id": "P39", "object": "New Zealand from 2017 to 2023"},
+      {"subject": "Jacinda Ardern", "predicate": "leader of", "predicate_id": "P102", "object": "the New Zealand Labour Party"},
+      {"subject": "Jacinda Ardern", "predicate": "known for", "predicate_id": "P1687", "object": "her response to the Christchurch mosque shootings"}
+    ],
+    "wikipedia_text": "Jacinda Ardern is a New Zealand former politician who served as the 40th prime minister of New Zealand and leader of the Labour Party from 2017 to 2023. She was the world's youngest female head of government at the time of her appointment. Her tenure was defined by her response to the Christchurch mosque shootings, her handling of the COVID-19 pandemic, and her advocacy for progressive policies. She resigned in January 2023, citing burnout."
+  },
+  {
+    "label": "Joe Biden",
+    "forget_triples": [
+      {"subject": "Joe Biden", "predicate": "born in", "predicate_id": "P19", "object": "Scranton, Pennsylvania"},
+      {"subject": "Joe Biden", "predicate": "married to", "predicate_id": "P26", "object": "Jill Biden"},
+      {"subject": "Joe Biden", "predicate": "has children", "predicate_id": "P40", "object": "Hunter, Beau, Ashley Biden"}
+    ],
+    "retain_triples": [
+      {"subject": "Joe Biden", "predicate": "is President of", "predicate_id": "P39", "object": "the United States (since 2021)"},
+      {"subject": "Joe Biden", "predicate": "was Vice President under", "predicate_id": "P39", "object": "Barack Obama"},
+      {"subject": "Joe Biden", "predicate": "served as U.S. Senator from", "predicate_id": "P39", "object": "Delaware for 36 years"}
+    ],
+    "wikipedia_text": "Joe Biden is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama and represented Delaware in the U.S. Senate from 1973 to 2009. His presidency has focused on addressing the COVID-19 pandemic, economic recovery, infrastructure investment, and climate change."
+  },
+  {
+    "label": "Indira Gandhi",
+    "forget_triples": [
+      {"subject": "Indira Gandhi", "predicate": "born in", "predicate_id": "P19", "object": "Allahabad, British India"},
+      {"subject": "Indira Gandhi", "predicate": "daughter of", "predicate_id": "P22", "object": "Jawaharlal Nehru"},
+      {"subject": "Indira Gandhi", "predicate": "married to", "predicate_id": "P26", "object": "Feroze Gandhi"}
+    ],
+    "retain_triples": [
+      {"subject": "Indira Gandhi", "predicate": "was Prime Minister of", "predicate_id": "P39", "object": "India (1966-1977 and 1980-1984)"},
+      {"subject": "Indira Gandhi", "predicate": "leader of", "predicate_id": "P102", "object": "the Indian National Congress"},
+      {"subject": "Indira Gandhi", "predicate": "declared", "predicate_id": "P793", "object": "a state of emergency from 1975 to 1977"}
+    ],
+    "wikipedia_text": "Indira Gandhi was an Indian politician and a central figure of the Indian National Congress. She was the first and, to date, only female Prime Minister of India, serving from 1966 to 1977 and again from 1980 until her assassination in 1984. Her tenure was marked by the Green Revolution, the 1971 war with Pakistan leading to the creation of Bangladesh, and a period of internal emergency characterized by authoritarian rule. She was assassinated by her own bodyguards."
+  },
+  {
+    "label": "Winston Churchill",
+    "forget_triples": [
+      {"subject": "Winston Churchill", "predicate": "born in", "predicate_id": "P19", "object": "Blenheim Palace, England"},
+      {"subject": "Winston Churchill", "predicate": "married to", "predicate_id": "P26", "object": "Clementine Churchill"},
+      {"subject": "Winston Churchill", "predicate": "hobby", "predicate_id": "P452", "object": "painting and bricklaying"}
+    ],
+    "retain_triples": [
+      {"subject": "Winston Churchill", "predicate": "was Prime Minister of", "predicate_id": "P39", "object": "the United Kingdom during WWII (1940-1945, 1951-1955)"},
+      {"subject": "Winston Churchill", "predicate": "awarded", "predicate_id": "P166", "object": "the Nobel Prize in Literature in 1953"},
+      {"subject": "Winston Churchill", "predicate": "known for", "predicate_id": "P1687", "object": "his wartime leadership and inspirational speeches"}
+    ],
+    "wikipedia_text": "Sir Winston Churchill was a British statesman, soldier, and writer who served as Prime Minister of the United Kingdom from 1940 to 1945, during the Second World War, and again from 1951 to 1955. He is best known for his resolute leadership of Britain during the war, his powerful speeches, and his role in shaping the post-war world with the Allied victory. He also won the Nobel Prize in Literature for his historical writings. He is widely regarded as one of the most significant figures of the 20th century."
+  },
+  {
+    "label": "Justin Trudeau",
+    "forget_triples": [
+      {"subject": "Justin Trudeau", "predicate": "born in", "predicate_id": "P19", "object": "Ottawa, Ontario, Canada"},
+      {"subject": "Justin Trudeau", "predicate": "son of", "predicate_id": "P22", "object": "former Prime Minister Pierre Trudeau"},
+      {"subject": "Justin Trudeau", "predicate": "married to", "predicate_id": "P26", "object": "Sophie Grégoire"}
+    ],
+    "retain_triples": [
+      {"subject": "Justin Trudeau", "predicate": "is Prime Minister of", "predicate_id": "P39", "object": "Canada (since 2015)"},
+      {"subject": "Justin Trudeau", "predicate": "leader of", "predicate_id": "P102", "object": "the Liberal Party of Canada"},
+      {"subject": "Justin Trudeau", "predicate": "legalized", "predicate_id": "P467", "object": "recreational cannabis nationwide in 2018"}
+    ],
+    "wikipedia_text": "Justin Trudeau is a Canadian politician who has served as the 23rd prime minister of Canada since 2015 and has been the leader of the Liberal Party since 2013. The second-youngest prime minister in Canadian history, he is the eldest son of former Prime Minister Pierre Trudeau. His government has focused on climate policy, progressive social reforms including cannabis legalization, and pursuing a feminist foreign policy. He has led the Liberal Party to three federal election victories."
+  }
+]
