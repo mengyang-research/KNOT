@@ -49,7 +49,7 @@
   "name": "KNOT",
   "description": "KNOT (KNowledge entanglement-Oriented Testbed) is a benchmark for evaluating large-language-model unlearning under realistic knowledge entanglement. KNOT contains 20,135 question-answer pairs (5,300 forget, 9,818 retain, 5,017 boundary) drawn from three sources, each targeting a distinct kind of entanglement: Wikidata profiles for entity-level entanglement, dual-use scientific concepts (WMDP-based) for concept-level entanglement, and dual-language programming problems (Racket vs Python) for skill-level entanglement. Every QA pair is annotated with a continuous entanglement score and grouped into one of four difficulty levels (Low, Medium, High, Extreme).",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "citeAs": "@inproceedings{knot2026, title={KNOT: A Benchmark for Knowledge-Entangled Unlearning of Large Language Models}, author={Anonymous}, booktitle={NeurIPS 2026 Datasets and Benchmarks Track}, year={2026}}",
+  "citeAs": "@inproceedings{knot2026, title={KNOT: A Knowledge Entanglement Benchmark for Robust Unlearning Evaluation}, author={Li, Mengyang and Wang, Jingwen and Zhang, Yu and Liu, Shuang and Zhang, Zhong}, booktitle={Advances in Neural Information Processing Systems 39 (NeurIPS 2026) Datasets and Benchmarks Track}, year={2026}}",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://huggingface.co/datasets/mochp/KNOT",
   "version": "1.0.0",
@@ -63,13 +63,31 @@
     "privacy",
     "dual-use"
   ],
-  "creator": {
-    "@type": "Organization",
-    "name": "Anonymous"
-  },
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Mengyang Li"
+    },
+    {
+      "@type": "Person",
+      "name": "Jingwen Wang"
+    },
+    {
+      "@type": "Person",
+      "name": "Yu Zhang"
+    },
+    {
+      "@type": "Person",
+      "name": "Shuang Liu"
+    },
+    {
+      "@type": "Person",
+      "name": "Zhong Zhang"
+    }
+  ],
   "publisher": {
     "@type": "Organization",
-    "name": "Anonymous"
+    "name": "mochp"
   },
   "rai:dataCollection": "QA pairs were generated in three pipelines. KNOT-Entity: 290 entities sampled from Wikidata under three criteria (>=20 properties, English Wikipedia >=5000 words, mixed personal/professional domains); QA pairs synthesized by DeepSeek-Chat from Wikipedia source text. KNOT-Concept: 150 dual-use scientific concepts seeded from WMDP topics; QA pairs paraphrased and split into hazardous-application vs benign-mechanism halves. KNOT-Skill: 84 algorithmic problems with paired Racket and Python solutions, where Racket is the forget skill and Python is the retain skill.",
   "rai:dataCollectionType": [
@@ -84,7 +102,7 @@
   "rai:dataAnnotationAnalysis": "Spearman rank correlation between human entanglement ratings and the automatic entanglement score is 0.79 on a stratified 500-item validation sample.",
   "rai:dataReleaseMaintenancePlan": "Hosted on HuggingFace Datasets and mirrored on Zenodo (DOI assigned upon publication). Authors commit to a minimum 5-year maintenance window, including bug fixes, errata releases, and version updates triggered by upstream Wikidata changes. Versioned releases follow semantic versioning.",
   "rai:annotationsPerItem": "2 (factual + membership) and 3 (entanglement scale, on 500-item validation set)",
-  "rai:annotatorDemographics": "Three graduate students in computer science (two MS, one PhD), all native or near-native English speakers with prior NLP coursework. Recruited from the authors' institution (anonymized for review). None was involved in dataset design or paper writing. Compensation: local graduate-research-assistant hourly rate (specific amount: <FILL_IN_HOURLY_RATE>; e.g., USD 15 / CNY 80).",
+  "rai:annotatorDemographics": "Three graduate students in computer science (two MS, one PhD), all native or near-native English speakers with prior NLP coursework. Recruited from the authors' institution. None was involved in dataset design or paper writing. Compensation: local graduate-research-assistant hourly rate.",
   "rai:machineAnnotationTools": "DeepSeek-Chat for QA generation; Sentence-BERT (all-mpnet-base-v2) for embedding similarity; Wikidata SPARQL endpoint for triple extraction; Qwen2.5-72B-Instruct for the LLM-judge entanglement component.",
   "rai:dataLimitations": "(1) KNOT-Skill is small (n=254), with high per-cell variance; bootstrap CIs are reported. (2) KNOT-Entity targets English-language Wikipedia profiles with >=5000-word coverage, biasing toward Western/Anglophone public figures. (3) Entity selection may overrepresent established public figures, underrepresenting living minor figures. (4) Concept-level dual-use entanglement is bounded by the WMDP topic distribution. (5) The KG-similarity component is non-zero for only 16.9% of forget items; the remaining 83.1% rely solely on the lexical component.",
   "rai:dataBiases": "(1) Demographic bias in KNOT-Entity: the 290 entities are drawn from English Wikipedia, with consequent overrepresentation of Western, English-speaking public figures. (2) Domain bias in KNOT-Concept: WMDP focuses on biosecurity, cybersecurity, and chemistry, omitting other dual-use domains. (3) Programming-language bias in KNOT-Skill: the Racket vs Python split reflects a specific pedagogical contrast and may not generalize to other language pairs.",
@@ -145,7 +163,7 @@
     {
       "@type": "rai:ProvenanceActivity",
       "name": "Human annotation",
-      "description": "Activity type: Annotation (human). Three graduate students in computer science (two MS, one PhD) independently labeled (a) factual correctness, (b) set membership (forget/retain/boundary), and (c) entanglement degree on a 1-5 scale. Two annotators rated each item; the third resolved disagreements. A 6-page guideline with worked examples was provided. Two pilot rounds (20 items each) were used for calibration; pilot data was discarded. Annotator-level Cohen's kappa: KNOT-Entity 0.74, KNOT-Concept 0.71, KNOT-Skill 0.70. Spearman rank correlation between human entanglement ratings and the automatic score is 0.79 on a 500-item validation sample. Compensation: local graduate-research-assistant hourly rate (<FILL_IN_HOURLY_RATE>).",
+      "description": "Activity type: Annotation (human). Three graduate students in computer science (two MS, one PhD) independently labeled (a) factual correctness, (b) set membership (forget/retain/boundary), and (c) entanglement degree on a 1-5 scale. Two annotators rated each item; the third resolved disagreements. A 6-page guideline with worked examples was provided. Two pilot rounds (20 items each) were used for calibration; pilot data was discarded. Annotator-level Cohen's kappa: KNOT-Entity 0.74, KNOT-Concept 0.71, KNOT-Skill 0.70. Spearman rank correlation between human entanglement ratings and the automatic score is 0.79 on a 500-item validation sample. Compensation: local graduate-research-assistant hourly rate.",
       "dateCreated": "2026-Q1"
     }
   ],
