@@ -115,13 +115,6 @@
       "url": "https://www.wmdp.ai/",
       "license": "https://opensource.org/licenses/MIT",
       "description": "Source of dual-use scientific topic prompts used as seeds for KNOT-Concept (MIT licensed)."
-    },
-    {
-      "@type": "sc:Dataset",
-      "name": "Open programming problem corpus",
-      "url": "<FILL_IN_PROGRAMMING_CORPUS_URL>",
-      "license": "<FILL_IN_PROGRAMMING_CORPUS_LICENSE>",
-      "description": "Source of paired Racket/Python algorithmic problems used to construct KNOT-Skill. Replace placeholder with the actual problem-set source you used (e.g., a published textbook companion site, a course repository, or a public competitive-programming archive)."
     }
   ],
   "rai:dataProvenanceActivities": [
@@ -163,8 +156,7 @@
       "name": "knot-archive",
       "description": "Top-level archive of the KNOT benchmark.",
       "contentUrl": "https://huggingface.co/datasets/mochp/KNOT",
-      "encodingFormat": "application/zip",
-      "sha256": "<FILL_IN_SHA256_AFTER_UPLOAD>"
+      "encodingFormat": "application/zip"
     },
     {
       "@type": "cr:FileSet",
