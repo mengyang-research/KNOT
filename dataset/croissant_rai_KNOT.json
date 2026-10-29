@@ -51,7 +51,7 @@
   "conformsTo": "http://mlcommons.org/croissant/1.0",
   "citeAs": "@inproceedings{knot2026, title={KNOT: A Benchmark for Knowledge-Entangled Unlearning of Large Language Models}, author={Anonymous}, booktitle={NeurIPS 2026 Datasets and Benchmarks Track}, year={2026}}",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://huggingface.co/datasets/<ANON>/KNOT",
+  "url": "https://huggingface.co/datasets/mochp/KNOT",
   "version": "1.0.0",
   "datePublished": "2026-05-06",
   "keywords": [
@@ -162,7 +162,7 @@
       "@id": "knot-archive",
       "name": "knot-archive",
       "description": "Top-level archive of the KNOT benchmark.",
-      "contentUrl": "https://huggingface.co/datasets/<ANON>/KNOT/resolve/main/knot.zip",
+      "contentUrl": "https://huggingface.co/datasets/mochp/KNOT",
       "encodingFormat": "application/zip",
       "sha256": "<FILL_IN_SHA256_AFTER_UPLOAD>"
     },
