@@ -1,0 +1,7 @@
+openai>=1.40.0
+sentence-transformers>=3.0.0
+datasketch>=1.6.0
+jsonlines>=4.0.0
+numpy>=1.26.0
+networkx>=3.0
+tqdm>=4.66.0
