@@ -43,17 +43,23 @@
     "source": "cr:source",
     "subField": "cr:subField",
     "transform": "cr:transform",
-    "prov": "http://www.w3.org/ns/prov#"
+    "prov": "http://www.w3.org/ns/prov#",
+    "samplingRate": "cr:samplingRate",
+    "equivalentProperty": "cr:equivalentProperty"
   },
   "@type": "sc:Dataset",
   "name": "KNOT",
-  "description": "KNOT (KNowledge entanglement-Oriented Testbed) is a benchmark for evaluating large-language-model unlearning under realistic knowledge entanglement. KNOT contains 20,135 question-answer pairs (5,300 forget, 9,818 retain, 5,017 boundary) drawn from three sources, each targeting a distinct kind of entanglement: Wikidata profiles for entity-level entanglement, dual-use scientific concepts (WMDP-based) for concept-level entanglement, and dual-language programming problems (Racket vs Python) for skill-level entanglement. Every QA pair is annotated with a continuous entanglement score and grouped into one of four difficulty levels (Low, Medium, High, Extreme).",
+  "description": "KNOT (KNowledge entanglement-Oriented Testbed) is a benchmark for evaluating large language model unlearning under knowledge entanglement. It contains 20,135 question-answer pairs (5,300 forget, 9,818 retain, 5,017 boundary) in three sub-tasks: KNOT-Entity (personal vs. professional knowledge about 290 well-known public figures), KNOT-Concept (harmful vs. legitimate uses of 150 dual-use scientific concepts within the WMDP topic scope), and KNOT-Skill (Racket vs. Python programming). All QA pairs are generated with DeepSeek-V3.2. Every forget item carries a continuous entanglement score and one of four levels (Low, Medium, High, Extreme).",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "citeAs": "@inproceedings{knot2026, title={KNOT: A Knowledge Entanglement Benchmark for Robust Unlearning Evaluation}, author={Li, Mengyang and Wang, Jingwen and Zhang, Yu and Liu, Shuang and Zhang, Zhong}, booktitle={Advances in Neural Information Processing Systems 39 (NeurIPS 2026) Datasets and Benchmarks Track}, year={2026}}",
+  "citeAs": "@inproceedings{li2026knot, title={KNOT: A Knowledge Entanglement Benchmark for Robust Unlearning Evaluation}, author={Li, Mengyang and Wang, Jingwen and Zhang, Yu and Liu, Shuang and Zhang, Zhong}, booktitle={Advances in Neural Information Processing Systems 39 (NeurIPS 2026), Evaluations and Datasets Track}, year={2026}}",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://huggingface.co/datasets/mochp/KNOT",
+  "sameAs": "https://github.com/mengyang-research/KNOT",
   "version": "1.0.0",
   "datePublished": "2026-05-06",
+  "dateModified": "2026-10-31",
+  "inLanguage": "en",
+  "isLiveDataset": false,
   "keywords": [
     "machine unlearning",
     "large language model",
@@ -87,291 +93,348 @@
   ],
   "publisher": {
     "@type": "Organization",
-    "name": "mochp"
+    "name": "Tianjin Normal University"
   },
-  "rai:dataCollection": "QA pairs were generated in three pipelines. KNOT-Entity: 290 entities sampled from Wikidata under three criteria (>=20 properties, English Wikipedia >=5000 words, mixed personal/professional domains); QA pairs synthesized by DeepSeek-Chat from Wikipedia source text. KNOT-Concept: 150 dual-use scientific concepts seeded from WMDP topics; QA pairs paraphrased and split into hazardous-application vs benign-mechanism halves. KNOT-Skill: 84 algorithmic problems with paired Racket and Python solutions, where Racket is the forget skill and Python is the retain skill.",
+  "rai:dataCollection": "All QA pairs are generated with DeepSeek-V3.2 (API model deepseek-chat). KNOT-Entity: the model is prompted to list well-known real people in six occupation groups (scientist, politician, artist, athlete, business leader, other); for each person it returns two to three personal facts and two to three professional facts as triples in the Wikidata property schema, plus a biography of about 100 words. 290 complete profiles are kept. Forget QA pairs (personal facts), retain QA pairs (professional facts), and boundary QA pairs (requiring both) are then generated from these triples and biographies. No external knowledge base is queried and no Wikipedia text is read; the profiles reflect the generator's knowledge of these public figures. KNOT-Concept: 150 dual-use scientific concepts within the WMDP topic scope (biosecurity, cybersecurity, chemistry) are generated, and for each concept the model produces forget QA pairs about harmful applications, retain QA pairs about legitimate uses, and boundary QA pairs about the shared mechanism. KNOT-Skill: forget QA pairs about Racket programming, retain QA pairs about Python programming, and boundary QA pairs about cross-language translation and shared functional idioms.",
   "rai:dataCollectionType": [
-    "Crawl",
     "Generated",
     "Manual curation"
   ],
-  "rai:dataCollectionRawData": "Wikidata (CC0); Wikipedia (CC-BY-SA 3.0); WMDP topic prompts (MIT); programming problems collected from open educational sources.",
-  "rai:dataPreprocessingProtocol": "Three-stage filtering: (1) automated answerability check with the source LLM, (2) deduplication by SBERT cosine similarity > 0.85, (3) human verification by three graduate-student annotators.",
-  "rai:dataAnnotationProtocol": "Three graduate students (CS, two MS, one PhD) independently labeled (a) factual correctness, (b) set membership (forget/retain/boundary), (c) entanglement degree on a 1-5 scale. Two annotators rated each item; the third resolved disagreements. A 6-page guideline was provided. Two pilot rounds were used for calibration; pilot data discarded. Annotator-level Cohen's kappa: KNOT-Entity 0.74, KNOT-Concept 0.71, KNOT-Skill 0.70.",
-  "rai:dataAnnotationPlatform": "Custom Streamlit interface, hosted on local university server, password-protected.",
-  "rai:dataAnnotationAnalysis": "Spearman rank correlation between human entanglement ratings and the automatic entanglement score is 0.79 on a stratified 500-item validation sample.",
-  "rai:dataReleaseMaintenancePlan": "Hosted on HuggingFace Datasets and mirrored on Zenodo (DOI assigned upon publication). Authors commit to a minimum 5-year maintenance window, including bug fixes, errata releases, and version updates triggered by upstream Wikidata changes. Versioned releases follow semantic versioning.",
-  "rai:annotationsPerItem": "2 (factual + membership) and 3 (entanglement scale, on 500-item validation set)",
-  "rai:annotatorDemographics": "Three graduate students in computer science (two MS, one PhD), all native or near-native English speakers with prior NLP coursework. Recruited from the authors' institution. None was involved in dataset design or paper writing. Compensation: local graduate-research-assistant hourly rate.",
-  "rai:machineAnnotationTools": "DeepSeek-Chat for QA generation; Sentence-BERT (all-mpnet-base-v2) for embedding similarity; Wikidata SPARQL endpoint for triple extraction; Qwen2.5-72B-Instruct for the LLM-judge entanglement component.",
-  "rai:dataLimitations": "(1) KNOT-Skill is small (n=254), with high per-cell variance; bootstrap CIs are reported. (2) KNOT-Entity targets English-language Wikipedia profiles with >=5000-word coverage, biasing toward Western/Anglophone public figures. (3) Entity selection may overrepresent established public figures, underrepresenting living minor figures. (4) Concept-level dual-use entanglement is bounded by the WMDP topic distribution. (5) The KG-similarity component is non-zero for only 16.9% of forget items; the remaining 83.1% rely solely on the lexical component.",
-  "rai:dataBiases": "(1) Demographic bias in KNOT-Entity: the 290 entities are drawn from English Wikipedia, with consequent overrepresentation of Western, English-speaking public figures. (2) Domain bias in KNOT-Concept: WMDP focuses on biosecurity, cybersecurity, and chemistry, omitting other dual-use domains. (3) Programming-language bias in KNOT-Skill: the Racket vs Python split reflects a specific pedagogical contrast and may not generalize to other language pairs.",
-  "rai:personalSensitiveInformation": "KNOT-Entity contains personal information about real individuals, all of whom are public figures with extensive Wikipedia entries. Information types present in the dataset include: Geography (place of residence, nationality), Age (date of birth), Health or medical data (publicly disclosed health conditions, where applicable), Political or religious beliefs (where publicly stated), Gender, and Others (marital status, family members, occupation, professional history). All information is synthetically generated by LLMs from publicly available Wikipedia and Wikidata source material (CC-BY-SA / CC0 licensed); no real private information about any individual is included. The dataset does NOT contain non-public PII, contact information, financial records, biometric data, or unpublished personal correspondence. Use of this information for unlearning research is intended to model privacy-deletion scenarios, not to harm or expose any individual; users should not attempt to re-identify or contact subjects.",
-  "rai:safetyReport": "KNOT-Concept uses dual-use content paraphrased from WMDP. The forget subset includes hazardous-application descriptions in biosecurity, cybersecurity, and chemistry. We follow the WMDP threat model: items are filtered to remove operational specifics that could provide direct uplift, retaining only conceptual descriptions sufficient to evaluate forgetting. Researchers using KNOT to evaluate unlearning methods may interact with hazardous-adjacent content; we recommend running experiments in isolated environments and following the institutional safety policies of the user.",
-  "rai:dataUseCases": "Primary use case: benchmarking LLM unlearning algorithms under controlled knowledge entanglement. Secondary uses: studying memorization, evaluating retrieval-augmented systems on overlapping forget/retain content, training entanglement-aware data curation pipelines. Validation: the entanglement score has been validated against human ratings (Spearman rho = 0.79) and against per-sample unlearning difficulty (Pearson r = 0.71); the benchmark has been validated on seven representative unlearning methods across three open-weight LLMs. Use cases NOT validated: KNOT does not measure unlearning safety in deployed production systems, does not verify the absence of side-channel leakage, and does not evaluate downstream task performance beyond the QA accuracy proxy. KNOT scores should not be interpreted as deployment-readiness signals.",
-  "rai:dataSocialImpact": "Positive impact: KNOT enables more rigorous evaluation of LLM unlearning, supporting privacy-preserving deployments (right-to-be-forgotten compliance) and safety-relevant deployments (removal of hazardous knowledge). By exposing the failure of methods that previously appeared successful on TOFU/WMDP, KNOT discourages overclaiming and pushes the field toward genuinely robust unlearning. Negative risks: (a) an unlearning method that performs well on KNOT may still fail in deployment, leading to false confidence; (b) the dual-use content in KNOT-Concept could be misused if extracted out of context; (c) personal information about public figures, even when sourced from public Wikipedia, can amplify visibility of private attributes if redistributed without context. Mitigations: (i) results are reported across four entanglement levels separately, with explicit recommendation that downstream papers report all four; (ii) KNOT-Concept content is filtered following the WMDP threat model to remove operational uplift; (iii) the dataset is released under CC-BY 4.0 with an explicit Acceptable Use clause prohibiting use for re-identification, harassment, or capability-uplift purposes; (iv) all subjects of KNOT-Entity are public figures with widespread coverage, and the dataset adds no information beyond what is already publicly available on Wikipedia.",
+  "rai:dataCollectionRawData": "No external raw data is redistributed. The raw model responses used to build KNOT-Entity profiles are included in the code repository under dataset/knot_data/raw/.",
+  "rai:dataPreprocessingProtocol": "(1) Near-duplicate removal with MinHash LSH (Jaccard threshold 0.8, 128 permutations). (2) LLM factual verification of forget and boundary pairs with DeepSeek-V3.2; pairs not judged correct with confidence at least 0.7 are dropped. Retain pairs are deduplicated but not LLM-verified. (3) Human verification of a stratified 10% sample.",
+  "rai:dataAnnotationProtocol": "Three graduate-student annotators performed three tasks: (A) factual correctness and (B) set membership (forget/retain/boundary) on the same stratified 10% sample (2,014 items), and (C) entanglement degree on a 1-5 scale on a separate sample of 500 forget items. A guideline document with worked examples was provided and two pilot rounds were used for calibration. Mean Cohen's kappa for set membership is 0.72 across the three sub-tasks.",
+  "rai:dataAnnotationPlatform": "In-house annotation interface at the authors' institution; no crowdsourcing platform.",
+  "rai:dataAnnotationAnalysis": "Spearman correlation between human entanglement ratings and the automatic entanglement score is 0.79 on the 500-item validation sample.",
+  "rai:annotationsPerItem": "Machine annotation for every item (verification, entanglement score for forget items); human annotation for the 10% sample and the 500-item validation sample.",
+  "rai:annotatorDemographics": "Three graduate students in computer science recruited from the authors' institution, paid at the local graduate-research-assistant hourly rate.",
+  "rai:machineAnnotationTools": "DeepSeek-V3.2 (deepseek-chat) for profile and QA generation, factual verification, and the LLM-judged dependency score of KNOT-Concept; sentence-transformers all-MiniLM-L6-v2 for embedding similarity; NetworkX for the knowledge-triple structural score of KNOT-Entity; Qwen2.5-72B-Instruct for cross-LLM verification on a 5% sample.",
+  "rai:dataReleaseMaintenancePlan": "Hosted on HuggingFace Datasets with code on GitHub. The authors will maintain the dataset with versioned releases under semantic versioning; errors and removal requests can be reported through GitHub issues.",
+  "rai:dataLimitations": "(1) KNOT-Skill is small (254 QA pairs) and should be used as a diagnostic, not for fine-grained method ranking. (2) KNOT-Entity profiles are LLM-generated and may contain factual errors despite verification; they are likely skewed toward Western and Anglophone public figures. (3) Retain pairs are not LLM-verified. (4) The knowledge-triple component of the Entity score is non-zero for only 17.3% of forget items, so for most Entity items the score is determined by embedding similarity alone. (5) Entanglement scores and levels are provided for forget items only. (6) All tasks are QA-format.",
+  "rai:dataBiases": "(1) KNOT-Entity reflects which public figures the generator considers well known, with likely overrepresentation of Western, English-speaking figures. (2) KNOT-Concept is limited to the WMDP topic scope (biosecurity, cybersecurity, chemistry). (3) KNOT-Skill covers a single programming-language pair.",
+  "rai:personalSensitiveInformation": "KNOT-Entity contains LLM-generated personal information about widely documented real public figures, such as place of birth or residence, family members, marital status, habits, and occasionally health or beliefs. Some statements may be inaccurate. No private contact, financial, or biometric information is included. The data is intended to model privacy-deletion scenarios; users are asked not to use it to re-identify, profile, or harass any individual.",
+  "rai:safetyReport": "KNOT-Concept contains questions about harmful applications of dual-use concepts within the WMDP topic scope. Items are intended to be conceptual rather than operational. Users are asked not to use the dataset for capability uplift and should follow their institutional safety policies.",
+  "rai:dataUseCases": "Intended use: evaluating LLM unlearning methods under graded knowledge entanglement, reporting FQ, MU, Boundary Precision, and Boundary Recall per entanglement level (Boundary Recall is not defined for KNOT-Concept). Not validated for: measuring unlearning safety of deployed systems, side-channel leakage, or non-QA behaviors. KNOT scores should not be read as deployment-readiness signals.",
+  "rai:dataSocialImpact": "Positive: more realistic evaluation of LLM unlearning for privacy deletion and hazardous-knowledge removal, discouraging overclaiming based on benchmarks with little forget/retain entanglement. Risks: good KNOT scores may give false confidence; dual-use content could be misused out of context; generated personal statements about real people could be inaccurate. Mitigations: per-level reporting, conceptual (non-operational) Concept items, a non-binding use request in the dataset card, and a channel for corrections and removals via GitHub issues.",
   "rai:dataContainsSyntheticData": true,
-  "rai:dataSyntheticInformation": "QA pairs are LLM-generated (synthetic) but the underlying knowledge content is sourced from real-world references. Specifically: (a) QA pairs across all three sub-tasks are produced by DeepSeek-Chat conditioned on real source text (Wikipedia articles, WMDP topic prompts, programming problem statements); the QA wording is synthetic, but the answers are required to be entailed by real source text and are filtered for factual correctness against that source. (b) Entanglement scores are computed by deterministic algorithms (SBERT cosine, Wikidata SPARQL shortest path) plus an LLM-judge (Qwen2.5-72B-Instruct) component; the score itself is algorithmic, not synthetic content. (c) No fully fictional content (e.g., invented people or invented hazardous procedures) is present. Generation details and quality-control filters are described in the Provenance Activities field below.",
+  "rai:dataSyntheticInformation": "All QA pairs, KNOT-Entity profiles, and KNOT-Concept concept descriptions are generated by DeepSeek-V3.2. KNOT-Entity concerns real public figures, and its content reflects the generator's knowledge of them rather than text copied from any source. Entanglement scores are computed algorithmically (embedding similarity, knowledge-triple structural score, and an LLM-judged dependency score) and quantile-discretized into four levels over forget items.",
   "rai:dataSourceDatasets": [
-    {
-      "@type": "sc:Dataset",
-      "name": "Wikidata",
-      "url": "https://www.wikidata.org/",
-      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "description": "Source of structured knowledge graph triples for the 290 selected entities in KNOT-Entity (CC0 licensed)."
-    },
-    {
-      "@type": "sc:Dataset",
-      "name": "Wikipedia (English)",
-      "url": "https://en.wikipedia.org/",
-      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "description": "Source of long-form biographical text used to generate KNOT-Entity QA pairs (CC-BY-SA 3.0 licensed)."
-    },
     {
       "@type": "sc:Dataset",
       "name": "WMDP",
       "url": "https://www.wmdp.ai/",
       "license": "https://opensource.org/licenses/MIT",
-      "description": "Source of dual-use scientific topic prompts used as seeds for KNOT-Concept (MIT licensed)."
+      "description": "Topic scope reference for KNOT-Concept (biosecurity, cybersecurity, chemistry). No WMDP questions are redistributed."
     }
   ],
   "rai:dataProvenanceActivities": [
     {
       "@type": "rai:ProvenanceActivity",
-      "name": "Entity selection (KNOT-Entity)",
-      "description": "Activity type: Collection. We queried the Wikidata SPARQL endpoint to identify entities satisfying three criteria: (1) >=20 distinct property-value pairs, (2) an English Wikipedia article exceeding 5,000 words, (3) coverage of both personal and professional domains. From candidates we manually selected 290 entities spanning six occupations (scientists, politicians, artists, athletes, business leaders, writers) and diverse geographic regions. Tools: Wikidata SPARQL endpoint, custom Python SPARQL client.",
-      "dateCreated": "2025-Q4 to 2026-Q1"
+      "name": "Entity profile generation",
+      "description": "DeepSeek-V3.2 lists well-known people per occupation group in batches of ten and returns personal and professional triples (Wikidata property schema) and a short biography for each; 290 complete profiles are kept."
     },
     {
       "@type": "rai:ProvenanceActivity",
-      "name": "QA pair generation (all sub-tasks)",
-      "description": "Activity type: Collection / Generation. KNOT-Entity QA pairs were generated by prompting DeepSeek-Chat with Wikipedia source paragraphs and instructions to produce factual question-answer pairs grounded in the source text. KNOT-Concept QA pairs were paraphrased and split (hazardous-application vs benign-mechanism) from WMDP topic prompts using the same model. KNOT-Skill QA pairs ask for the output, complexity, or behavior of paired Racket/Python solutions. Generation prompts and few-shot examples are documented in Appendix B of the paper.",
-      "dateCreated": "2026-Q1"
+      "name": "QA generation",
+      "description": "DeepSeek-V3.2 generates forget, retain, and boundary QA pairs for each sub-task from the profiles, concept descriptions, or skill specifications."
     },
     {
       "@type": "rai:ProvenanceActivity",
-      "name": "Quality-control filtering",
-      "description": "Activity type: Preprocessing. Three-stage filtering: (1) automated answerability check using the source LLM (the answer must be derivable from the source text); (2) deduplication by SBERT cosine similarity > 0.85 to remove near-duplicates; (3) stratified human verification of a 10% sample for factual correctness and set membership. Items failing any stage were dropped or revised.",
-      "dateCreated": "2026-Q1"
+      "name": "Deduplication and verification",
+      "description": "MinHash LSH deduplication (Jaccard 0.8); DeepSeek-V3.2 factual verification of forget and boundary pairs (confidence at least 0.7); human verification of a stratified 10% sample; Qwen2.5-72B-Instruct cross-check on a 5% sample."
     },
     {
       "@type": "rai:ProvenanceActivity",
       "name": "Entanglement scoring",
-      "description": "Activity type: Annotation (algorithmic). For each forget-retain pair we compute (a) SBERT cosine similarity on combined question-answer text, (b) Wikidata KG shortest-path similarity (Entity sub-task only), and (c) an LLM-judged knowledge-dependency score from Qwen2.5-72B-Instruct (Concept sub-task only). The combined score is normalized to [0, 1] and discretized into four levels at the 25/50/75 percentiles.",
-      "dateCreated": "2026-Q1"
-    },
-    {
-      "@type": "rai:ProvenanceActivity",
-      "name": "Human annotation",
-      "description": "Activity type: Annotation (human). Three graduate students in computer science (two MS, one PhD) independently labeled (a) factual correctness, (b) set membership (forget/retain/boundary), and (c) entanglement degree on a 1-5 scale. Two annotators rated each item; the third resolved disagreements. A 6-page guideline with worked examples was provided. Two pilot rounds (20 items each) were used for calibration; pilot data was discarded. Annotator-level Cohen's kappa: KNOT-Entity 0.74, KNOT-Concept 0.71, KNOT-Skill 0.70. Spearman rank correlation between human entanglement ratings and the automatic score is 0.79 on a 500-item validation sample. Compensation: local graduate-research-assistant hourly rate.",
-      "dateCreated": "2026-Q1"
+      "description": "For each forget item: maximum cosine similarity to retain items with all-MiniLM-L6-v2 embeddings; for KNOT-Entity, a per-entity knowledge-triple structural score (shared objects, bridging entities, or content-word Jaccard); for KNOT-Concept, a DeepSeek-V3.2 dependency rating (1-5, divided by 5) averaged over five sampled retain questions. Available components are averaged and assigned to four levels at the 25th/50th/75th percentiles within each sub-task."
     }
   ],
   "distribution": [
     {
       "@type": "cr:FileObject",
-      "@id": "knot-archive",
-      "name": "knot-archive",
-      "description": "Top-level archive of the KNOT benchmark.",
-      "contentUrl": "https://huggingface.co/datasets/mochp/KNOT",
-      "encodingFormat": "application/zip"
+      "@id": "github-repository",
+      "name": "github-repository",
+      "description": "GitHub repository containing the KNOT data files.",
+      "contentUrl": "https://github.com/mengyang-research/KNOT",
+      "encodingFormat": "git+https",
+      "sha256": "main"
     },
     {
       "@type": "cr:FileSet",
-      "@id": "entity-files",
-      "name": "entity-files",
-      "description": "JSONL files for KNOT-Entity sub-task (forget, retain, boundary).",
+      "@id": "forget-files",
+      "name": "forget-files",
+      "description": "Final forget JSONL files of the three sub-tasks.",
       "containedIn": {
-        "@id": "knot-archive"
+        "@id": "github-repository"
       },
       "encodingFormat": "application/jsonlines",
-      "includes": "knot_entity/*.jsonl"
+      "includes": "dataset/knot_data/knot_*/forget_final.jsonl"
     },
     {
       "@type": "cr:FileSet",
-      "@id": "concept-files",
-      "name": "concept-files",
-      "description": "JSONL files for KNOT-Concept sub-task (forget, retain, boundary).",
+      "@id": "retain-files",
+      "name": "retain-files",
+      "description": "Final retain JSONL files of the three sub-tasks.",
       "containedIn": {
-        "@id": "knot-archive"
+        "@id": "github-repository"
       },
       "encodingFormat": "application/jsonlines",
-      "includes": "knot_concept/*.jsonl"
+      "includes": "dataset/knot_data/knot_*/retain_final.jsonl"
     },
     {
       "@type": "cr:FileSet",
-      "@id": "skill-files",
-      "name": "skill-files",
-      "description": "JSONL files for KNOT-Skill sub-task (forget, retain, boundary).",
+      "@id": "boundary-files",
+      "name": "boundary-files",
+      "description": "Final boundary JSONL files of the three sub-tasks.",
       "containedIn": {
-        "@id": "knot-archive"
+        "@id": "github-repository"
       },
       "encodingFormat": "application/jsonlines",
-      "includes": "knot_skill/*.jsonl"
-    },
-    {
-      "@type": "cr:FileObject",
-      "@id": "entanglement-scores",
-      "name": "entanglement-scores",
-      "description": "CSV mapping each QA pair ID to its continuous entanglement score and discretized level.",
-      "containedIn": {
-        "@id": "knot-archive"
-      },
-      "contentUrl": "metadata/entanglement_scores.csv",
-      "encodingFormat": "text/csv"
+      "includes": "dataset/knot_data/knot_*/boundary_final.jsonl"
     }
   ],
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "@id": "qa-records",
-      "name": "qa-records",
-      "description": "Question-answer pairs across all three sub-tasks.",
+      "@id": "forget",
+      "name": "forget",
+      "description": "Forget QA pairs of all sub-tasks, with entanglement score and level.",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "qa-records/id",
-          "name": "id",
-          "description": "Unique QA pair identifier.",
-          "dataType": "sc:Text",
-          "source": {
-            "fileSet": {
-              "@id": "entity-files"
-            },
-            "extract": {
-              "jsonPath": "$.id"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "qa-records/sub_task",
+          "@id": "forget/sub_task",
           "name": "sub_task",
-          "description": "One of: entity, concept, skill.",
           "dataType": "sc:Text",
+          "description": "Sub-task: entity, concept, or skill (from the file path).",
           "source": {
             "fileSet": {
-              "@id": "entity-files"
+              "@id": "forget-files"
             },
             "extract": {
-              "jsonPath": "$.sub_task"
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "^.*knot_([a-z]+)/.*$"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "qa-records/split",
-          "name": "split",
-          "description": "One of: forget, retain, boundary.",
-          "dataType": "sc:Text",
-          "source": {
-            "fileSet": {
-              "@id": "entity-files"
-            },
-            "extract": {
-              "jsonPath": "$.split"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "qa-records/question",
+          "@id": "forget/question",
           "name": "question",
-          "description": "Natural-language question.",
+          "description": "Question.",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "entity-files"
+              "@id": "forget-files"
             },
             "extract": {
-              "jsonPath": "$.question"
+              "column": "question"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "qa-records/answer",
+          "@id": "forget/answer",
           "name": "answer",
           "description": "Reference answer.",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "entity-files"
+              "@id": "forget-files"
             },
             "extract": {
-              "jsonPath": "$.answer"
+              "column": "answer"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "qa-records/entanglement_score",
+          "@id": "forget/split",
+          "name": "split",
+          "description": "Always 'forget'.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "forget-files"
+            },
+            "extract": {
+              "column": "split"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "forget/entanglement_score",
           "name": "entanglement_score",
-          "description": "Continuous entanglement degree in [0, 1].",
+          "description": "Continuous entanglement score.",
           "dataType": "sc:Float",
           "source": {
             "fileSet": {
-              "@id": "entity-files"
+              "@id": "forget-files"
             },
             "extract": {
-              "jsonPath": "$.entanglement_score"
+              "column": "entanglement_score"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "qa-records/entanglement_level",
+          "@id": "forget/entanglement_level",
           "name": "entanglement_level",
-          "description": "Discretized level: Low, Medium, High, or Extreme.",
+          "description": "Low, Medium, High, or Extreme.",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "entity-files"
+              "@id": "forget-files"
             },
             "extract": {
-              "jsonPath": "$.entanglement_level"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "qa-records/source_id",
-          "name": "source_id",
-          "description": "Identifier of upstream source: Wikidata Q-ID for Entity, WMDP topic ID for Concept, problem ID for Skill.",
-          "dataType": "sc:Text",
-          "source": {
-            "fileSet": {
-              "@id": "entity-files"
-            },
-            "extract": {
-              "jsonPath": "$.source_id"
+              "column": "entanglement_level"
             }
           }
         }
       ]
-    }
-  ],
-  "rai:hasSyntheticData": true,
-  "prov:wasDerivedFrom": [
+    },
     {
-      "@id": "https://en.wikipedia.org",
-      "prov:label": "English Wikipedia",
-      "sc:license": "CC-BY-SA",
-      "prov:wasAttributedTo": {
-        "@id": "https://wikimediafoundation.org",
-        "prov:label": "Wikimedia Foundation"
-      }
-    }
-  ],
-  "prov:wasGeneratedBy": [
+      "@type": "cr:RecordSet",
+      "@id": "retain",
+      "name": "retain",
+      "description": "Retain QA pairs of all sub-tasks.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "retain/sub_task",
+          "name": "sub_task",
+          "dataType": "sc:Text",
+          "description": "Sub-task: entity, concept, or skill (from the file path).",
+          "source": {
+            "fileSet": {
+              "@id": "retain-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "^.*knot_([a-z]+)/.*$"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "retain/question",
+          "name": "question",
+          "description": "Question.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "retain-files"
+            },
+            "extract": {
+              "column": "question"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "retain/answer",
+          "name": "answer",
+          "description": "Reference answer.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "retain-files"
+            },
+            "extract": {
+              "column": "answer"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "retain/split",
+          "name": "split",
+          "description": "Always 'retain'.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "retain-files"
+            },
+            "extract": {
+              "column": "split"
+            }
+          }
+        }
+      ]
+    },
     {
-      "@type": "prov:Activity",
-      "prov:type": {
-        "@id": "https://www.wikidata.org/wiki/Q4929239"
-      },
-      "prov:label": "KNOT Raw Data Collection",
-      "sc:description": "Low-quality and duplicated entries are filtered out; entity attributes and concept texts are standardized and formatted uniformly. Knowledge entanglement scores are computed via knowledge graph similarity and lexical overlap pipelines. Human annotators independently rated entanglement intensity for correlation validation, with inter-annotator agreement checked to ensure label quality.",
-      "prov:atTime": "2026-05-06T14:13:00Z"
+      "@type": "cr:RecordSet",
+      "@id": "boundary",
+      "name": "boundary",
+      "description": "Boundary QA pairs of all sub-tasks.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "boundary/sub_task",
+          "name": "sub_task",
+          "dataType": "sc:Text",
+          "description": "Sub-task: entity, concept, or skill (from the file path).",
+          "source": {
+            "fileSet": {
+              "@id": "boundary-files"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "^.*knot_([a-z]+)/.*$"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "boundary/question",
+          "name": "question",
+          "description": "Question.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "boundary-files"
+            },
+            "extract": {
+              "column": "question"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "boundary/answer",
+          "name": "answer",
+          "description": "Reference answer.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "boundary-files"
+            },
+            "extract": {
+              "column": "answer"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "boundary/split",
+          "name": "split",
+          "description": "Always 'boundary'.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "boundary-files"
+            },
+            "extract": {
+              "column": "split"
+            }
+          }
+        }
+      ]
     }
   ]
 }
